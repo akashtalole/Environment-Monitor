@@ -1,0 +1,2233 @@
+{
+  "generatedAt": "2026-11-10T11:47:34.209Z",
+  "method": "rules",
+  "config": {
+    "_readme": "Tuning for the impact analytics. 'reference' values are the level at which a component scores 100 (linear, capped). The index is a screening aid to compare projects with each other – it is not a regulatory rating. Weights are relative.",
+    "weights": {
+      "land": 1,
+      "biodiversity": 1.5,
+      "social": 1.25,
+      "water": 0.75,
+      "construction": 0.75
+    },
+    "reference": {
+      "forestHaPerMW": 0.1,
+      "landHaPerMW": 0.2,
+      "forestHa": 150,
+      "protectedAreaKmZero": 25,
+      "scheduleISpecies": 15,
+      "threatenedSpecies": 6,
+      "affectedHouseholds": 1000,
+      "displacedFamilies": 200,
+      "tribalSharePct": 100,
+      "upperReservoirMCMPerGWh": 2,
+      "annualMakeupMCMPerGWh": 0.3,
+      "treesPerMW": 10,
+      "muckLakhCumPerMW": 0.06
+    },
+    "flags": {
+      "protectedAreaKmHigh": 10,
+      "protectedAreaKmMedium": 15,
+      "forestHaHigh": 100,
+      "forestHaMedium": 20,
+      "treesHigh": 10000,
+      "treesMedium": 2000,
+      "scheduleIHigh": 5,
+      "tribalPctHigh": 50,
+      "tribalPctMedium": 20,
+      "empPctOfCostLow": 1,
+      "heritageKm": 5,
+      "conflictTolerance": 0.1
+    }
+  },
+  "projects": [
+    {
+      "id": "malshej-ghat-bhorande-psp",
+      "name": "Malshej Ghat Bhorande Pumped Storage Project",
+      "capacityMW": 1500,
+      "metrics": {
+        "capacityMW": {
+          "page": 1,
+          "quote": "ENVIRONMENTAL IMPACT ASSESSMENT (EIA) MALSHEJ GHAT BHORANDE PUMPED STORAGE PROJECT (1500 MW) Tehsil Junnar & Murbad, District Pune & Thane, Maharashtra (Sector 1(c); Cat “A”) EXECUTIVE SUMMARY May 2026 Prepared for: M/s Adani Renewable Energy Fifty Two Limited Ahmedabad, Gujarat Prepared by:",
+          "value": 1500,
+          "method": "rule",
+          "unit": "MW",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "storageHours": {
+          "value": 6,
+          "page": 5,
+          "quote": "Annual average daily hours of generation 6.00 Hours f.",
+          "method": "rule",
+          "unit": "h",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "projectCostCr": {
+          "value": 7048,
+          "page": 19,
+          "quote": "Local Area Development: Total estimated project cost is Rs 7048 crore; an investment of this magnitude in the area will improve the local infrastructure in the region.",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "loopType": {
+          "value": "closed loop",
+          "page": 3,
+          "quote": "The proposed Malshej Ghat Bhorande PSP is planned as an ‘Off stream closed loop’ scheme.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "totalLandHa": {
+          "value": 166.0646,
+          "page": 5,
+          "quote": "Cycle efficiency 79.7 % Source: Pre-Feasibility Report of Malshej Ghat Bhorande PSP 2.1 Land Requirement The total permanent land requirement for the proposed Malshej Ghat Bhorande Pumped Storage Project has been worked out as 166.0646 ha, based on detailed topographical surveys, geotechnical investigations and engineering design optimization.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "forestLandHa": {
+          "value": 60.8767,
+          "page": 15,
+          "quote": "4.5 Impacts on Forests and Forest Land For the proposed project 60.8767 ha of forest land will be diverted for the construction of various project components.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "nonForestLandHa": {
+          "value": 105.1879,
+          "page": 16,
+          "quote": "Project will acquire 105.1879 ha of non-forest land.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "muckDisposalHa": {
+          "value": 18.6,
+          "page": 21,
+          "quote": "The entire excavated material is proposed to be dumped at 2 dumping sites identified over a combined area of 18.60 ha area with a total capacity of 10,00,000 cum muck to be accommodated.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "upperReservoirMCM": {
+          "value": 7.95,
+          "page": 3,
+          "quote": "The gross storage capacity of upper reservoir is 7.95 MCM.",
+          "method": "rule",
+          "unit": "MCM",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "lowerReservoirMCM": {
+          "value": 8.97,
+          "page": 3,
+          "quote": "The gross storage capacity of lower reservoir is 8.97 MCM.",
+          "method": "rule",
+          "unit": "MCM",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "annualMakeupMCM": {
+          "value": 1.14,
+          "page": 9,
+          "quote": "Initial one-time abstraction of 9.88 MCM and annual make-up requirement of about 1.14 MCM are proposed during monsoon months, when the estimated available yield at the pumping point is substantially higher (37.57 MCM in 90% dependable year and 69.88 MCM on average).",
+          "method": "rule",
+          "unit": "MCM/yr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "nearestProtectedArea": {
+          "value": "Bhimashankar Wildlife Sanctuary",
+          "page": 12,
+          "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary (WLS) which is at a distance of around 10.80 km from proposed approach road.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "protectedAreaKm": {
+          "value": 10.8,
+          "page": 12,
+          "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary (WLS) which is at a distance of around 10.80 km from proposed approach road.",
+          "method": "rule",
+          "unit": "km",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "scheduleISpecies": {
+          "value": 8,
+          "page": 11,
+          "quote": "Among the reported mammals, 8 species are categorised as schedule I species.",
+          "method": "rule",
+          "unit": "species",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "plantSpecies": {
+          "value": 273,
+          "page": 10,
+          "quote": "Therefore, a list of 273 species of angiosperm plants, belonging 77 families, was compiled which includes plant species growing in forested areas, scrub land, near agricultural fields and settlements, abandoned land, etc.",
+          "method": "rule",
+          "unit": "species",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "studyAreaVillages": {
+          "value": 79,
+          "page": 12,
+          "quote": "The project covers a total of 79 villages in the study area.",
+          "method": "rule",
+          "unit": "villages",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "affectedHouseholds": {
+          "value": 505,
+          "page": 13,
+          "quote": "The affected villages comprise 505 households and a population of 2,653, with a sex ratio of 1,036 females per 1,000 males.",
+          "method": "rule",
+          "unit": "households",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "affectedPopulation": {
+          "value": 2653,
+          "page": 13,
+          "quote": "The affected villages comprise 505 households and a population of 2,653, with a sex ratio of 1,036 females per 1,000 males.",
+          "method": "rule",
+          "unit": "people",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "tribalSharePct": {
+          "value": 64.2,
+          "page": 12,
+          "quote": "According to Census 2011, the total percentage of Scheduled Tribe population in the study area is 64.2%, of which 50% are males and 49.9% are females.",
+          "method": "rule",
+          "unit": "%",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "heritageNearby": {
+          "value": "Malshej Ghat (20 km); Bhairavgarh Fort (5 km); Kalu Waterfalls (10 km)",
+          "page": 14,
+          "quote": "The lower dam area is located near several notable tourist attractions, including Malshej Ghat, which is about 20 km away, the Bhairavgarh Fort trekking point in Moroshi village, which is located about 5 km from the lower dam area, and Kalu Waterfalls, which is about 10 km from the lower dam area.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "empCapitalCr": {
+          "value": 28.4254,
+          "page": 25,
+          "quote": "EMP cost table: 16 components, total capital 28.4254 Cr",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "empTotalCr": {
+          "value": 50.6383,
+          "page": 25,
+          "quote": "EMP cost table: 16 components, total capital 28.4254 Cr",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "compensatoryAfforestationCr": {
+          "value": 14.8337,
+          "page": 20,
+          "quote": "The total cost of the compensatory afforestation plan and NPV is Rs. 1483.37 lakh.",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "biodiversityPlanCr": {
+          "value": 2.09,
+          "page": 25,
+          "quote": "EMP cost table – Biodiversity Conservation & Wildlife Management Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "muckPlanCr": {
+          "value": 6.2688,
+          "page": 25,
+          "quote": "EMP cost table – Muck Dumping and Management Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "monitoringCr": {
+          "value": 3.7625,
+          "page": 25,
+          "quote": "EMP cost table – Environmental Monitoring Programme",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "cerCr": {
+          "value": 10,
+          "page": 25,
+          "quote": "EMP cost table – CER/Local Area Development Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "seismicZone": {
+          "value": "III",
+          "page": 7,
+          "quote": "The project area falls in the Zone III as per IS-1893 (Part 1) 2016, Seismic Zoning Map of India.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        }
+      },
+      "derived": {
+        "storageGWh": 9,
+        "forestSharePct": 36.7,
+        "landHaPerMW": 0.1107,
+        "forestHaPerMW": 0.0406,
+        "landHaPerGWh": 18.45,
+        "treesPerMW": null,
+        "treesPerForestHa": null,
+        "muckLakhCumPerMW": null,
+        "costCrPerMW": 4.699,
+        "costCrPerGWh": 783.1,
+        "upperReservoirMCMPerGWh": 0.883,
+        "annualMakeupMCMPerGWh": 0.127,
+        "empPctOfCost": 0.72,
+        "caCrPerForestHa": 0.244,
+        "affectedHouseholdsPerMW": 0.337
+      },
+      "scores": {
+        "overall": 52,
+        "dimensions": {
+          "land": {
+            "score": 46,
+            "components": 3,
+            "of": 3
+          },
+          "biodiversity": {
+            "score": 55,
+            "components": 2,
+            "of": 4
+          },
+          "social": {
+            "score": 57,
+            "components": 2,
+            "of": 3
+          },
+          "water": {
+            "score": 43,
+            "components": 2,
+            "of": 2
+          },
+          "construction": {
+            "score": null,
+            "components": 0,
+            "of": 2
+          }
+        },
+        "coveragePct": 64
+      },
+      "flags": [
+        {
+          "severity": "high",
+          "code": "sch1",
+          "title": "8 Schedule-I species reported",
+          "detail": "Species with the highest protection under the Wild Life (Protection) Act occur in the study area; a species conservation plan is required.",
+          "evidence": [
+            {
+              "value": 8,
+              "page": 11,
+              "quote": "Among the reported mammals, 8 species are categorised as schedule I species.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "high",
+          "code": "tribal",
+          "title": "64.2% Scheduled Tribe population",
+          "detail": "Majority tribal area: Forest Rights Act settlement and Gram Sabha consent (and PESA, where Scheduled Area) are likely to apply.",
+          "evidence": [
+            {
+              "value": 64.2,
+              "page": 12,
+              "quote": "According to Census 2011, the total percentage of Scheduled Tribe population in the study area is 64.2%, of which 50% are males and 49.9% are females.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "pa-near",
+          "title": "10.8 km from Bhimashankar Wildlife Sanctuary",
+          "detail": "Close to the 10 km protected-area buffer.",
+          "evidence": [
+            {
+              "value": 10.8,
+              "page": 12,
+              "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary (WLS) which is at a distance of around 10.80 km from proposed approach road.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            },
+            {
+              "value": "Bhimashankar Wildlife Sanctuary",
+              "page": 12,
+              "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary (WLS) which is at a distance of around 10.80 km from proposed approach road.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "forest",
+          "title": "60.8767 ha forest diversion",
+          "detail": "Forest clearance (Stage-I/II) needed under the Van (Sanrakshan Evam Samvardhan) Adhiniyam.",
+          "evidence": [
+            {
+              "value": 60.8767,
+              "page": 15,
+              "quote": "4.5 Impacts on Forests and Forest Land For the proposed project 60.8767 ha of forest land will be diverted for the construction of various project components.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "emp-low",
+          "title": "EMP budget is 0.72% of project cost",
+          "detail": "Below 1% of the capital cost.",
+          "evidence": [
+            {
+              "value": 50.6383,
+              "page": 25,
+              "quote": "EMP cost table: 16 components, total capital 28.4254 Cr",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            },
+            {
+              "value": 28.4254,
+              "page": 25,
+              "quote": "EMP cost table: 16 components, total capital 28.4254 Cr",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            },
+            {
+              "value": 7048,
+              "page": 19,
+              "quote": "Local Area Development: Total estimated project cost is Rs 7048 crore; an investment of this magnitude in the area will improve the local infrastructure in the region.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "low",
+          "code": "heritage",
+          "title": "Heritage / tourism sites nearby",
+          "detail": "Bhairavgarh Fort (5 km)",
+          "evidence": [
+            {
+              "value": "Malshej Ghat (20 km); Bhairavgarh Fort (5 km); Kalu Waterfalls (10 km)",
+              "page": 14,
+              "quote": "The lower dam area is located near several notable tourist attractions, including Malshej Ghat, which is about 20 km away, the Bhairavgarh Fort trekking point in Moroshi village, which is located about 5 km from the lower dam area, and Kalu Waterfalls, which is about 10 km from the lower dam area.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        }
+      ],
+      "completeness": {
+        "pct": 80,
+        "missing": [
+          "Trees to be felled",
+          "Muck generated"
+        ]
+      },
+      "conflicts": [],
+      "empComponents": [
+        {
+          "label": "Catchment Area Treatment Plan",
+          "capitalCr": 1.7512,
+          "totalCr": 1.7512
+        },
+        {
+          "label": "Biodiversity Conservation & Wildlife Management Plan",
+          "capitalCr": 2.09,
+          "totalCr": 2.09
+        },
+        {
+          "label": "Fisheries Conservation and Management Plan",
+          "capitalCr": 0,
+          "totalCr": 1.09
+        },
+        {
+          "label": "Muck Dumping and Management Plan",
+          "capitalCr": 0.2268,
+          "totalCr": 6.2688
+        },
+        {
+          "label": "Landscaping, Restoration of Quarry, and Construction Sites",
+          "capitalCr": 0.7025,
+          "totalCr": 2.3959
+        },
+        {
+          "label": "Green Belt Development Plan",
+          "capitalCr": 0,
+          "totalCr": 1.477
+        },
+        {
+          "label": "Sanitation and Solid Waste Management Plan",
+          "capitalCr": 1.47,
+          "totalCr": 2.988
+        },
+        {
+          "label": "Public Health Delivery System",
+          "capitalCr": 1.29,
+          "totalCr": 2.58
+        },
+        {
+          "label": "Energy Conservation Measures",
+          "capitalCr": 0.41,
+          "totalCr": 2.83
+        },
+        {
+          "label": "Labour Management Plan",
+          "capitalCr": 0.15,
+          "totalCr": 0.82
+        },
+        {
+          "label": "Disaster Management Plan",
+          "capitalCr": 2.75,
+          "totalCr": 4
+        },
+        {
+          "label": "Control of Air, Noise and Water Pollution",
+          "capitalCr": 0,
+          "totalCr": 1
+        },
+        {
+          "label": "Environmental Monitoring Programme",
+          "capitalCr": 0,
+          "totalCr": 3.7625
+        },
+        {
+          "label": "Rehabilitation and Resettlement Plan",
+          "capitalCr": 0,
+          "totalCr": 0
+        },
+        {
+          "label": "CER/Local Area Development Plan",
+          "capitalCr": 10,
+          "totalCr": 10
+        },
+        {
+          "label": "Watershed Development Plan",
+          "capitalCr": 7.5849,
+          "totalCr": 7.5849
+        }
+      ],
+      "species": {
+        "scheduleI": [],
+        "threatened": []
+      },
+      "keyImpacts": [],
+      "publicConcerns": [],
+      "conditions": [],
+      "summaries": [],
+      "references": {
+        "proposals": [],
+        "files": [],
+        "torIds": [
+          "TO24A0000MH5642838A",
+          "TO25A0000MH5241143T"
+        ]
+      },
+      "documents": [
+        {
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
+          "label": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary",
+          "pageCount": 25,
+          "scanned": false,
+          "date": null,
+          "ruleMetricCount": 28,
+          "llm": null,
+          "llmError": null
+        },
+        {
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-07/Adani_Renewable_Office_Order.pdf",
+          "label": "Environmental Public Hearing Order",
+          "documentType": "public_hearing_order",
+          "pageCount": 1,
+          "scanned": false,
+          "date": "2026-08-21",
+          "ruleMetricCount": 1,
+          "llm": null,
+          "llmError": null
+        }
+      ]
+    },
+    {
+      "id": "saidongar-2-maval-psp",
+      "name": "Saidongar-2 Maval Pumped Storage Project",
+      "capacityMW": 1200,
+      "metrics": {
+        "capacityMW": {
+          "page": 18,
+          "quote": "Disaster Management Plan: Project involves construction of Upper and Lower reservoir with installed capacity of 1200 MW, also project lies in hilly ranges where chances of disaster might occur, to mitigate the impact of disaster measure are provided along with a budgetary estimate of ₹120 Lakhs.",
+          "value": 1200,
+          "method": "rule",
+          "unit": "MW",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "storageHours": {
+          "value": 6,
+          "page": 2,
+          "quote": "Daily hours of generation 6 Hr.",
+          "method": "rule",
+          "unit": "h",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "projectCostCr": {
+          "value": 6088.67,
+          "page": 3,
+          "quote": "Project Cost: The total project cost has been estimated at ₹6,088.67 Crores.",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "constructionMonths": {
+          "value": 60,
+          "page": 3,
+          "quote": "It is proposed to construct the project within a period of 60 months including 6 months of pre- construction works.",
+          "method": "rule",
+          "unit": "months",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "loopType": {
+          "value": "open loop",
+          "page": 1,
+          "quote": "Saidongar 2 – Maval Open Loop Pumped Draft EIA & EMP Storage Project (1200 MW), Pune & Raigad Report District of Maharashtra EXECUTIVE SUMMARY ES 1.0 INTRODUCTION Torrent PSH4 Private Limited is a subsidiary of Torrent Power Limi",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "maxDamHeightM": {
+          "value": 59,
+          "page": 2,
+          "quote": ", upper reservoir will be constructed on the hilltop with maximum dam height of 29 m to create the desired storage capacity while the lower reservoir will have maximum height of 59 m and shall be constructed across River Pej.",
+          "method": "rule",
+          "unit": "m",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "torDate": {
+          "value": "2025-02-18",
+          "page": 1,
+          "quote": "Accordingly, the project has obtained Fresh ToR on 18.02.2025 from 23rd ToR EAC Meeting held on 29.01.2025 (Vide File No: J-12011/05/2025-IA.",
+          "method": "rule",
+          "unit": "date",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "totalLandHa": {
+          "value": 141.44,
+          "page": 2,
+          "quote": "The total land requirement for these activities is estimated to be approximately 141.44 ha (35.6 ha forest land and 105.84 ha of non-forest land).",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "forestLandHa": {
+          "value": 35.6,
+          "page": 2,
+          "quote": "Forest Clearances: The proposed project involves the diversion of 35.60 ha of the Forest land & requires obtaining Forest Clearance from MoEF&CC, New Delhi.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "nonForestLandHa": {
+          "value": 105.84,
+          "page": 2,
+          "quote": "The total land requirement for these activities is estimated to be approximately 141.44 ha (35.6 ha forest land and 105.84 ha of non-forest land).",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "treesFelled": {
+          "value": 9554,
+          "page": 12,
+          "quote": "This project will require 35.60 ha Forest land and cutting of about 9,554 trees along with the shrubs and other vegetation on the identified land.",
+          "method": "rule",
+          "unit": "trees",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "muckLakhCum": {
+          "value": 58.06,
+          "page": 2,
+          "quote": "The total muck generation would be of the order 58.06 Lakh cum.",
+          "method": "rule",
+          "unit": "lakh m³",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "muckDisposalHa": {
+          "value": 35,
+          "page": 16,
+          "quote": "The entire excavated material is proposed to be dumped in the identified in two (2) muck disposal sites having an area of 35 ha.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "upperReservoirMCM": {
+          "value": 7.22,
+          "page": 2,
+          "quote": "The gross storage capacities of upper and lower reservoirs is 7.22 MCM & 28.96 MCM respectively, upper reservoir will be constructed on the hilltop with maximum dam height of 29 m to create the desired storage capacity while the lower reservoir will have maximum height of 59 m and",
+          "method": "rule",
+          "unit": "MCM",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "lowerReservoirMCM": {
+          "value": 28.96,
+          "page": 2,
+          "quote": "The gross storage capacities of upper and lower reservoirs is 7.22 MCM & 28.96 MCM respectively, upper reservoir will be constructed on the hilltop with maximum dam height of 29 m to create the desired storage capacity while the lower reservoir will have maximum height of 59 m and",
+          "method": "rule",
+          "unit": "MCM",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "nearestProtectedArea": {
+          "value": "Bhimashankar Wildlife Sanctuary",
+          "page": 2,
+          "quote": "distance from the project site to the Bhimashankar Wildlife Sanctuary (WLS) is approximately 14.45 km.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "protectedAreaKm": {
+          "value": 14.45,
+          "page": 2,
+          "quote": "distance from the project site to the Bhimashankar Wildlife Sanctuary (WLS) is approximately 14.45 km.",
+          "method": "rule",
+          "unit": "km",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "westernGhatsESA": {
+          "value": true,
+          "page": 9,
+          "quote": "ES 3.10 Biological Environment The proposed project has been carefully designed to escape the ecologically sensitive areas but falls in draft notification for Western Ghats ESA.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "insideESZ": {
+          "value": false,
+          "page": 1,
+          "quote": "Wildlife Clearance: The proposed project does not require wildlife clearance as it is outside the notified Eco-sensitive Zone of the nearest protected area i.e.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "empCapitalCr": {
+          "value": 15.186,
+          "page": 19,
+          "quote": "EMP cost table: 19 components, total capital 15.186 Cr",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "empTotalCr": {
+          "value": 51.1041,
+          "page": 19,
+          "quote": "EMP cost table: 19 components, total capital 15.186 Cr",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "compensatoryAfforestationCr": {
+          "value": 4.46,
+          "page": 9,
+          "quote": "This project will divert a 35.60 ha forest land hence, Green Belt Development Plan (₹75 Lakhs), Compensatory Afforestation Plan (₹4.46 Crores) and Biodiversity Management and Wildlife Conservation Plan for Sch-1 Species (₹93 lakhs), have been prepared and provided in EIA report with Budget estimation added in the EMP Cost.",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "biodiversityPlanCr": {
+          "value": 0.93,
+          "page": 19,
+          "quote": "EMP cost table – Biodiversity Conservation &",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "muckPlanCr": {
+          "value": 34.8941,
+          "page": 19,
+          "quote": "EMP cost table – Muck Management Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "monitoringCr": {
+          "value": 0.64,
+          "page": 19,
+          "quote": "EMP cost table – Environmental Monitoring",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "cerCr": {
+          "value": 2,
+          "page": 19,
+          "quote": "EMP cost table – Local Area Development Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "co2ReductionMtPerYr": {
+          "value": 1.82,
+          "page": 15,
+          "quote": "Reduction of Carbon Emissions: Benefit the environment by reducing the total amount of carbon dioxide by 1.82 million tCO2 per year.",
+          "method": "rule",
+          "unit": "Mt/yr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "seismicZone": {
+          "value": "III",
+          "page": 4,
+          "quote": "The Raigad and Pune district area falls under Seismic zone-III as per BIS.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "pm10MaxUgm3": {
+          "value": 96.3,
+          "page": 5,
+          "quote": "• The maximum value for PM10 observed at Kusur (AAQ-2) is 96.3 μg/m3 and minimum value for PM10 at Vadap (AAQ-4) is 57.4 μg/m3.",
+          "method": "rule",
+          "unit": "µg/m³",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "pm25MaxUgm3": {
+          "value": 52.6,
+          "page": 5,
+          "quote": "• The maximum value for PM2.5 observed at Vadap (AAQ-4) is 52.6 μg/m3 and minimum value for PM2.5 at Bhaliwadi (AAQ-5) is 25.4 μg/m3.",
+          "method": "rule",
+          "unit": "µg/m³",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "annualRainfallMm": {
+          "value": 3670,
+          "page": 3,
+          "quote": "Long-term rainfall data (2002–2012) show annual rainfall in Karjat taluka ranging from 2,335 mm to over 4,800 mm, averaging about 3,670 mm.",
+          "method": "rule",
+          "unit": "mm",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        }
+      },
+      "derived": {
+        "storageGWh": 7.2,
+        "forestSharePct": 25.2,
+        "landHaPerMW": 0.1179,
+        "forestHaPerMW": 0.0297,
+        "landHaPerGWh": 19.64,
+        "treesPerMW": 7.96,
+        "treesPerForestHa": 268.4,
+        "muckLakhCumPerMW": 0.0484,
+        "costCrPerMW": 5.074,
+        "costCrPerGWh": 845.6,
+        "upperReservoirMCMPerGWh": 1.003,
+        "annualMakeupMCMPerGWh": null,
+        "empPctOfCost": 0.84,
+        "caCrPerForestHa": 0.125,
+        "affectedHouseholdsPerMW": null
+      },
+      "scores": {
+        "overall": 60,
+        "dimensions": {
+          "land": {
+            "score": 37,
+            "components": 3,
+            "of": 3
+          },
+          "biodiversity": {
+            "score": 71,
+            "components": 2,
+            "of": 4
+          },
+          "social": {
+            "score": null,
+            "components": 0,
+            "of": 3
+          },
+          "water": {
+            "score": 50,
+            "components": 1,
+            "of": 2
+          },
+          "construction": {
+            "score": 80,
+            "components": 2,
+            "of": 2
+          }
+        },
+        "coveragePct": 57
+      },
+      "flags": [
+        {
+          "severity": "high",
+          "code": "wg-esa",
+          "title": "In draft Western Ghats ESA",
+          "detail": "The project area falls in villages covered by the draft Western Ghats Ecologically Sensitive Area notification.",
+          "evidence": [
+            {
+              "value": true,
+              "page": 9,
+              "quote": "ES 3.10 Biological Environment The proposed project has been carefully designed to escape the ecologically sensitive areas but falls in draft notification for Western Ghats ESA.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "pa-near",
+          "title": "14.45 km from Bhimashankar Wildlife Sanctuary",
+          "detail": "Close to the 10 km protected-area buffer.",
+          "evidence": [
+            {
+              "value": 14.45,
+              "page": 2,
+              "quote": "distance from the project site to the Bhimashankar Wildlife Sanctuary (WLS) is approximately 14.45 km.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            },
+            {
+              "value": "Bhimashankar Wildlife Sanctuary",
+              "page": 2,
+              "quote": "distance from the project site to the Bhimashankar Wildlife Sanctuary (WLS) is approximately 14.45 km.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "forest",
+          "title": "35.6 ha forest diversion",
+          "detail": "Forest clearance (Stage-I/II) needed under the Van (Sanrakshan Evam Samvardhan) Adhiniyam.",
+          "evidence": [
+            {
+              "value": 35.6,
+              "page": 2,
+              "quote": "Forest Clearances: The proposed project involves the diversion of 35.60 ha of the Forest land & requires obtaining Forest Clearance from MoEF&CC, New Delhi.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "trees",
+          "title": "9,554 trees to be felled",
+          "detail": "",
+          "evidence": [
+            {
+              "value": 9554,
+              "page": 12,
+              "quote": "This project will require 35.60 ha Forest land and cutting of about 9,554 trees along with the shrubs and other vegetation on the identified land.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "emp-low",
+          "title": "EMP budget is 0.84% of project cost",
+          "detail": "Below 1% of the capital cost.",
+          "evidence": [
+            {
+              "value": 51.1041,
+              "page": 19,
+              "quote": "EMP cost table: 19 components, total capital 15.186 Cr",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            },
+            {
+              "value": 15.186,
+              "page": 19,
+              "quote": "EMP cost table: 19 components, total capital 15.186 Cr",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            },
+            {
+              "value": 6088.67,
+              "page": 3,
+              "quote": "Project Cost: The total project cost has been estimated at ₹6,088.67 Crores.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        }
+      ],
+      "completeness": {
+        "pct": 80,
+        "missing": [
+          "Schedule-I species reported",
+          "Affected households"
+        ]
+      },
+      "conflicts": [],
+      "empComponents": [
+        {
+          "label": "Biodiversity Conservation &",
+          "capitalCr": 0.93,
+          "totalCr": 0.93
+        },
+        {
+          "label": "Fisheries Development Plan",
+          "capitalCr": 0.25,
+          "totalCr": 0.25
+        },
+        {
+          "label": "Muck Management Plan",
+          "capitalCr": 5.816,
+          "totalCr": 34.8941
+        },
+        {
+          "label": "Landscaping, Restoration of",
+          "capitalCr": 0.25,
+          "totalCr": 1
+        },
+        {
+          "label": "Sanitation and Solid Waste",
+          "capitalCr": 0.24,
+          "totalCr": 0.74
+        },
+        {
+          "label": "Public Health Delivery System",
+          "capitalCr": 0.6,
+          "totalCr": 1.1
+        },
+        {
+          "label": "Energy Conservation Measures",
+          "capitalCr": 0.3,
+          "totalCr": 0.7
+        },
+        {
+          "label": "Labour Management Plan",
+          "capitalCr": 0.15,
+          "totalCr": 0.4
+        },
+        {
+          "label": "Green Belt Development Plan",
+          "capitalCr": 0.5,
+          "totalCr": 0.75
+        },
+        {
+          "label": "Pollution Mitigation Measures",
+          "capitalCr": 0.2,
+          "totalCr": 0.6
+        },
+        {
+          "label": "Environmental Monitoring",
+          "capitalCr": 0,
+          "totalCr": 0.64
+        },
+        {
+          "label": "Reservoir Rim Treatment Plan",
+          "capitalCr": 0.2,
+          "totalCr": 1.5
+        },
+        {
+          "label": "Disaster Management Plan",
+          "capitalCr": 0.85,
+          "totalCr": 1.2
+        },
+        {
+          "label": "Watershed Development Plan",
+          "capitalCr": 3.2,
+          "totalCr": 3.2
+        },
+        {
+          "label": "Catchment Area Treatment",
+          "capitalCr": 0,
+          "totalCr": 0
+        },
+        {
+          "label": "Large scale Plantation",
+          "capitalCr": 1.2,
+          "totalCr": 1.2
+        },
+        {
+          "label": "Local Area Development Plan",
+          "capitalCr": 0.6,
+          "totalCr": 2
+        },
+        {
+          "label": "Net Present Value, CA land &",
+          "capitalCr": 0,
+          "totalCr": 0
+        },
+        {
+          "label": "Resettlement and",
+          "capitalCr": 0,
+          "totalCr": 0
+        }
+      ],
+      "species": {
+        "scheduleI": [],
+        "threatened": []
+      },
+      "keyImpacts": [],
+      "publicConcerns": [],
+      "conditions": [],
+      "summaries": [],
+      "references": {
+        "proposals": [
+          "FP/MH/HYD/IRRIG/556376/2025"
+        ],
+        "files": [
+          "J-12011/05/2025-IA. I (R)",
+          "J-12011/43/2023-IA.I (R)",
+          "J-12011/42/2023-IA.I(R)"
+        ],
+        "torIds": []
+      },
+      "documents": [
+        {
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
+          "label": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary",
+          "pageCount": 19,
+          "scanned": false,
+          "date": null,
+          "ruleMetricCount": 31,
+          "llm": null,
+          "llmError": null
+        }
+      ]
+    },
+    {
+      "id": "shirawta-psp",
+      "name": "Shirawta Pumped Storage Project",
+      "capacityMW": 1800,
+      "metrics": {
+        "capacityMW": {
+          "page": 2,
+          "quote": "The Shirawta Off-stream Open Loop Pumped Storage Project (PSP) is envisaged with a proposed installed capacity of 1800 MW is located near Shirawta Dam, Mawal (Maval) Taluka in Pune District of Maharashtra State.",
+          "value": 1800,
+          "method": "rule",
+          "unit": "MW",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "storageHours": {
+          "value": 6,
+          "page": 4,
+          "quote": "d Port Mumbai 5 Project a Type Pumped Storage Hydro Electric Project b Rating Total Capacity - 1800 MW (5 x 300 MW + 2 x 150 MW) c Storage capacity 10800 MWH d Generation duration 6 hours e Pumping Hours 6 hours 52 minutes f Cyclic Efficiency 79.44% 6 Upper Reservoir (Proposed Reservoir) a Full Reservoir level (FRL) EL 965.0 m b Min.",
+          "method": "rule",
+          "unit": "h",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "projectCostCr": {
+          "value": 7027.72,
+          "page": 18,
+          "quote": "CER Activities: Total project cost is Rs 7027.72 crore; an investment of this magnitude in the area will improve the local infrastructure in the region.",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "loopType": {
+          "value": "open loop",
+          "page": 1,
+          "quote": "ENVIRONMENTAL IMPACT ASSESSMENT (EIA) SHIRAWTA OFF-STREAM OPEN LOOP PUMPED STORAGE PROJECT (1800 MW) (Sector 1(c); Cat “A”) Executive Summary SEPTEMBER, 2024 Prepared for: M/s.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "maxDamHeightM": {
+          "value": 38.71,
+          "page": 4,
+          "quote": "Draw Down Level (MDDL) EL 638.0 m Gravity Dam facing in crushed rubble masonry & hearting in e Type of Embankment random rubble f Height of Embankment 38.71 m 8 Upper Intake Structure a Type Diffuser Type b Size of Intake (Single Intake) 26.40 m (W) x 8.20 m (H) c No.",
+          "method": "rule",
+          "unit": "m",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "totalLandHa": {
+          "value": 197.797,
+          "page": 8,
+          "quote": "2.1 Land Requirement The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "forestLandHa": {
+          "value": 160.783,
+          "page": 8,
+          "quote": "2.1 Land Requirement The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "nonForestLandHa": {
+          "value": 37.014,
+          "page": 8,
+          "quote": "ment The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+          "method": "rule",
+          "unit": "ha",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "lowerReservoirMCM": {
+          "value": 195.48,
+          "page": 3,
+          "quote": "The gross storage of the existing lower reservoir is 195.48 MCM with live storage as 179.19 MCM at FRL of 656.84 m which is much more than the water requirement for reutilization between the two reservoirs for power generation purposes.",
+          "method": "rule",
+          "unit": "MCM",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "nearestProtectedArea": {
+          "value": "Bhimashankar Wildlife Sanctuary",
+          "page": 12,
+          "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary which is at a distance of around 19.70 km from proposed upper reservoir.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "protectedAreaKm": {
+          "value": 19.7,
+          "page": 12,
+          "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary which is at a distance of around 19.70 km from proposed upper reservoir.",
+          "method": "rule",
+          "unit": "km",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "scheduleISpecies": {
+          "value": 4,
+          "page": 12,
+          "quote": "pecies are reported in the study area Conservation Status According to the Wildlife Protection Amendment Act, 2022, 10 species of mammals, one species of bird, 4 species of herpetofauna are listed under Schedule I.",
+          "method": "rule",
+          "unit": "species",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "plantSpecies": {
+          "value": 272,
+          "page": 11,
+          "quote": "A list of 272 species of angiosperm plants, belonging 103 families, was compiled which includes plant species growing in forested areas, scrub land, near agricultural fields and settlements, abandoned land, etc.",
+          "method": "rule",
+          "unit": "species",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "studyAreaVillages": {
+          "value": 69,
+          "page": 12,
+          "quote": "The project covers a total of 69 villages in the study area.",
+          "method": "rule",
+          "unit": "villages",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "rrPlanRequired": {
+          "value": false,
+          "page": 18,
+          "quote": "Hence, preparation of Resettlement & Rehabilitation Plan is not required in case of Shirawta PSP.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "heritageNearby": {
+          "value": "Adishakthi Aai Ekavaira Temple (5 km)",
+          "page": 13,
+          "quote": "owever, there are many tourist, religious and historical sites near project area such as Lonavala-Khandala Hill Station, Valvhan Lake, Uksan Lake, Karla Caves, Adishakthi Aai Ekavaira Temple which are more than 5 km away from the project components.",
+          "method": "rule",
+          "unit": "",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "empCapitalCr": {
+          "value": 58.1483,
+          "page": 24,
+          "quote": "EMP cost table: 16 components, total capital 58.1483 Cr",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "empTotalCr": {
+          "value": 72.8771,
+          "page": 24,
+          "quote": "EMP cost table: 16 components, total capital 58.1483 Cr",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "compensatoryAfforestationCr": {
+          "value": 39.1768,
+          "page": 24,
+          "quote": "EMP cost table – Compensatory Afforestation Plan & NPV",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "biodiversityPlanCr": {
+          "value": 2.23,
+          "page": 24,
+          "quote": "EMP cost table – Biodiversity Conservation & Wildlife Management Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "muckPlanCr": {
+          "value": 12.8153,
+          "page": 24,
+          "quote": "EMP cost table – Muck Dumping and Management Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "monitoringCr": {
+          "value": 2.112,
+          "page": 24,
+          "quote": "EMP cost table – Environmental Monitoring Programme",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        },
+        "cerCr": {
+          "value": 0.1,
+          "page": 24,
+          "quote": "EMP cost table – Local Area Development Plan",
+          "method": "rule",
+          "unit": "₹ Cr",
+          "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "docLabel": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary"
+        }
+      },
+      "derived": {
+        "storageGWh": 10.8,
+        "forestSharePct": 81.3,
+        "landHaPerMW": 0.1099,
+        "forestHaPerMW": 0.0893,
+        "landHaPerGWh": 18.31,
+        "treesPerMW": null,
+        "treesPerForestHa": null,
+        "muckLakhCumPerMW": null,
+        "costCrPerMW": 3.904,
+        "costCrPerGWh": 650.7,
+        "upperReservoirMCMPerGWh": null,
+        "annualMakeupMCMPerGWh": null,
+        "empPctOfCost": 1.04,
+        "caCrPerForestHa": 0.244,
+        "affectedHouseholdsPerMW": null
+      },
+      "scores": {
+        "overall": 47,
+        "dimensions": {
+          "land": {
+            "score": 81,
+            "components": 3,
+            "of": 3
+          },
+          "biodiversity": {
+            "score": 24,
+            "components": 2,
+            "of": 4
+          },
+          "social": {
+            "score": null,
+            "components": 0,
+            "of": 3
+          },
+          "water": {
+            "score": null,
+            "components": 0,
+            "of": 2
+          },
+          "construction": {
+            "score": null,
+            "components": 0,
+            "of": 2
+          }
+        },
+        "coveragePct": 36
+      },
+      "flags": [
+        {
+          "severity": "high",
+          "code": "forest",
+          "title": "160.783 ha forest diversion",
+          "detail": "Large forest diversion (≥ 100 ha); Stage-I/II forest clearance from MoEFCC.",
+          "evidence": [
+            {
+              "value": 160.783,
+              "page": 8,
+              "quote": "2.1 Land Requirement The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "forest-share",
+          "title": "81.3% of land is forest",
+          "detail": "Most of the project footprint is forest land.",
+          "evidence": [
+            {
+              "value": 160.783,
+              "page": 8,
+              "quote": "2.1 Land Requirement The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            },
+            {
+              "value": 197.797,
+              "page": 8,
+              "quote": "2.1 Land Requirement The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "medium",
+          "code": "sch1",
+          "title": "4 Schedule-I species reported",
+          "detail": "",
+          "evidence": [
+            {
+              "value": 4,
+              "page": 12,
+              "quote": "pecies are reported in the study area Conservation Status According to the Wildlife Protection Amendment Act, 2022, 10 species of mammals, one species of bird, 4 species of herpetofauna are listed under Schedule I.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "low",
+          "code": "heritage",
+          "title": "Heritage / tourism sites nearby",
+          "detail": "Adishakthi Aai Ekavaira Temple (5 km)",
+          "evidence": [
+            {
+              "value": "Adishakthi Aai Ekavaira Temple (5 km)",
+              "page": 13,
+              "quote": "owever, there are many tourist, religious and historical sites near project area such as Lonavala-Khandala Hill Station, Valvhan Lake, Uksan Lake, Karla Caves, Adishakthi Aai Ekavaira Temple which are more than 5 km away from the project components.",
+              "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+              "docLabel": "Executive Summary/CRZ Draft Notification",
+              "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "info",
+          "code": "unreadable",
+          "title": "Scanned document not analysed",
+          "detail": "Environmental Public Hearing Order: no text layer. Set ANTHROPIC_API_KEY so Claude can read the scanned pages.",
+          "evidence": []
+        },
+        {
+          "severity": "info",
+          "code": "unreadable",
+          "title": "Scanned document not analysed",
+          "detail": "Remarks/Advertisement: no text layer. Set ANTHROPIC_API_KEY so Claude can read the scanned pages.",
+          "evidence": []
+        }
+      ],
+      "completeness": {
+        "pct": 70,
+        "missing": [
+          "Trees to be felled",
+          "Affected households",
+          "Muck generated"
+        ]
+      },
+      "conflicts": [],
+      "empComponents": [
+        {
+          "label": "Catchment Area Treatment Plan",
+          "capitalCr": 0,
+          "totalCr": 0
+        },
+        {
+          "label": "Compensatory Afforestation Plan & NPV",
+          "capitalCr": 39.1768,
+          "totalCr": 39.1768
+        },
+        {
+          "label": "Biodiversity Conservation & Wildlife Management Plan",
+          "capitalCr": 2.23,
+          "totalCr": 2.23
+        },
+        {
+          "label": "Fisheries Conservation and Management Plan",
+          "capitalCr": 0.5,
+          "totalCr": 1.14
+        },
+        {
+          "label": "Muck Dumping and Management Plan",
+          "capitalCr": 9.439,
+          "totalCr": 12.8153
+        },
+        {
+          "label": "96.25",
+          "capitalCr": 0.6821,
+          "totalCr": 2.098
+        },
+        {
+          "label": "Green Belt Development Plan",
+          "capitalCr": 0,
+          "totalCr": 0.505
+        },
+        {
+          "label": "Sanitation and Solid Waste Management Plan",
+          "capitalCr": 1.47,
+          "totalCr": 2.58
+        },
+        {
+          "label": "Public Health Delivery System",
+          "capitalCr": 1.26,
+          "totalCr": 2.63
+        },
+        {
+          "label": "Energy Conservation Measures",
+          "capitalCr": 0.56,
+          "totalCr": 3.46
+        },
+        {
+          "label": "Labour Management Plan",
+          "capitalCr": 0.35,
+          "totalCr": 0.93
+        },
+        {
+          "label": "Disaster Management Plan",
+          "capitalCr": 2.1,
+          "totalCr": 2.5
+        },
+        {
+          "label": "Control of Air, Noise and Water Pollution",
+          "capitalCr": 0,
+          "totalCr": 0.6
+        },
+        {
+          "label": "Environmental Monitoring Programme",
+          "capitalCr": 0,
+          "totalCr": 2.112
+        },
+        {
+          "label": "Rehabilitation and Resettlement Plan",
+          "capitalCr": 0,
+          "totalCr": 0
+        },
+        {
+          "label": "Local Area Development Plan",
+          "capitalCr": 0.1,
+          "totalCr": 0.1
+        }
+      ],
+      "species": {
+        "scheduleI": [],
+        "threatened": []
+      },
+      "keyImpacts": [],
+      "publicConcerns": [],
+      "conditions": [],
+      "summaries": [],
+      "references": {
+        "proposals": [],
+        "files": [],
+        "torIds": []
+      },
+      "documents": [
+        {
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
+          "label": "Executive Summary/CRZ Draft Notification",
+          "documentType": "executive_summary",
+          "pageCount": 24,
+          "scanned": false,
+          "date": "2024-10-29",
+          "ruleMetricCount": 23,
+          "llm": null,
+          "llmError": null
+        },
+        {
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2024-10/PH_Tata_Power_Company_Ltd0003.pdf",
+          "label": "Environmental Public Hearing Order",
+          "documentType": "public_hearing_order",
+          "pageCount": 1,
+          "scanned": true,
+          "date": "2024-10-29",
+          "ruleMetricCount": 0,
+          "llm": null,
+          "llmError": null
+        },
+        {
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2024-09/Tata_Power_English_Add.pdf",
+          "label": "Remarks/Advertisement",
+          "documentType": "advertisement",
+          "pageCount": 1,
+          "scanned": true,
+          "date": "2024-10-29",
+          "ruleMetricCount": 0,
+          "llm": null,
+          "llmError": null
+        }
+      ]
+    }
+  ],
+  "peers": {
+    "capacityMW": {
+      "n": 3,
+      "min": 1200,
+      "max": 1800,
+      "median": 1500,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "storageHours": {
+      "n": 3,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "saidongar-2-maval-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "projectCostCr": {
+      "n": 3,
+      "min": 6088.67,
+      "max": 7048,
+      "median": 7027.72,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "shirawta-psp": 2,
+        "malshej-ghat-bhorande-psp": 3
+      }
+    },
+    "totalLandHa": {
+      "n": 3,
+      "min": 141.44,
+      "max": 197.797,
+      "median": 166.0646,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "forestLandHa": {
+      "n": 3,
+      "min": 35.6,
+      "max": 160.783,
+      "median": 60.8767,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "nonForestLandHa": {
+      "n": 3,
+      "min": 37.014,
+      "max": 105.84,
+      "median": 105.1879,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "saidongar-2-maval-psp": 3
+      }
+    },
+    "muckDisposalHa": {
+      "n": 2,
+      "min": 18.6,
+      "max": 35,
+      "median": 26.8,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "saidongar-2-maval-psp": 2
+      }
+    },
+    "upperReservoirMCM": {
+      "n": 2,
+      "min": 7.22,
+      "max": 7.95,
+      "median": 7.585,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2
+      }
+    },
+    "lowerReservoirMCM": {
+      "n": 3,
+      "min": 8.97,
+      "max": 195.48,
+      "median": 28.96,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "saidongar-2-maval-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "annualMakeupMCM": {
+      "n": 1,
+      "min": 1.14,
+      "max": 1.14,
+      "median": 1.14,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1
+      }
+    },
+    "protectedAreaKm": {
+      "n": 3,
+      "min": 10.8,
+      "max": 19.7,
+      "median": 14.45,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "saidongar-2-maval-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "scheduleISpecies": {
+      "n": 2,
+      "min": 4,
+      "max": 8,
+      "median": 6,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2
+      }
+    },
+    "plantSpecies": {
+      "n": 2,
+      "min": 272,
+      "max": 273,
+      "median": 272.5,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2
+      }
+    },
+    "studyAreaVillages": {
+      "n": 2,
+      "min": 69,
+      "max": 79,
+      "median": 74,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2
+      }
+    },
+    "affectedHouseholds": {
+      "n": 1,
+      "min": 505,
+      "max": 505,
+      "median": 505,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1
+      }
+    },
+    "affectedPopulation": {
+      "n": 1,
+      "min": 2653,
+      "max": 2653,
+      "median": 2653,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1
+      }
+    },
+    "tribalSharePct": {
+      "n": 1,
+      "min": 64.2,
+      "max": 64.2,
+      "median": 64.2,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1
+      }
+    },
+    "empCapitalCr": {
+      "n": 3,
+      "min": 15.186,
+      "max": 58.1483,
+      "median": 28.4254,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "empTotalCr": {
+      "n": 3,
+      "min": 50.6383,
+      "max": 72.8771,
+      "median": 51.1041,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "saidongar-2-maval-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "compensatoryAfforestationCr": {
+      "n": 3,
+      "min": 4.46,
+      "max": 39.1768,
+      "median": 14.8337,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "biodiversityPlanCr": {
+      "n": 3,
+      "min": 0.93,
+      "max": 2.23,
+      "median": 2.09,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "muckPlanCr": {
+      "n": 3,
+      "min": 6.2688,
+      "max": 34.8941,
+      "median": 12.8153,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "shirawta-psp": 2,
+        "saidongar-2-maval-psp": 3
+      }
+    },
+    "monitoringCr": {
+      "n": 3,
+      "min": 0.64,
+      "max": 3.7625,
+      "median": 2.112,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "shirawta-psp": 2,
+        "malshej-ghat-bhorande-psp": 3
+      }
+    },
+    "cerCr": {
+      "n": 3,
+      "min": 0.1,
+      "max": 10,
+      "median": 2,
+      "rank": {
+        "shirawta-psp": 1,
+        "saidongar-2-maval-psp": 2,
+        "malshej-ghat-bhorande-psp": 3
+      }
+    },
+    "storageGWh": {
+      "n": 3,
+      "min": 7.2,
+      "max": 10.8,
+      "median": 9,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "forestSharePct": {
+      "n": 3,
+      "min": 25.2,
+      "max": 81.3,
+      "median": 36.7,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "landHaPerMW": {
+      "n": 3,
+      "min": 0.1099,
+      "max": 0.1179,
+      "median": 0.1107,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "saidongar-2-maval-psp": 3
+      }
+    },
+    "forestHaPerMW": {
+      "n": 3,
+      "min": 0.0297,
+      "max": 0.0893,
+      "median": 0.0406,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "landHaPerGWh": {
+      "n": 3,
+      "min": 18.31,
+      "max": 19.64,
+      "median": 18.45,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "saidongar-2-maval-psp": 3
+      }
+    },
+    "costCrPerMW": {
+      "n": 3,
+      "min": 3.904,
+      "max": 5.074,
+      "median": 4.699,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "saidongar-2-maval-psp": 3
+      }
+    },
+    "costCrPerGWh": {
+      "n": 3,
+      "min": 650.7,
+      "max": 845.6,
+      "median": 783.1,
+      "rank": {
+        "shirawta-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "saidongar-2-maval-psp": 3
+      }
+    },
+    "upperReservoirMCMPerGWh": {
+      "n": 2,
+      "min": 0.883,
+      "max": 1.003,
+      "median": 0.943,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "saidongar-2-maval-psp": 2
+      }
+    },
+    "annualMakeupMCMPerGWh": {
+      "n": 1,
+      "min": 0.127,
+      "max": 0.127,
+      "median": 0.127,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1
+      }
+    },
+    "empPctOfCost": {
+      "n": 3,
+      "min": 0.72,
+      "max": 1.04,
+      "median": 0.84,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1,
+        "saidongar-2-maval-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "caCrPerForestHa": {
+      "n": 3,
+      "min": 0.125,
+      "max": 0.244,
+      "median": 0.244,
+      "rank": {
+        "saidongar-2-maval-psp": 1,
+        "malshej-ghat-bhorande-psp": 2,
+        "shirawta-psp": 3
+      }
+    },
+    "affectedHouseholdsPerMW": {
+      "n": 1,
+      "min": 0.337,
+      "max": 0.337,
+      "median": 0.337,
+      "rank": {
+        "malshej-ghat-bhorande-psp": 1
+      }
+    },
+    "constructionMonths": {
+      "n": 1,
+      "min": 60,
+      "max": 60,
+      "median": 60,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "maxDamHeightM": {
+      "n": 2,
+      "min": 38.71,
+      "max": 59,
+      "median": 48.855000000000004,
+      "rank": {
+        "shirawta-psp": 1,
+        "saidongar-2-maval-psp": 2
+      }
+    },
+    "treesFelled": {
+      "n": 1,
+      "min": 9554,
+      "max": 9554,
+      "median": 9554,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "muckLakhCum": {
+      "n": 1,
+      "min": 58.06,
+      "max": 58.06,
+      "median": 58.06,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "co2ReductionMtPerYr": {
+      "n": 1,
+      "min": 1.82,
+      "max": 1.82,
+      "median": 1.82,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "pm10MaxUgm3": {
+      "n": 1,
+      "min": 96.3,
+      "max": 96.3,
+      "median": 96.3,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "pm25MaxUgm3": {
+      "n": 1,
+      "min": 52.6,
+      "max": 52.6,
+      "median": 52.6,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "annualRainfallMm": {
+      "n": 1,
+      "min": 3670,
+      "max": 3670,
+      "median": 3670,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "treesPerMW": {
+      "n": 1,
+      "min": 7.96,
+      "max": 7.96,
+      "median": 7.96,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "treesPerForestHa": {
+      "n": 1,
+      "min": 268.4,
+      "max": 268.4,
+      "median": 268.4,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    },
+    "muckLakhCumPerMW": {
+      "n": 1,
+      "min": 0.0484,
+      "max": 0.0484,
+      "median": 0.0484,
+      "rank": {
+        "saidongar-2-maval-psp": 1
+      }
+    }
+  },
+  "failures": []
+}

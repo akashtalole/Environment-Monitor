@@ -35,4 +35,4 @@ export function toIsoDate(v) {
 }
 const iso = (y, mo, d) => `${y}-${String(mo + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 
-export const PROPOSAL_NO_RE = /\b(?:IA|SIA|FP|WL|CRZ)\/[A-Z]{2}\/[A-Z0-9]+\/\d+\/\d{4}\b/gi;
+export const PROPOSAL_NO_RE = /\b(?:IA|SIA|FP|WL|CRZ)\/[A-Z]{2}\/(?:[A-Z0-9]+\/){1,3}\d+\/\d{4}\b/gi;

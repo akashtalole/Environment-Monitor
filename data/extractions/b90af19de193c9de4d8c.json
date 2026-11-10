@@ -1,0 +1,240 @@
+{
+  "extractorVersion": 3,
+  "sha256": "b90af19de193c9de4d8cb13b9c304dd86405d45fd537cc92111a7ca0b2e1c4d8",
+  "bytes": 1697973,
+  "engine": "pdftotext",
+  "pageCount": 24,
+  "emptyPages": 0,
+  "scanned": false,
+  "extractedAt": "2026-11-10T11:47:33.980Z",
+  "documentType": "executive_summary",
+  "references": {
+    "proposals": [],
+    "files": [],
+    "torIds": []
+  },
+  "ruleMetrics": {
+    "empCapitalCr": {
+      "value": 58.1483,
+      "page": 24,
+      "quote": "EMP cost table: 16 components, total capital 58.1483 Cr",
+      "method": "rule"
+    },
+    "empTotalCr": {
+      "value": 72.8771,
+      "page": 24,
+      "quote": "EMP cost table: 16 components, total capital 58.1483 Cr",
+      "method": "rule"
+    },
+    "cerCr": {
+      "value": 0.1,
+      "page": 24,
+      "quote": "EMP cost table – Local Area Development Plan",
+      "method": "rule"
+    },
+    "compensatoryAfforestationCr": {
+      "value": 39.1768,
+      "page": 24,
+      "quote": "EMP cost table – Compensatory Afforestation Plan & NPV",
+      "method": "rule"
+    },
+    "biodiversityPlanCr": {
+      "value": 2.23,
+      "page": 24,
+      "quote": "EMP cost table – Biodiversity Conservation & Wildlife Management Plan",
+      "method": "rule"
+    },
+    "muckPlanCr": {
+      "value": 12.8153,
+      "page": 24,
+      "quote": "EMP cost table – Muck Dumping and Management Plan",
+      "method": "rule"
+    },
+    "monitoringCr": {
+      "value": 2.112,
+      "page": 24,
+      "quote": "EMP cost table – Environmental Monitoring Programme",
+      "method": "rule"
+    },
+    "capacityMW": {
+      "page": 2,
+      "quote": "The Shirawta Off-stream Open Loop Pumped Storage Project (PSP) is envisaged with a proposed installed capacity of 1800 MW is located near Shirawta Dam, Mawal (Maval) Taluka in Pune District of Maharashtra State.",
+      "value": 1800,
+      "method": "rule"
+    },
+    "lowerReservoirMCM": {
+      "value": 195.48,
+      "page": 3,
+      "quote": "The gross storage of the existing lower reservoir is 195.48 MCM with live storage as 179.19 MCM at FRL of 656.84 m which is much more than the water requirement for reutilization between the two reservoirs for power generation purposes.",
+      "method": "rule"
+    },
+    "protectedAreaKm": {
+      "value": 19.7,
+      "page": 12,
+      "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary which is at a distance of around 19.70 km from proposed upper reservoir.",
+      "method": "rule"
+    },
+    "nearestProtectedArea": {
+      "value": "Bhimashankar Wildlife Sanctuary",
+      "page": 12,
+      "quote": "Nearest Protected Area to the Project Components is Bhimashankar Wildlife Sanctuary which is at a distance of around 19.70 km from proposed upper reservoir.",
+      "method": "rule"
+    },
+    "storageHours": {
+      "value": 6,
+      "page": 4,
+      "quote": "d Port Mumbai 5 Project a Type Pumped Storage Hydro Electric Project b Rating Total Capacity - 1800 MW (5 x 300 MW + 2 x 150 MW) c Storage capacity 10800 MWH d Generation duration 6 hours e Pumping Hours 6 hours 52 minutes f Cyclic Efficiency 79.44% 6 Upper Reservoir (Proposed Reservoir) a Full Reservoir level (FRL) EL 965.0 m b Min.",
+      "method": "rule"
+    },
+    "projectCostCr": {
+      "value": 7027.72,
+      "page": 18,
+      "quote": "CER Activities: Total project cost is Rs 7027.72 crore; an investment of this magnitude in the area will improve the local infrastructure in the region.",
+      "method": "rule"
+    },
+    "loopType": {
+      "value": "open loop",
+      "page": 1,
+      "quote": "ENVIRONMENTAL IMPACT ASSESSMENT (EIA) SHIRAWTA OFF-STREAM OPEN LOOP PUMPED STORAGE PROJECT (1800 MW) (Sector 1(c); Cat “A”) Executive Summary SEPTEMBER, 2024 Prepared for: M/s.",
+      "method": "rule"
+    },
+    "maxDamHeightM": {
+      "value": 38.71,
+      "page": 4,
+      "quote": "Draw Down Level (MDDL) EL 638.0 m Gravity Dam facing in crushed rubble masonry & hearting in e Type of Embankment random rubble f Height of Embankment 38.71 m 8 Upper Intake Structure a Type Diffuser Type b Size of Intake (Single Intake) 26.40 m (W) x 8.20 m (H) c No.",
+      "method": "rule"
+    },
+    "totalLandHa": {
+      "value": 197.797,
+      "page": 8,
+      "quote": "2.1 Land Requirement The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+      "method": "rule"
+    },
+    "forestLandHa": {
+      "value": 160.783,
+      "page": 8,
+      "quote": "2.1 Land Requirement The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+      "method": "rule"
+    },
+    "nonForestLandHa": {
+      "value": 37.014,
+      "page": 8,
+      "quote": "ment The total land requirement for the proposed Shirawta Pumped Storage Project works out to approximately 197.797 ha of which 160.783 ha is forest land while 37.014 ha is non-forest land.",
+      "method": "rule"
+    },
+    "scheduleISpecies": {
+      "value": 4,
+      "page": 12,
+      "quote": "pecies are reported in the study area Conservation Status According to the Wildlife Protection Amendment Act, 2022, 10 species of mammals, one species of bird, 4 species of herpetofauna are listed under Schedule I.",
+      "method": "rule"
+    },
+    "plantSpecies": {
+      "value": 272,
+      "page": 11,
+      "quote": "A list of 272 species of angiosperm plants, belonging 103 families, was compiled which includes plant species growing in forested areas, scrub land, near agricultural fields and settlements, abandoned land, etc.",
+      "method": "rule"
+    },
+    "studyAreaVillages": {
+      "value": 69,
+      "page": 12,
+      "quote": "The project covers a total of 69 villages in the study area.",
+      "method": "rule"
+    },
+    "rrPlanRequired": {
+      "value": false,
+      "page": 18,
+      "quote": "Hence, preparation of Resettlement & Rehabilitation Plan is not required in case of Shirawta PSP.",
+      "method": "rule"
+    },
+    "heritageNearby": {
+      "value": "Adishakthi Aai Ekavaira Temple (5 km)",
+      "page": 13,
+      "quote": "owever, there are many tourist, religious and historical sites near project area such as Lonavala-Khandala Hill Station, Valvhan Lake, Uksan Lake, Karla Caves, Adishakthi Aai Ekavaira Temple which are more than 5 km away from the project components.",
+      "method": "rule"
+    }
+  },
+  "empComponents": [
+    {
+      "label": "Catchment Area Treatment Plan",
+      "capitalCr": 0,
+      "totalCr": 0
+    },
+    {
+      "label": "Compensatory Afforestation Plan & NPV",
+      "capitalCr": 39.1768,
+      "totalCr": 39.1768
+    },
+    {
+      "label": "Biodiversity Conservation & Wildlife Management Plan",
+      "capitalCr": 2.23,
+      "totalCr": 2.23
+    },
+    {
+      "label": "Fisheries Conservation and Management Plan",
+      "capitalCr": 0.5,
+      "totalCr": 1.14
+    },
+    {
+      "label": "Muck Dumping and Management Plan",
+      "capitalCr": 9.439,
+      "totalCr": 12.8153
+    },
+    {
+      "label": "96.25",
+      "capitalCr": 0.6821,
+      "totalCr": 2.098
+    },
+    {
+      "label": "Green Belt Development Plan",
+      "capitalCr": 0,
+      "totalCr": 0.505
+    },
+    {
+      "label": "Sanitation and Solid Waste Management Plan",
+      "capitalCr": 1.47,
+      "totalCr": 2.58
+    },
+    {
+      "label": "Public Health Delivery System",
+      "capitalCr": 1.26,
+      "totalCr": 2.63
+    },
+    {
+      "label": "Energy Conservation Measures",
+      "capitalCr": 0.56,
+      "totalCr": 3.46
+    },
+    {
+      "label": "Labour Management Plan",
+      "capitalCr": 0.35,
+      "totalCr": 0.93
+    },
+    {
+      "label": "Disaster Management Plan",
+      "capitalCr": 2.1,
+      "totalCr": 2.5
+    },
+    {
+      "label": "Control of Air, Noise and Water Pollution",
+      "capitalCr": 0,
+      "totalCr": 0.6
+    },
+    {
+      "label": "Environmental Monitoring Programme",
+      "capitalCr": 0,
+      "totalCr": 2.112
+    },
+    {
+      "label": "Rehabilitation and Resettlement Plan",
+      "capitalCr": 0,
+      "totalCr": 0
+    },
+    {
+      "label": "Local Area Development Plan",
+      "capitalCr": 0.1,
+      "totalCr": 0.1
+    }
+  ],
+  "llm": null,
+  "llmError": null
+}

@@ -16,7 +16,7 @@ const WEB = path.join(ROOT, 'web');
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://x');
   let file;
-  if (url.pathname === '/data/dashboard.json') file = path.join(DATA_DIR, 'dashboard.json');
+  if (/^\/data\/(dashboard|analytics)\.json$/.test(url.pathname)) file = path.join(DATA_DIR, path.basename(url.pathname));
   else file = path.join(WEB, path.normalize(url.pathname === '/' ? '/index.html' : url.pathname));
   if (!file.startsWith(WEB) && !file.startsWith(DATA_DIR)) return res.writeHead(403).end();
   try {

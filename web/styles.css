@@ -34,7 +34,7 @@ a:hover { text-decoration: underline; }
   padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel);
   position: sticky; top: 0; z-index: 5;
 }
-.brand { display: flex; align-items: center; gap: 10px; }
+.brand { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; min-width: 0; }
 .brand h1 { font-size: 15px; letter-spacing: .04em; text-transform: uppercase; margin: 0; }
 .scope { color: var(--muted); font-size: 12px; }
 .meta { margin-left: auto; color: var(--muted); font-family: var(--mono); font-size: 11px; }
@@ -81,9 +81,9 @@ a:hover { text-decoration: underline; }
 .list { list-style: none; margin: 0; padding: 0; }
 .list li { padding: 8px 12px; border-bottom: 1px solid var(--line); }
 .list li:last-child { border-bottom: 0; }
-.list .row1 { display: flex; gap: 8px; align-items: baseline; }
+.list .row1 { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
 .list .when { font: 11px var(--mono); color: var(--muted); white-space: nowrap; }
-.list .title { overflow-wrap: anywhere; }
+.list .title { overflow-wrap: anywhere; min-width: 0; }
 .list .sub { color: var(--muted); font-size: 11px; margin-top: 2px; overflow-wrap: anywhere; }
 .list li.past { opacity: .55; }
 .list li.hit { border-left: 3px solid var(--accent); }
@@ -121,3 +121,7 @@ a:hover { text-decoration: underline; }
 .maplibregl-popup-tip { display: none; }
 .marker { width: 14px; height: 14px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 35%, transparent); cursor: pointer; }
 .marker.unverified { background: var(--warn); box-shadow: 0 0 0 3px color-mix(in srgb, var(--warn) 35%, transparent); }
+
+.tabs { display: flex; gap: 2px; }
+.tabs a { padding: 4px 10px; border-radius: 4px; color: var(--muted); font-size: 12px; }
+.tabs a[aria-current='page'] { background: var(--panel-2); color: var(--text); }

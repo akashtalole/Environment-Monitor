@@ -5,15 +5,19 @@ import { runMonitor } from './monitor.js';
 import { buildDashboard } from './dashboard.js';
 import * as store from './lib/store.js';
 import { loadPlaywright, searchParivesh } from './connectors/parivesh-track.js';
+import { runAnalysis } from './analysis/run.js';
 
 const HELP = `Environment Monitor – track EC / EIA / FC / WL / CRZ / PCB approvals
 
 Usage:
-  envmon run [--force] [--source id,id] [--no-notify]   Run all due sources (or the listed ones)
+  envmon run [--force] [--source id,id] [--no-notify] [--analyze]
+                                                         Run all due sources (or the listed ones)
   envmon track <proposal-no|keyword> [--headed]         One-off PARIVESH "Track Your Proposal" lookup
   envmon probe <proposal-no|keyword> [--headed]         Dump PARIVESH network calls for tuning the connector
   envmon add-id <project-id> <id> [--portal parivesh|ecLegacy|fcLegacy]
                                                          Attach a proposal number to a watchlist project
+  envmon analyze [--force] [--no-llm] [--project id,id]  Extract impact data from report PDFs → data/analytics.json
+                                                         (uses Claude too when ANTHROPIC_API_KEY is set)
   envmon list                                            Watchlist and source health
   envmon dashboard                                       Rebuild data/dashboard.json
 
@@ -31,6 +35,9 @@ const { values: flags, positionals } = parseArgs({
     headed: { type: 'boolean', default: false },
     portal: { type: 'string', default: 'parivesh' },
     help: { type: 'boolean', short: 'h' },
+    analyze: { type: 'boolean', default: false },
+    'no-llm': { type: 'boolean', default: false },
+    project: { type: 'string' },
   },
 });
 const [cmd, ...args] = positionals;
@@ -81,8 +88,11 @@ async function list() {
 
 try {
   if (flags.help || !cmd) console.log(HELP);
-  else if (cmd === 'run')
+  else if (cmd === 'run') {
     await runMonitor({ force: flags.force, only: flags.source?.split(',').map((s) => s.trim()), notifyEnabled: !flags['no-notify'] });
+    if (flags.analyze) await runAnalysis({ llm: flags['no-llm'] ? false : undefined });
+  } else if (cmd === 'analyze')
+    await runAnalysis({ force: flags.force, llm: flags['no-llm'] ? false : undefined, only: flags.project?.split(',').map((s) => s.trim()) });
   else if (cmd === 'track' || cmd === 'probe') {
     if (!args[0]) throw new Error(`Usage: envmon ${cmd} <proposal-no|keyword>`);
     await pariveshLookup(args.join(' '), { dump: cmd === 'probe' });

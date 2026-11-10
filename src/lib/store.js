@@ -33,6 +33,14 @@ export const paths = {
 export async function loadConfig() {
   const projects = await readJson(path.join(ROOT, 'config/projects.json'), { projects: [] });
   const sources = await readJson(path.join(ROOT, 'config/sources.json'), { sources: [] });
+  // Proposal numbers found inside a project's documents are tracked automatically.
+  const analytics = await readJson(path.join(DATA_DIR, 'analytics.json'), null);
+  for (const a of analytics?.projects ?? []) {
+    const p = projects.projects.find((x) => x.id === a.id);
+    if (!p) continue;
+    const ids = ((p.ids ??= {}).parivesh ??= []);
+    for (const n of a.references?.proposals ?? []) if (!ids.includes(n)) (ids.push(n), (p.idsFromDocuments ??= []).push(n));
+  }
   return { ...projects, sources: sources.sources };
 }
 

@@ -45,6 +45,39 @@ monitor on a machine or VM in India (a laptop, a small Indian cloud region VM, o
 self-hosted GitHub Actions runner). From elsewhere only the MPCB sources will work, and the
 dashboard will show the others as `ERROR` with the reason.
 
+## Impact analytics from report PDFs
+
+`npm run analyze` (or `node src/cli.js analyze`) downloads every PDF linked to a watchlist project
+(EIA/EMP executive summaries, public hearing orders, minutes, letters) and extracts about 50
+impact figures: land and forest diversion, trees felled, muck, reservoir storage and water use,
+distance to protected areas, Western Ghats ESA / ESZ status, Schedule-I and threatened species,
+affected households, tribal share, R&R, the full EMP budget table, project cost and baseline air
+quality. **Every figure keeps the page number and the sentence it came from.**
+
+![Impact analytics: screening index, per-MW comparisons, risk flags with evidence](docs/impact.png)
+
+From those figures it builds `data/analytics.json`, shown at `impact.html`:
+
+- **Per-MW / per-GWh intensities**, so a 1200 MW and an 1800 MW project compare fairly (forest ha/MW, trees/MW, muck/MW, ₹ Cr/MW, EMP as % of cost…).
+- **Risk flags with evidence**: protected area within 10 km, inside an ESZ or the draft Western Ghats ESA, large forest diversion, Schedule-I / endangered species, majority tribal area (FRA / PESA), displacement or affected households without an R&R plan, low EMP budget, seismic zone, heritage sites nearby, and disagreements between documents.
+- **Screening index (0–100)** across land, biodiversity, people, water and construction, with a coverage figure showing how much of it is backed by data. Tune the reference levels and weights in [`config/analytics.json`](config/analytics.json). It is a way to compare projects, not a regulatory rating.
+- **Reference numbers found in documents** (PARIVESH proposal numbers, MoEFCC file numbers, ToR IDs). Proposal numbers are added to the project automatically, so PARIVESH starts tracking them on the next run.
+
+Two extractors feed it:
+
+| | Rules (always on) | Claude (optional) |
+|---|---|---|
+| Needs | nothing | `ANTHROPIC_API_KEY` (model: `ENVMON_LLM_MODEL`, default `claude-opus-5-5`) |
+| Reads | the PDF text layer | the PDF itself, **including scanned pages** |
+| Gives | ~25–30 figures per executive summary + the EMP cost table | all ~50 figures, species lists, impact matrix with severity and mitigation, public-hearing concerns, EC/ToR conditions |
+
+Claude's values take precedence; both are kept so disagreements can be flagged. Results are cached
+per file in `data/extractions/`, so each PDF is read once (use `--force` to redo, `--no-llm` to skip Claude).
+
+```bash
+npm run analyze
+```
+
 ## Adding your projects
 
 The watchlist is [`config/projects.json`](config/projects.json). Each project has keywords
@@ -134,6 +167,7 @@ data/snapshots/<source>.json ◄── diff against last run ──► data/even
 - `src/lib/stages.js` – maps free-text statuses onto common stages per track (EC: ToR → public hearing → appraisal → EC granted; FC: Stage-I → Stage-II; WL; CRZ; PCB consent).
 - `src/monitor.js` – runs due sources, diffs against the last snapshot, writes events, sends alerts.
 - `src/dashboard.js` + `web/` – one JSON file and a static page (MapLibre map, watchlist with stage bars, activity feed, MPCB hearings, discoveries, source health).
+- `src/analysis/` – PDF download and text extraction, rule and Claude extractors, analytics (merge, intensities, flags, index); `web/impact.html` shows the result.
 
 ```bash
 npm test     # parsers (including real MPCB pages), stage rules, matching and diffing
@@ -142,5 +176,5 @@ npm test     # parsers (including real MPCB pages), stage rules, matching and di
 ## Next steps
 
 - Confirm PARIVESH proposal numbers for the seed projects (run `track` from India).
-- Read inside EAC/SEAC/FAC agenda PDFs so projects are matched by the items listed, not just by meeting title.
+- Run `analyze` on EAC/SEAC/FAC agenda and minutes PDFs too, so projects are matched by the items listed, not just the meeting title.
 - More SPCBs (Gujarat, Karnataka, Andhra Pradesh, Madhya Pradesh) and more project types.

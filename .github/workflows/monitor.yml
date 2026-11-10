@@ -39,10 +39,17 @@ jobs:
           ENVMON_TELEGRAM_CHAT_ID: ${{ secrets.ENVMON_TELEGRAM_CHAT_ID }}
           ENVMON_NTFY_TOPIC: ${{ secrets.ENVMON_NTFY_TOPIC }}
         run: node src/cli.js run ${{ inputs.force && '--force' || '' }}
+      - name: Analyse report PDFs
+        # Rules always run. Add an ANTHROPIC_API_KEY secret to also have Claude read the
+        # PDFs (scanned pages included). Results are cached per file, so each PDF is read once.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node src/cli.js analyze
       - name: Commit data
         run: |
           git config user.name "environment-monitor[bot]"
           git config user.email "environment-monitor@users.noreply.github.com"
           git add data/state.json data/events.json data/dashboard.json data/snapshots
+          git add data/analytics.json data/extractions 2>/dev/null || true
           git diff --cached --quiet || git commit -m "data: monitor run $(date -u +%FT%TZ)"
           git push

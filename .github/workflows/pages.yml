@@ -11,6 +11,7 @@ on:
     paths:
       - 'web/**'
       - 'data/dashboard.json'
+      - 'data/analytics.json'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -38,6 +39,7 @@ jobs:
           mkdir -p _site/data
           cp -r web/. _site/
           cp data/dashboard.json _site/data/dashboard.json
+          if [ -f data/analytics.json ]; then cp data/analytics.json _site/data/analytics.json; fi
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
