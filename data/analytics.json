@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T11:47:34.209Z",
+  "generatedAt": "2026-11-10T15:58:10.179Z",
   "method": "rules",
   "config": {
     "_readme": "Tuning for the impact analytics. 'reference' values are the level at which a component scores 100 (linear, capped). The index is a screening aid to compare projects with each other – it is not a regulatory rating. Weights are relative.",
@@ -409,6 +409,22 @@
           ]
         },
         {
+          "severity": "high",
+          "code": "wgeep",
+          "title": "Murbad is a WGEEP ESZ1 taluka",
+          "detail": "The Gadgil panel recommended no forest clearance or stream diversion for new projects in ESZ1 and only small hydro (≤10 MW). This project is 1500 MW. WGEEP recommendations were not adopted into law.",
+          "evidence": [
+            {
+              "value": "Murbad: ESZ1",
+              "page": 65,
+              "quote": "Allow run of the river schemes with maximum height of 3 m serving local needs, subject to gram sabha consent. No forest clearance or stream diversion for new projects. New small hydropower projects (10 MW and below) permissible. No new thermal power plants. No large scale wind power projects.",
+              "docLabel": "WGEEP report (Gadgil, 2011)",
+              "docUrl": "https://www.cppr.in/wp-content/uploads/2013/03/Gadgil-report.pdf",
+              "method": "reference"
+            }
+          ]
+        },
+        {
           "severity": "medium",
           "code": "pa-near",
           "title": "10.8 km from Bhimashankar Wildlife Sanctuary",
@@ -493,6 +509,22 @@
               "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-06/MGB_PSP_Draft_EIA_Executive_Summary.pdf",
               "docLabel": "Executive Summary/CRZ Draft Notification",
               "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "low",
+          "code": "wgeep",
+          "title": "Junnar is a WGEEP ESZ3 taluka",
+          "detail": "WGEEP allowed large power plants in ESZ3 subject to cumulative impact and carrying-capacity studies and downstream flow assessment.",
+          "evidence": [
+            {
+              "value": "Junnar: ESZ3",
+              "page": 65,
+              "quote": "Large power plants allowed subject to strict environmental regulations including cumulative impact assessment, carrying capacity studies, minimum forest clearance and assessment of flows required downstream, including the ecological needs of the river.",
+              "docLabel": "WGEEP report (Gadgil, 2011)",
+              "docUrl": "https://www.cppr.in/wp-content/uploads/2013/03/Gadgil-report.pdf",
+              "method": "reference"
             }
           ]
         }
@@ -1006,6 +1038,22 @@
               "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf",
               "docLabel": "Executive Summary/CRZ Draft Notification",
               "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "high",
+          "code": "wgeep",
+          "title": "Maval is a WGEEP ESZ1 taluka",
+          "detail": "The Gadgil panel recommended no forest clearance or stream diversion for new projects in ESZ1 and only small hydro (≤10 MW). This project is 1200 MW with dams up to 59 m. WGEEP recommendations were not adopted into law.",
+          "evidence": [
+            {
+              "value": "Maval: ESZ1",
+              "page": 65,
+              "quote": "Allow run of the river schemes with maximum height of 3 m serving local needs, subject to gram sabha consent. No forest clearance or stream diversion for new projects. New small hydropower projects (10 MW and below) permissible. No new thermal power plants. No large scale wind power projects.",
+              "docLabel": "WGEEP report (Gadgil, 2011)",
+              "docUrl": "https://www.cppr.in/wp-content/uploads/2013/03/Gadgil-report.pdf",
+              "method": "reference"
             }
           ]
         },
@@ -1534,6 +1582,22 @@
               "docUrl": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2024-09/Shirawta%20PSP_EIA_Executive%20Summary.pdf",
               "docLabel": "Executive Summary/CRZ Draft Notification",
               "method": "rule"
+            }
+          ]
+        },
+        {
+          "severity": "high",
+          "code": "wgeep",
+          "title": "Maval is a WGEEP ESZ1 taluka",
+          "detail": "The Gadgil panel recommended no forest clearance or stream diversion for new projects in ESZ1 and only small hydro (≤10 MW). This project is 1800 MW with dams up to 38.71 m. WGEEP recommendations were not adopted into law.",
+          "evidence": [
+            {
+              "value": "Maval: ESZ1",
+              "page": 65,
+              "quote": "Allow run of the river schemes with maximum height of 3 m serving local needs, subject to gram sabha consent. No forest clearance or stream diversion for new projects. New small hydropower projects (10 MW and below) permissible. No new thermal power plants. No large scale wind power projects.",
+              "docLabel": "WGEEP report (Gadgil, 2011)",
+              "docUrl": "https://www.cppr.in/wp-content/uploads/2013/03/Gadgil-report.pdf",
+              "method": "reference"
             }
           ]
         },

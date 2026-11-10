@@ -6,6 +6,8 @@ import { buildDashboard } from './dashboard.js';
 import * as store from './lib/store.js';
 import { loadPlaywright, searchParivesh } from './connectors/parivesh-track.js';
 import { runAnalysis } from './analysis/run.js';
+import { buildStatewide } from './statewide/build.js';
+import { buildBonds } from './bonds/build.js';
 
 const HELP = `Environment Monitor – track EC / EIA / FC / WL / CRZ / PCB approvals
 
@@ -18,6 +20,8 @@ Usage:
                                                          Attach a proposal number to a watchlist project
   envmon analyze [--force] [--no-llm] [--project id,id]  Extract impact data from report PDFs → data/analytics.json
                                                          (uses Claude too when ANTHROPIC_API_KEY is set)
+  envmon statewide                                       Build data/statewide.json for the Maharashtra dashboard
+  envmon bonds [--dir path]                              Rebuild electoral bond reference data (verified against ECI totals)
   envmon list                                            Watchlist and source health
   envmon dashboard                                       Rebuild data/dashboard.json
 
@@ -38,6 +42,7 @@ const { values: flags, positionals } = parseArgs({
     analyze: { type: 'boolean', default: false },
     'no-llm': { type: 'boolean', default: false },
     project: { type: 'string' },
+    dir: { type: 'string' },
   },
 });
 const [cmd, ...args] = positionals;
@@ -91,12 +96,15 @@ try {
   else if (cmd === 'run') {
     await runMonitor({ force: flags.force, only: flags.source?.split(',').map((s) => s.trim()), notifyEnabled: !flags['no-notify'] });
     if (flags.analyze) await runAnalysis({ llm: flags['no-llm'] ? false : undefined });
+    await buildStatewide();
   } else if (cmd === 'analyze')
     await runAnalysis({ force: flags.force, llm: flags['no-llm'] ? false : undefined, only: flags.project?.split(',').map((s) => s.trim()) });
   else if (cmd === 'track' || cmd === 'probe') {
     if (!args[0]) throw new Error(`Usage: envmon ${cmd} <proposal-no|keyword>`);
     await pariveshLookup(args.join(' '), { dump: cmd === 'probe' });
   } else if (cmd === 'add-id') await addId(args[0], args[1]);
+  else if (cmd === 'statewide') await buildStatewide();
+  else if (cmd === 'bonds') await buildBonds({ dir: flags.dir });
   else if (cmd === 'list') await list();
   else if (cmd === 'dashboard') console.log(`Wrote ${store.paths.dashboard()} (${(await buildDashboard()).projects.length} projects)`);
   else console.log(HELP);

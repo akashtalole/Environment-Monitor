@@ -165,7 +165,7 @@ const shortName = (n) => n.replace(/\s*Pumped Storage (Hydro )?Project/i, ' PSP'
 function renderFlags() {
   const codes = [];
   for (const p of data.projects) for (const f of p.flags) if (f.severity !== 'info' && !codes.find((c) => c.code === f.code)) codes.push({ code: f.code, title: f.title.replace(/^[\d.,%]+\s*/, '') });
-  const LABEL = { esz: 'Inside Eco-Sensitive Zone', 'pa-near': 'Near protected area', 'wg-esa': 'Western Ghats ESA', forest: 'Forest diversion', 'forest-share': 'Forest-dominated footprint', trees: 'Tree felling', sch1: 'Schedule-I species', iucn: 'Endangered species', tribal: 'Tribal population', displacement: 'Displacement', 'rr-gap': 'R&R gap', 'emp-low': 'Low EMP budget', seismic: 'Seismic risk', heritage: 'Heritage nearby' };
+  const LABEL = { esz: 'Inside Eco-Sensitive Zone', 'pa-near': 'Near protected area', 'wg-esa': 'Western Ghats ESA', forest: 'Forest diversion', 'forest-share': 'Forest-dominated footprint', trees: 'Tree felling', sch1: 'Schedule-I species', iucn: 'Endangered species', tribal: 'Tribal population', displacement: 'Displacement', 'rr-gap': 'R&R gap', 'emp-low': 'Low EMP budget', seismic: 'Seismic risk', heritage: 'Heritage nearby', wgeep: 'WGEEP (Gadgil) zone' };
   const head = `<thead><tr><th>Flag</th>${data.projects.map((p) => `<th class="${p.id === selected ? 'sel' : ''}">${esc(shortName(p.name))}</th>`).join('')}</tr></thead>`;
   const rows = codes
     .map(({ code }) => {

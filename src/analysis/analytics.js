@@ -115,6 +115,19 @@ export function riskFlags(metrics, derived, cfg, extras = {}) {
   const nearHeritage = [...heritage.matchAll(/([^;(]+)\((\d+(?:\.\d+)?)\s*km\)/g)].filter((m) => +m[2] <= t.heritageKm).map((m) => `${m[1].trim()} (${m[2]} km)`);
   if (nearHeritage.length) add('low', 'heritage', 'Heritage / tourism sites nearby', nearHeritage.join(', '), ['heritageNearby']);
 
+  // WGEEP (Gadgil) zoning of the project's talukas vs its power-sector guidelines.
+  for (const z of extras.wgeepZones ?? []) {
+    const g = extras.wgeepGuidelines?.energy;
+    const dam = v('maxDamHeightM');
+    const mw = v('capacityMW');
+    const ev = { value: `${z.taluka}: ${z.zone}`, page: g?.page, quote: g?.[z.zone], docLabel: 'WGEEP report (Gadgil, 2011)', docUrl: extras.wgeepUrl, method: 'reference' };
+    if (z.zone === 'ESZ1')
+      flags.push({ severity: 'high', code: 'wgeep', title: `${z.taluka} is a WGEEP ESZ1 taluka`, detail: `The Gadgil panel recommended no forest clearance or stream diversion for new projects in ESZ1 and only small hydro (≤10 MW).${mw ? ` This project is ${mw} MW` : ''}${dam ? ` with dams up to ${dam} m` : ''}. WGEEP recommendations were not adopted into law.`, evidence: [ev] });
+    else if (z.zone === 'ESZ2')
+      flags.push({ severity: dam != null && dam > 15 ? 'high' : 'medium', code: 'wgeep', title: `${z.taluka} is a WGEEP ESZ2 taluka`, detail: `WGEEP recommended no new dams above 15 m in ESZ2${dam ? `; this project's dams reach ${dam} m` : ''}.`, evidence: [ev] });
+    else if (z.zone === 'ESZ3')
+      flags.push({ severity: 'low', code: 'wgeep', title: `${z.taluka} is a WGEEP ESZ3 taluka`, detail: 'WGEEP allowed large power plants in ESZ3 subject to cumulative impact and carrying-capacity studies and downstream flow assessment.', evidence: [ev] });
+  }
   for (const c of extras.conflicts ?? [])
     flags.push({ severity: 'info', code: 'conflict', title: `Documents disagree on ${c.label}`, detail: `Using ${c.chosen}; also stated: ${c.others.map((o) => `${o.value} (${o.docLabel ?? 'doc'} p${o.page ?? '?'})`).join(', ')}`, evidence: [] });
   for (const d of extras.unreadable ?? [])

@@ -91,7 +91,7 @@ export async function analyzeDocument(doc, { useLlm, force = false, log = consol
   return { ...result, url: doc.url, label: doc.label, projectIds: doc.projectIds, date: doc.date };
 }
 
-export function buildProjectAnalytics(project, extractions, cfgA) {
+export function buildProjectAnalytics(project, extractions, cfgA, wg = null) {
   // The same PDF is often posted twice (e.g. "_1.pdf"): analyse each file once.
   const unique = [...new Map(extractions.map((e) => [e.sha256, e])).values()];
   const withMetrics = unique.map((e) => ({ ...e, llmMetrics: e.llm ? llmMetrics(e.llm.output) : null }));
@@ -114,7 +114,11 @@ export function buildProjectAnalytics(project, extractions, cfgA) {
     metrics,
     derived,
     scores: impactScores(metrics, derived, cfgA, { threatenedSpeciesList }),
-    flags: riskFlags(metrics, derived, cfgA, { threatenedSpeciesList, conflicts, unreadable }),
+    flags: riskFlags(metrics, derived, cfgA, {
+      threatenedSpeciesList, conflicts, unreadable,
+      wgeepZones: (project.talukas ?? []).map((t) => wg?.talukas.find((r) => [r.taluka, r.wgeepName].some((n) => n.toLowerCase() === t.toLowerCase()))).filter(Boolean),
+      wgeepGuidelines: wg?.guidelines, wgeepUrl: wg?.sources.wgeep.url,
+    }),
     completeness: completeness(metrics),
     conflicts,
     empComponents: emp,
@@ -134,6 +138,7 @@ export function buildProjectAnalytics(project, extractions, cfgA) {
 export async function runAnalysis({ force = false, llm, only, log = console } = {}) {
   const cfg = await store.loadConfig();
   const cfgA = await store.readJson(path.join(store.ROOT, 'config/analytics.json'));
+  const wg = await store.readJson(path.join(store.ROOT, 'config/western-ghats.json'), null);
   const useLlm = llm ?? llmEnabled();
   const docs = (await collectDocuments(cfg)).filter((d) => !only?.length || d.projectIds.some((id) => only.includes(id)));
   log.info(`Analysing ${docs.length} document(s)${useLlm ? ` with rules + Claude (${LLM_MODEL})` : ' with rules only (set ANTHROPIC_API_KEY to add Claude)'}`);
@@ -152,7 +157,7 @@ export async function runAnalysis({ force = false, llm, only, log = console } = 
   }
 
   const projects = cfg.projects
-    .map((p) => buildProjectAnalytics(p, extractions.filter((e) => e.projectIds.includes(p.id)), cfgA))
+    .map((p) => buildProjectAnalytics(p, extractions.filter((e) => e.projectIds.includes(p.id)), cfgA, wg))
     .filter((p) => p.documents.length);
   const analytics = {
     generatedAt: new Date().toISOString(),

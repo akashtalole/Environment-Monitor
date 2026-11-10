@@ -1,0 +1,43 @@
+{
+  "_readme": "Verified links between project proponents and electoral bond purchasers. Only add a purchaser when the relationship is documented; put the evidence in 'evidence'. 'searched' records the name fragments checked in the ECI purchaser list so a 'no purchases' result is explicit. A bond purchase is lawful disclosure data, not evidence of any quid pro quo.",
+  "groups": [
+    {
+      "id": "torrent",
+      "name": "Torrent Power",
+      "proponentPatterns": ["Torrent\\s+PSH", "Torrent\\s+Power", "Torrent\\s+Energy\\s+Storage"],
+      "purchasers": [
+        {
+          "name": "TORRENT POWER LIMITED",
+          "relation": "Parent company of the proponent (Torrent PSH4 Private Limited)",
+          "evidence": { "text": "Torrent PSH4 Private Limited is a subsidiary of Torrent Power Limited (TPL).", "document": "Saidongar 2 – Maval PSP, Draft EIA & EMP Executive Summary", "page": 1, "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-03/01_Saidongar_2_Executive_Summary_English.pdf" }
+        }
+      ],
+      "searched": ["TORRENT"],
+      "note": "Other purchasers with 'Torrent' in their name (e.g. Torrent Pharmaceuticals) are separate companies and are not attributed to this proponent."
+    },
+    {
+      "id": "tata-power",
+      "name": "Tata Power",
+      "proponentPatterns": ["Tata\\s+Power"],
+      "purchasers": [],
+      "searched": ["TATA"],
+      "note": "No purchaser name containing 'TATA' appears in the ECI purchase list."
+    },
+    {
+      "id": "adani",
+      "name": "Adani group",
+      "proponentPatterns": ["Adani"],
+      "purchasers": [],
+      "searched": ["ADANI"],
+      "note": "No purchaser name containing 'ADANI' appears in the ECI purchase list."
+    },
+    {
+      "id": "jsw",
+      "name": "JSW group",
+      "proponentPatterns": ["\\bJSW\\b"],
+      "purchasers": [],
+      "searched": ["JSW"],
+      "note": "No purchaser name containing 'JSW' appears in the ECI purchase list."
+    }
+  ]
+}

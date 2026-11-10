@@ -45,6 +45,18 @@ monitor on a machine or VM in India (a laptop, a small Indian cloud region VM, o
 self-hosted GitHub Actions runner). From elsewhere only the MPCB sources will work, and the
 dashboard will show the others as `ERROR` with the reason.
 
+## Maharashtra public dashboard
+
+`web/maharashtra.html` is a public observatory of every project going through an environmental
+public hearing in Maharashtra (354 at the last build), built by `node src/cli.js statewide`.
+
+![Maharashtra dashboard: district map, sector and Western Ghats charts, project table](docs/maharashtra.png)
+
+- **Filter and share**: search, sector, district (click the map), Western Ghats zone, year, upcoming hearings, bond links. The filters are kept in the URL, so a filtered view can be shared as a link. Export as CSV or JSON.
+- **Western Ghats lens**: every project is placed against the **Gadgil (WGEEP, 2011) taluka zoning** (ESZ1/2/3), taken from the report's Appendices 2–3, with the panel's sector guidelines (power, mining, polluting industry, roads) and its hydrological and biological context (Bhimashankar WLS, origin of the Krishna/Koyna/Bhima). Each point cites the report page. WGEEP's recommendations were not adopted into law; the dashboard shows them as the expert reference. Later Kasturirangan/HLWG and draft ESA notification facts are marked as secondary or unconfirmed until a primary source is added in [`config/western-ghats.json`](config/western-ghats.json).
+- **PSP comparison**: report-level figures (forest, trees, dam height, protected-area distance, draft WG ESA status) next to the WGEEP zone of each project's talukas. All three PSPs analysed so far sit in ESZ1 talukas (Maval, Murbad), where WGEEP recommended no forest clearance and only small hydro (≤10 MW).
+- **Electoral bonds**: purchases by project proponents, linked to the parties that encashed them through the unique bond numbers disclosed by ECI on 21 March 2024. Built by `node src/cli.js bonds` from a pinned CSV conversion. The build stops unless the row counts and totals match the ECI PDFs exactly (18,871 purchases, ₹12,155.51 Cr; 20,421 encashments, ₹12,769.09 Cr). Companies match only on an exact normalised name or a parent/subsidiary link documented with a citation in [`config/entities.json`](config/entities.json). For example, Torrent Power Ltd, parent of the Saidongar-2 proponent per its own EIA, bought ₹106.5 Cr. Searches that found nothing (Tata, Adani, JSW) are shown too. A bond purchase is lawful disclosure data and does not imply any link to a clearance decision.
+
 ## Impact analytics from report PDFs
 
 `npm run analyze` (or `node src/cli.js analyze`) downloads every PDF linked to a watchlist project
@@ -167,6 +179,7 @@ data/snapshots/<source>.json ◄── diff against last run ──► data/even
 - `src/lib/stages.js` – maps free-text statuses onto common stages per track (EC: ToR → public hearing → appraisal → EC granted; FC: Stage-I → Stage-II; WL; CRZ; PCB consent).
 - `src/monitor.js` – runs due sources, diffs against the last snapshot, writes events, sends alerts.
 - `src/dashboard.js` + `web/` – one JSON file and a static page (MapLibre map, watchlist with stage bars, activity feed, MPCB hearings, discoveries, source health).
+- `src/statewide/` – statewide project list, sector/district/taluka detection, WGEEP zoning; `src/bonds/` – electoral bond build (verified against ECI totals) and company matching; `web/maharashtra.html` shows the result.
 - `src/analysis/` – PDF download and text extraction, rule and Claude extractors, analytics (merge, intensities, flags, index); `web/impact.html` shows the result.
 
 ```bash
