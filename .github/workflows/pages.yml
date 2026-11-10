@@ -1,0 +1,47 @@
+name: pages
+
+# Publishes the dashboard (web/) with the latest data/dashboard.json to GitHub Pages.
+# Runs after each monitor run (whose data commit can't trigger workflows itself),
+# on pushes that touch the site or data, and on demand.
+on:
+  workflow_run:
+    workflows: [monitor]
+    types: [completed]
+  push:
+    paths:
+      - 'web/**'
+      - 'data/dashboard.json'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      # For workflow_run this checks out the latest default-branch commit, i.e. the
+      # data the monitor just committed.
+      - uses: actions/checkout@v4
+      - name: Build site
+        run: |
+          mkdir -p _site/data
+          cp -r web/. _site/
+          cp data/dashboard.json _site/data/dashboard.json
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

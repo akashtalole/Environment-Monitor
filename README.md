@@ -107,6 +107,19 @@ point the source's `caFile` at it.
 register a self-hosted runner in India and set the repository variable
 `ENVMON_RUNNER=self-hosted`.
 
+## Public dashboard on GitHub Pages
+
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) publishes `web/` together with the
+latest `data/dashboard.json` to GitHub Pages. It redeploys after every `monitor` run, whenever
+the site or data changes, or on demand from the Actions tab.
+
+One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+The site is then at `https://<owner>.github.io/<repo>/`. By default the `github-pages`
+environment only deploys from the default branch, so merge to it first (or allow your branch
+under **Settings → Environments → github-pages**).
+
+The Pages copy is read-only: it shows whatever the last monitor run committed.
+
 ## How it works
 
 ```
