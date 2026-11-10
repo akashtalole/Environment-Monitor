@@ -1,0 +1,1267 @@
+{
+  "sourceId": "mpcb-hearings-conducted",
+  "fetchedAt": "2026-11-10T11:21:23.812Z",
+  "records": {
+    "8fcb3759374d1be2": {
+      "key": "8fcb3759374d1be2",
+      "title": "M/s.Basant Agro Tech Pvt. Ltd., Gat. No.314,Kadholi-Paladhi Road ,Jalgaon",
+      "date": "2012-12-29",
+      "status": "Public hearing 29-Dec-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/BasantAgroES.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/basantagro.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "29-Dec-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bac4b8d262250ead": {
+      "key": "bac4b8d262250ead",
+      "title": "Richa Realtors",
+      "date": "2012-12-11",
+      "status": "Public hearing 11-Dec-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/ExeSum_Richa.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/richaOO.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "11-Dec-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "6970e21357d992f0": {
+      "key": "6970e21357d992f0",
+      "title": "Axis Realty",
+      "date": "2012-12-11",
+      "status": "Public hearing 11-Dec-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/EXe.Summeryaxis.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/axisOO.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "11-Dec-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "2875d65f969962f8": {
+      "key": "2875d65f969962f8",
+      "title": "Buildarch Land Developers Pvt.Ltd.",
+      "date": "2012-12-11",
+      "status": "Public hearing 11-Dec-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/ExSumBuildarch.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/buildarchOO.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "11-Dec-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "116acc9ba06c3083": {
+      "key": "116acc9ba06c3083",
+      "title": "Maharashtra State Road Development corporation",
+      "date": "2012-11-30",
+      "status": "Public hearing 30-Nov-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/ES_NARIMAN_POINT.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/MSRDC.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "30-Nov-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bf8ea0a9aedc98b9": {
+      "key": "bf8ea0a9aedc98b9",
+      "title": "M/s.Adlars BioEnergy Ltd.,Survey No.284-B,Subhashnagar,Mauje-Gurgan,Tal-Kalamb,Osmanabad.,at Factory Premises",
+      "date": "2012-11-23",
+      "status": "Public hearing 23-Nov-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/ES_Adlars.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/adlers_bioenergy.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "23-Nov-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "e18cfbf58c4190c8": {
+      "key": "e18cfbf58c4190c8",
+      "title": "M/s.Natural Sugar and Allied Industries Ltd,Sai Nagar, Ranjani,Tal:Kalamb,Osmanabad. at Factory Premises",
+      "date": "2012-11-23",
+      "status": "Public hearing 23-Nov-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/ES_NSAIL.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/natural_sugar.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "23-Nov-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "83dd9417e4bd7ccc": {
+      "key": "83dd9417e4bd7ccc",
+      "title": "Shree Chamunda Realtors, Plot bearing C.S. No. 1730 of Mahim Division, Keluskar Road, Dadar(W), Mumbai-400028",
+      "date": "2012-11-07",
+      "status": "Public hearing 07-Nov-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Chamundai_Ex.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "07-Nov-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "d7b73449bc2beb2b": {
+      "key": "d7b73449bc2beb2b",
+      "title": "Matoshree Infrastuture Pvt. Ltd. Plot bearing No. 84, Shivaji Park Scheme, Property bearing CTS No. 1794 of Mahim Division, Dr. Madhukar B. Raut 400028, Mumbai",
+      "date": "2012-11-07",
+      "status": "Public hearing 07-Nov-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Matoshree_Ex.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "07-Nov-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "f096a0ac32e9be22": {
+      "key": "f096a0ac32e9be22",
+      "title": "Earth Builders, Plot bearing C.S. No. 280, Malbar Hill Division, Walkeshwar, Mumbai",
+      "date": "2012-11-07",
+      "status": "Public hearing 07-Nov-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Earth_Ex.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "07-Nov-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "26e5341328d1b681": {
+      "key": "26e5341328d1b681",
+      "title": "Sanghavi Gruha Nirman Pvt. Ltd., Final Plot No. 1274, TPS-IV, Mahim Division, G/South Ward,Hatiskar Marg, Prabhadevi, Mumbai",
+      "date": "2012-11-07",
+      "status": "Public hearing 07-Nov-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Sanghavi_Ex.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "07-Nov-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "4ed1a375d3aba794": {
+      "key": "4ed1a375d3aba794",
+      "title": "Karanja Termal & Logistics Pvt. Ltd., Karanja Creek, Chanje, Tal-Uran, Dist-Raigad",
+      "date": "2012-10-30",
+      "status": "Public hearing 30-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-121.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "30-Oct-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "6112e9f310816b1c": {
+      "key": "6112e9f310816b1c",
+      "title": "Kukadi Sahakri Sakhar Karkhana Ltd., Pimpalgaon Pisa, Tal-Shrigonda, Dist-Ahmednagar",
+      "date": "2012-10-30",
+      "status": "Public hearing 30-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-09/E-124_1.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "30-Oct-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "c1c1fe72f143c12d": {
+      "key": "c1c1fe72f143c12d",
+      "title": "Lokmangal Mauli Industries Ltd., Gat No. 67,68,69 & 80, Lohara(khurd, Tal-Lohara, Disd- Osmanabad",
+      "date": "2012-10-26",
+      "status": "Public hearing 26-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2020-04/E-123.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "26-Oct-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "da409aec2137786f": {
+      "key": "da409aec2137786f",
+      "title": "National Highway Authority of India, Tal-Sangamner, Dist-Ahmednagar",
+      "date": "2012-10-18",
+      "status": "Public hearing 18-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-120.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "18-Oct-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "711872cf58e0b670": {
+      "key": "711872cf58e0b670",
+      "title": "Maharashtra State Mining Corporation Ltd., for thier Marki-Zari-Jamani-Adkoli opencast coal at Tal--Zari Jamni, Dist-Yavatmal",
+      "date": "2012-10-10",
+      "status": "Public hearing 10-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Marki_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-117.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "10-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "a08eb089b60d3aae": {
+      "key": "a08eb089b60d3aae",
+      "title": "Western Coal Field Ltd., Wani North (Junad opencast coal mining project Expansion Project) at Tal-Wani, Dist-Yavatmal",
+      "date": "2012-10-10",
+      "status": "Public hearing 10-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/WCL_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-116.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "10-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "c9156c36e94bacd4": {
+      "key": "c9156c36e94bacd4",
+      "title": "Chilai Dolomite Mine at village Chilai, Tal-Wani,Yawatmal",
+      "date": "2012-10-09",
+      "status": "Public hearing 09-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Chilai_Ex.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "09-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "caa3c01b6b9c3afe": {
+      "key": "caa3c01b6b9c3afe",
+      "title": "Vishakha Mines Minerals (Khnadala Limestone Mine) At Gut No. 63, Vill-Khandala(Go), Tal-Wani, Dist-Yavatmal",
+      "date": "2012-10-09",
+      "status": "Public hearing 09-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Vishakha_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-115.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "09-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "dbcebea528678953": {
+      "key": "dbcebea528678953",
+      "title": "JSW Infrastructure Ltd., Village Nandgaon, Dist-Thane.",
+      "date": "2012-10-07",
+      "status": "Public hearing 07-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/JSW_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-114.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/JSW-minutes-english-23082013.PDF"
+        }
+      ],
+      "fields": {
+        "hearingDate": "07-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "a1871fb138cc1263": {
+      "key": "a1871fb138cc1263",
+      "title": "Akola Irrigation of Vidarbha Irrigation Development Corporation for construction of Uma Barrage Across the river Uma near village Mauje Rohna, Tahsil Murtizapur, Dist-Akola",
+      "date": "2012-10-06",
+      "status": "Public hearing 06-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Uma_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/Uma_barrage.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "06-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "ccac23c6a905e4e0": {
+      "key": "ccac23c6a905e4e0",
+      "title": "Fairdeal Constructions, C.S. 84 & 85 of Malabar Hill Division, Banganga Road, D Ward, Mumbai",
+      "date": "2012-10-06",
+      "status": "Public hearing 06-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/FAIRDEAL_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-113.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "06-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "b99cf75c54a62552": {
+      "key": "b99cf75c54a62552",
+      "title": "Kalpavruksha Developers, C.S. No.: 5/600 of Malabar Hill-Cumbala Hill division at August Kranti Marg, “D-Ward”, Mumbai",
+      "date": "2012-10-06",
+      "status": "Public hearing 06-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Kalpavruksha_Ex1.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-112.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/kalpvruksha.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "06-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "7db7e8617ae6811d": {
+      "key": "7db7e8617ae6811d",
+      "title": "Arindam Developers, C.S.1519 of Girgaum Division, Sitaram Patkar Marg, Mumbai",
+      "date": "2012-10-06",
+      "status": "Public hearing 06-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Arindam_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-118.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "06-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "a06d7eb0857ce545": {
+      "key": "a06d7eb0857ce545",
+      "title": "Abhijeet New India Cement Private Limited (ANICPL) ,village Dewara & Kakarghat, Rajura Taluka, Chandrapur District,",
+      "date": "2012-10-04",
+      "status": "Public hearing 04-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Abhijeet_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-110.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "04-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "d57ee5e36a73c912": {
+      "key": "d57ee5e36a73c912",
+      "title": "Bharat Petroleum Corporation Ltd., Mumbai Refinery, Mahul, Mumbao-400074",
+      "date": "2012-09-25",
+      "status": "Public hearing 25-Sep-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-09/BPCL.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "25-Sep-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "f9b7945cb14adca3": {
+      "key": "f9b7945cb14adca3",
+      "title": "WCL Kamptee Deep Open Cast Mine, Tal-Parseoni, Dist-Nagpur",
+      "date": "2012-09-12",
+      "status": "Public hearing 12-Sep-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-09/WCL_Kamptee.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "12-Sep-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "0f954a00876f2016": {
+      "key": "0f954a00876f2016",
+      "title": "Viraj Profiles Ltd., Village Mann, Taluka Palghar, District Thane;",
+      "date": "2012-09-02",
+      "status": "Public hearing 02-Sep-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Viraj_Marathi_EX_Summary.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-100.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "02-Sep-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "53ca453ed78bd3b2": {
+      "key": "53ca453ed78bd3b2",
+      "title": "MRKEnterprises, Plot Bearing No. C.S. No. 79, Colaba Division, Nathala Parekh Marg(Wood House Road), A ward of Mumbai",
+      "date": "2012-08-29",
+      "status": "Public hearing 29-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/MRK_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/MRK.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "29-Aug-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "d49f4e62eebb957e": {
+      "key": "d49f4e62eebb957e",
+      "title": "Talati and Panthaky Associated Pvt. Ltd, C.S. No. 1 A/698, Malabar Hill Division, Bhulabhai Desai Marg, Mumbai",
+      "date": "2012-08-29",
+      "status": "Public hearing 29-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Talati_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/Talati.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "29-Aug-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "648a18d24540391e": {
+      "key": "648a18d24540391e",
+      "title": "Aashiyana Construction, Plot Bearing C.S.No.127 of Mahim Division, F.P. No.824, TPS IV, S.K.Bole Road, Dadar(W), Mumbai-400028",
+      "date": "2012-08-29",
+      "status": "Public hearing 29-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Aashiyana_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-09/Aashiyana.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "29-Aug-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "6a7e6e6c4825271a": {
+      "key": "6a7e6e6c4825271a",
+      "title": "Gangamai Industries & Construction Ltd. At- Najik Babulgaon, Tq- Shevgaon, Dist- Ahmednagar",
+      "date": "2012-08-17",
+      "status": "Public hearing 17-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Executive_Summery_GANGAMAI_0.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/GANGAMAI.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "17-Aug-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "916be83e239fdc87": {
+      "key": "916be83e239fdc87",
+      "title": "Atul Enterprises",
+      "date": "2012-08-16",
+      "status": "Public hearing 16-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/atul_OO.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/atul_minutes.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-Aug-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bbf408840abe7477": {
+      "key": "bbf408840abe7477",
+      "title": "One up Developers",
+      "date": "2012-08-16",
+      "status": "Public hearing 16-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/one_up_OO.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-Aug-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "82b2c86dfa252caf": {
+      "key": "82b2c86dfa252caf",
+      "title": "Bajaj Builders",
+      "date": "2012-08-16",
+      "status": "Public hearing 16-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/bajaj_OO.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/bajaj_minutes.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-Aug-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "dae5dd12f4beca8b": {
+      "key": "dae5dd12f4beca8b",
+      "title": "Suraj Estate Developers Pvt. Ltd., Plot bearing F.P. No.1181 & 1182,TPS IV of Mahim Division, in G/N Ward, Situated at 19th Kashinath Dhuru Road, Off Cadell Road, Dadar(W), Mumbai",
+      "date": "2012-07-21",
+      "status": "Public hearing 21-Jul-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Executive_Summery_Suraj_Estate.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/suraj_estate.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "21-Jul-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "e73aaab5705e0899": {
+      "key": "e73aaab5705e0899",
+      "title": "M.I.Builders., C.S.No.979,980,985,4/997 Mahim Division, G/N Ward,Mahim,Mumbai-400016",
+      "date": "2012-07-21",
+      "status": "Public hearing 21-Jul-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/MI.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "21-Jul-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "8f99a8dddcc221ef": {
+      "key": "8f99a8dddcc221ef",
+      "title": "Goodwill Properties Pvt. LTD. F.P.No.1262-B,TPS:IV,Mahim Division,G/n Ward,New Prabhadevi Road, near tata press, Mumbai-400 025",
+      "date": "2012-07-21",
+      "status": "Public hearing 21-Jul-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Executive_summery_Goodwill.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/GOODWIL.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "21-Jul-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "55efd61139ee9404": {
+      "key": "55efd61139ee9404",
+      "title": "Mama and Sons, Plot bearing F.P.No.675 off TPS III, Mahim Division, Wanjawadi lane, Off L.J.Road, Mahim, Mumbai-400 016",
+      "date": "2012-07-21",
+      "status": "Public hearing 21-Jul-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Executive_summery_Eng_Mama_Sons.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-92.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/mama.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "21-Jul-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "610314a447a39103": {
+      "key": "610314a447a39103",
+      "title": "Tapi Irrigation Development Corporation, Jalgaon, GOM for lower Tapi Project, Padsale, Tal-Amalner,Dist:Jalgaon",
+      "date": "2012-07-13",
+      "status": "Public hearing 13-Jul-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-87.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/tapi-J.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "13-Jul-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bcda051b1621377b": {
+      "key": "bcda051b1621377b",
+      "title": "National Highway Authority of India(Ministry of Road Transport & Highways)for 2/4 Laning work of Khed – Sinner NH No.50",
+      "date": "2012-06-26",
+      "status": "Public hearing 26-Jun-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-79.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/NH-50.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "26-Jun-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "7b477f2050343f69": {
+      "key": "7b477f2050343f69",
+      "title": "Lanco Viddharbha Power Limted at village Mundwa, Pulai & Belgaon, Tal & Dist:Wardha",
+      "date": "2012-06-20",
+      "status": "Public hearing 20-Jun-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-66.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Lanco.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "20-Jun-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "c545b7c59191a705": {
+      "key": "c545b7c59191a705",
+      "title": "National Highway Authority of India(Ministry of Road Transport & Highways)for 4 Laning work of Solapur-Hyderabad NH No.9",
+      "date": "2012-05-16",
+      "status": "Public hearing 16-May-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-52.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-May-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "f523869dc444a170": {
+      "key": "f523869dc444a170",
+      "title": "Karan Sugars Pvt. Ltd.,Gat No.487/488 A/2, 488 A/3, Herwad, Tal-Shirol , Dist-Kolhapur",
+      "date": "2012-05-16",
+      "status": "Public hearing 16-May-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-57.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/karan-E.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-May-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "86a03fa9835c8f96": {
+      "key": "86a03fa9835c8f96",
+      "title": "Godawari Marathawada Development Corporation for Krishna Marathwada Lift Irrigation Project, Osmanabad",
+      "date": "2012-04-03",
+      "status": "Public hearing 03-Apr-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-09/godawari_Irrigation.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "03-Apr-2012",
+        "remarks": null,
+        "documents": "MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    }
+  }
+}
