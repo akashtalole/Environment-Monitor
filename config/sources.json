@@ -1,0 +1,172 @@
+{
+  "_readme": "Each source maps to a connector in src/connectors. Set enabled:false to skip one. TLS is always verified; if a *.nic.in server omits its intermediate certificate, save that intermediate as PEM under certs/ and set \"caFile\": \"certs/<file>.pem\" on the source (see README).",
+  "sources": [
+    {
+      "id": "parivesh-track",
+      "name": "PARIVESH – Track Your Proposal",
+      "connector": "parivesh-track",
+      "enabled": true,
+      "url": "https://parivesh.nic.in/newupgrade/#/trackYourProposal",
+      "refreshHours": 12,
+      "options": {
+        "navigationTimeoutMs": 90000,
+        "resultTimeoutMs": 45000,
+        "searchInputSelectors": [
+          "input[formcontrolname*='proposal' i]",
+          "input[placeholder*='Proposal' i]",
+          "input[placeholder*='Single Window' i]",
+          "input[placeholder*='Keyword' i]",
+          "input[placeholder*='Search' i]",
+          "input[type='search']",
+          "input[type='text']"
+        ],
+        "searchButtonText": "Search"
+      }
+    },
+    {
+      "id": "parivesh-committees",
+      "name": "PARIVESH – EAC / SEAC / FAC agendas & minutes",
+      "connector": "parivesh-committees",
+      "enabled": true,
+      "url": "https://parivesh.nic.in",
+      "refreshHours": 24,
+      "options": {
+        "feeds": [
+          {
+            "label": "EAC (Central) Agenda",
+            "committee": "CatA",
+            "workgroup": "EC",
+            "type": "Agenda",
+            "authority": "Center"
+          },
+          {
+            "label": "EAC (Central) Minutes",
+            "committee": "MoMCatA",
+            "workgroup": "EC",
+            "type": "Mom",
+            "authority": "Center"
+          },
+          {
+            "label": "SEAC (State) Agenda",
+            "committee": "CatB",
+            "workgroup": "EC",
+            "type": "Agenda",
+            "authority": "State"
+          },
+          {
+            "label": "SEAC (State) Minutes",
+            "committee": "MoMCatB",
+            "workgroup": "EC",
+            "type": "Mom",
+            "authority": "State"
+          },
+          {
+            "label": "Forest Advisory Committee",
+            "committee": "FAC",
+            "workgroup": "FC",
+            "type": "Agenda",
+            "authority": "Center"
+          },
+          {
+            "label": "Regional Empowered Committee",
+            "committee": "REC",
+            "workgroup": "FC",
+            "type": "Agenda",
+            "authority": "Center"
+          },
+          {
+            "label": "Wildlife Committee",
+            "committee": "Wildlife",
+            "workgroup": "WLC",
+            "type": "Agenda",
+            "authority": "Center"
+          },
+          {
+            "label": "CRZ Committee",
+            "committee": "CRZ",
+            "workgroup": "CRZ",
+            "type": "Agenda",
+            "authority": "Center"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ec-legacy",
+      "name": "environmentclearance.nic.in (legacy EC portal)",
+      "connector": "ec-legacy",
+      "enabled": true,
+      "url": "https://environmentclearance.nic.in",
+      "refreshHours": 72,
+      "options": {}
+    },
+    {
+      "id": "fc-legacy",
+      "name": "forestsclearance.nic.in (legacy FC portal)",
+      "connector": "fc-legacy",
+      "enabled": true,
+      "url": "https://forestsclearance.nic.in",
+      "refreshHours": 72,
+      "options": {
+        "reportPages": [
+          "viewreport.aspx",
+          "PartIIReport_A.aspx"
+        ]
+      }
+    },
+    {
+      "id": "mpcb-hearings-upcoming",
+      "name": "MPCB – Upcoming public hearings",
+      "connector": "mpcb",
+      "enabled": true,
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "refreshHours": 12,
+      "options": {
+        "kind": "public-hearing",
+        "maxPages": 60
+      }
+    },
+    {
+      "id": "mpcb-hearings-conducted",
+      "name": "MPCB – Conducted public hearings",
+      "connector": "mpcb",
+      "enabled": true,
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "refreshHours": 24,
+      "options": {
+        "kind": "public-hearing",
+        "maxPages": 40
+      }
+    },
+    {
+      "id": "mpcb-cac",
+      "name": "MPCB – Consent Appraisal Committee meetings",
+      "connector": "mpcb",
+      "enabled": true,
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "refreshHours": 24,
+      "options": {
+        "kind": "cac",
+        "maxPages": 2
+      }
+    },
+    {
+      "id": "cpc-parivesh",
+      "name": "cpc.parivesh.nic.in",
+      "connector": "page-watch",
+      "enabled": true,
+      "url": "https://cpc.parivesh.nic.in/",
+      "refreshHours": 24,
+      "options": {}
+    },
+    {
+      "id": "cpcb-whats-new",
+      "name": "CPCB – What's new",
+      "connector": "page-watch",
+      "enabled": true,
+      "url": "https://cpcb.nic.in/",
+      "refreshHours": 24,
+      "options": {}
+    }
+  ]
+}

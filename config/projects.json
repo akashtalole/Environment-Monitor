@@ -1,0 +1,272 @@
+{
+  "_readme": "Watchlist. Add PARIVESH proposal numbers (e.g. IA/MH/RIV/123456/2025, SIA/MH/..., FP/MH/HYD/12345/2025) under ids.parivesh once you have them; until then the monitor matches by keywords. 'verified: false' means the entry is a seed from public news and has not been confirmed against a portal yet. Coordinates are approximate (taluka level) and only used for the map.",
+  "discovery": {
+    "_readme": "Records on any source that match these keywords AND one of the region terms are surfaced as 'discovered' candidates even if they are not on the watchlist.",
+    "keywords": [
+      "pumped storage",
+      "pump storage",
+      "pumped hydro",
+      "PSP",
+      "off-stream",
+      "off stream",
+      "closed loop hydro"
+    ],
+    "regions": [
+      "Maharashtra",
+      "MH/",
+      "/MH/",
+      "Pune",
+      "Thane",
+      "Raigad",
+      "Nashik",
+      "Satara",
+      "Kolhapur",
+      "Ratnagiri",
+      "Sindhudurg",
+      "Ahmednagar",
+      "Ahilyanagar",
+      "Palghar",
+      "Sangli",
+      "Nandurbar",
+      "Dhule",
+      "Jalgaon",
+      "Amravati",
+      "Nagpur",
+      "Chandrapur",
+      "Gadchiroli",
+      "Bhandara",
+      "Gondia",
+      "Yavatmal",
+      "Beed",
+      "Latur",
+      "Dharashiv",
+      "Osmanabad",
+      "Solapur",
+      "Chhatrapati Sambhajinagar",
+      "Aurangabad",
+      "Jalna",
+      "Hingoli",
+      "Nanded",
+      "Parbhani",
+      "Buldhana",
+      "Akola",
+      "Washim",
+      "Wardha"
+    ]
+  },
+  "projects": [
+    {
+      "id": "malshej-ghat-bhorande-psp",
+      "name": "Malshej Ghat Bhorande Pumped Storage Project",
+      "type": "PSP",
+      "capacityMW": 1500,
+      "developer": "Adani Renewable Energy Fifty Two Ltd",
+      "state": "Maharashtra",
+      "districts": [
+        "Pune",
+        "Thane"
+      ],
+      "talukas": [
+        "Junnar",
+        "Murbad"
+      ],
+      "location": {
+        "lat": 19.33,
+        "lng": 73.78,
+        "approx": true
+      },
+      "keywords": [
+        "Malshej",
+        "Bhorande"
+      ],
+      "ids": {
+        "parivesh": [],
+        "ecLegacy": [],
+        "fcLegacy": []
+      },
+      "expectedClearances": [
+        "ToR",
+        "EC",
+        "FC",
+        "WL"
+      ],
+      "verified": true,
+      "notes": "Listed on MPCB 'Upcoming Public Hearings' (hearing date 21-Aug-2026)."
+    },
+    {
+      "id": "bhivpuri-psp",
+      "name": "Bhivpuri Pumped Storage Project",
+      "type": "PSP",
+      "capacityMW": 1000,
+      "developer": "Tata Power",
+      "state": "Maharashtra",
+      "districts": [
+        "Raigad"
+      ],
+      "talukas": [
+        "Karjat"
+      ],
+      "location": {
+        "lat": 18.97,
+        "lng": 73.37,
+        "approx": true
+      },
+      "keywords": [
+        "Bhivpuri"
+      ],
+      "ids": {
+        "parivesh": [],
+        "ecLegacy": [],
+        "fcLegacy": []
+      },
+      "expectedClearances": [
+        "ToR",
+        "EC",
+        "FC"
+      ],
+      "verified": false,
+      "notes": "Seed from public announcements. Confirm proposal number on PARIVESH."
+    },
+    {
+      "id": "saidongar-2-maval-psp",
+      "name": "Saidongar-2 Maval Pumped Storage Project",
+      "type": "PSP",
+      "capacityMW": 1200,
+      "developer": "Torrent PSH4 Pvt Ltd (Torrent Power)",
+      "state": "Maharashtra",
+      "districts": [
+        "Raigad",
+        "Pune"
+      ],
+      "talukas": [
+        "Karjat",
+        "Maval"
+      ],
+      "location": {
+        "lat": 18.86,
+        "lng": 73.42,
+        "approx": true
+      },
+      "keywords": [
+        "Saidongar"
+      ],
+      "ids": {
+        "parivesh": [],
+        "ecLegacy": [],
+        "fcLegacy": []
+      },
+      "expectedClearances": [
+        "ToR",
+        "EC",
+        "FC"
+      ],
+      "verified": true,
+      "notes": "Villages Pali Tarf Kotal Khalati & Saidongar (Karjat, Raigad) and Kusur (Maval, Pune). Listed on MPCB public hearings page."
+    },
+    {
+      "id": "shirawta-psp",
+      "name": "Shirawta Pumped Storage Project",
+      "type": "PSP",
+      "capacityMW": 1800,
+      "developer": "Tata Power",
+      "state": "Maharashtra",
+      "districts": [
+        "Pune"
+      ],
+      "talukas": [
+        "Maval"
+      ],
+      "location": {
+        "lat": 18.78,
+        "lng": 73.55,
+        "approx": true
+      },
+      "keywords": [
+        "Shirawta",
+        "Shirota",
+        "Shirwata"
+      ],
+      "ids": {
+        "parivesh": [],
+        "ecLegacy": [],
+        "fcLegacy": []
+      },
+      "expectedClearances": [
+        "ToR",
+        "EC",
+        "FC"
+      ],
+      "verified": true,
+      "notes": "Off-stream open-loop PSP at village Khandshi, Tal. Maval. MPCB public hearing held 29-Oct-2024."
+    },
+    {
+      "id": "bhavali-psp",
+      "name": "Bhavali Pumped Storage Project",
+      "type": "PSP",
+      "capacityMW": 1500,
+      "developer": "JSW Neo Energy",
+      "state": "Maharashtra",
+      "districts": [
+        "Nashik"
+      ],
+      "talukas": [
+        "Igatpuri"
+      ],
+      "location": {
+        "lat": 19.7,
+        "lng": 73.56,
+        "approx": true
+      },
+      "keywords": [
+        "Bhavali"
+      ],
+      "ids": {
+        "parivesh": [],
+        "ecLegacy": [],
+        "fcLegacy": []
+      },
+      "expectedClearances": [
+        "ToR",
+        "EC",
+        "FC"
+      ],
+      "verified": false,
+      "notes": "Seed from public announcements. Confirm proposal number on PARIVESH."
+    },
+    {
+      "id": "humbarli-psp",
+      "name": "Humbarli Pumped Storage Project",
+      "type": "PSP",
+      "capacityMW": 400,
+      "developer": null,
+      "state": "Maharashtra",
+      "districts": [
+        "Satara"
+      ],
+      "talukas": [
+        "Patan"
+      ],
+      "location": {
+        "lat": 17.4,
+        "lng": 73.76,
+        "approx": true
+      },
+      "keywords": [
+        "Humbarli"
+      ],
+      "ids": {
+        "parivesh": [],
+        "ecLegacy": [],
+        "fcLegacy": []
+      },
+      "expectedClearances": [
+        "ToR",
+        "EC",
+        "FC",
+        "WL"
+      ],
+      "verified": false,
+      "notes": "Near Koyna; wildlife clearance likely relevant. Developer to be confirmed."
+    }
+  ]
+}
