@@ -1,0 +1,27 @@
+{
+  "extractorVersion": 3,
+  "sha256": "87e66d2a1176f801ef1cd14bf05c76cbc1b89fde2e4b58a231ddc2ba6ae33c5e",
+  "bytes": 885790,
+  "engine": "pdftotext",
+  "pageCount": 1,
+  "emptyPages": 0,
+  "scanned": false,
+  "extractedAt": "2026-11-10T11:47:33.896Z",
+  "documentType": "public_hearing_order",
+  "references": {
+    "proposals": [],
+    "files": [],
+    "torIds": []
+  },
+  "ruleMetrics": {
+    "capacityMW": {
+      "page": 1,
+      "quote": "/2009 of Ministry of Environment and Forests, Government of India, the Public Hearing Panel in respect of Proposed Malshej Ghat Bhorande Pumped Storage Project (1500 MW) in the Pune and Thane Districts, Proposed by M/s Adani Renewable Energy Fifty-Two (52) Limited, Is as below.",
+      "value": 1500,
+      "method": "rule"
+    }
+  },
+  "empComponents": [],
+  "llm": null,
+  "llmError": null
+}

@@ -1,0 +1,309 @@
+{
+  "extractorVersion": 3,
+  "sha256": "a39733337b45103e19bd617b45201851d8d9baad8e3f6fc4c5847e6d4a5b39fd",
+  "bytes": 493231,
+  "engine": "pdftotext",
+  "pageCount": 19,
+  "emptyPages": 0,
+  "scanned": false,
+  "extractedAt": "2026-11-10T11:47:34.190Z",
+  "documentType": "executive_summary",
+  "references": {
+    "proposals": [
+      "FP/MH/HYD/IRRIG/556376/2025"
+    ],
+    "files": [
+      "J-12011/05/2025-IA. I (R)",
+      "J-12011/43/2023-IA.I (R)",
+      "J-12011/42/2023-IA.I(R)"
+    ],
+    "torIds": []
+  },
+  "ruleMetrics": {
+    "empCapitalCr": {
+      "value": 15.186,
+      "page": 19,
+      "quote": "EMP cost table: 19 components, total capital 15.186 Cr",
+      "method": "rule"
+    },
+    "empTotalCr": {
+      "value": 51.1041,
+      "page": 19,
+      "quote": "EMP cost table: 19 components, total capital 15.186 Cr",
+      "method": "rule"
+    },
+    "cerCr": {
+      "value": 2,
+      "page": 19,
+      "quote": "EMP cost table – Local Area Development Plan",
+      "method": "rule"
+    },
+    "biodiversityPlanCr": {
+      "value": 0.93,
+      "page": 19,
+      "quote": "EMP cost table – Biodiversity Conservation &",
+      "method": "rule"
+    },
+    "muckPlanCr": {
+      "value": 34.8941,
+      "page": 19,
+      "quote": "EMP cost table – Muck Management Plan",
+      "method": "rule"
+    },
+    "monitoringCr": {
+      "value": 0.64,
+      "page": 19,
+      "quote": "EMP cost table – Environmental Monitoring",
+      "method": "rule"
+    },
+    "capacityMW": {
+      "page": 18,
+      "quote": "Disaster Management Plan: Project involves construction of Upper and Lower reservoir with installed capacity of 1200 MW, also project lies in hilly ranges where chances of disaster might occur, to mitigate the impact of disaster measure are provided along with a budgetary estimate of ₹120 Lakhs.",
+      "value": 1200,
+      "method": "rule"
+    },
+    "upperReservoirMCM": {
+      "value": 7.22,
+      "page": 2,
+      "quote": "The gross storage capacities of upper and lower reservoirs is 7.22 MCM & 28.96 MCM respectively, upper reservoir will be constructed on the hilltop with maximum dam height of 29 m to create the desired storage capacity while the lower reservoir will have maximum height of 59 m and",
+      "method": "rule"
+    },
+    "lowerReservoirMCM": {
+      "value": 28.96,
+      "page": 2,
+      "quote": "The gross storage capacities of upper and lower reservoirs is 7.22 MCM & 28.96 MCM respectively, upper reservoir will be constructed on the hilltop with maximum dam height of 29 m to create the desired storage capacity while the lower reservoir will have maximum height of 59 m and",
+      "method": "rule"
+    },
+    "protectedAreaKm": {
+      "value": 14.45,
+      "page": 2,
+      "quote": "distance from the project site to the Bhimashankar Wildlife Sanctuary (WLS) is approximately 14.45 km.",
+      "method": "rule"
+    },
+    "nearestProtectedArea": {
+      "value": "Bhimashankar Wildlife Sanctuary",
+      "page": 2,
+      "quote": "distance from the project site to the Bhimashankar Wildlife Sanctuary (WLS) is approximately 14.45 km.",
+      "method": "rule"
+    },
+    "storageHours": {
+      "value": 6,
+      "page": 2,
+      "quote": "Daily hours of generation 6 Hr.",
+      "method": "rule"
+    },
+    "projectCostCr": {
+      "value": 6088.67,
+      "page": 3,
+      "quote": "Project Cost: The total project cost has been estimated at ₹6,088.67 Crores.",
+      "method": "rule"
+    },
+    "constructionMonths": {
+      "value": 60,
+      "page": 3,
+      "quote": "It is proposed to construct the project within a period of 60 months including 6 months of pre- construction works.",
+      "method": "rule"
+    },
+    "loopType": {
+      "value": "open loop",
+      "page": 1,
+      "quote": "Saidongar 2 – Maval Open Loop Pumped Draft EIA & EMP Storage Project (1200 MW), Pune & Raigad Report District of Maharashtra EXECUTIVE SUMMARY ES 1.0 INTRODUCTION Torrent PSH4 Private Limited is a subsidiary of Torrent Power Limi",
+      "method": "rule"
+    },
+    "maxDamHeightM": {
+      "value": 59,
+      "page": 2,
+      "quote": ", upper reservoir will be constructed on the hilltop with maximum dam height of 29 m to create the desired storage capacity while the lower reservoir will have maximum height of 59 m and shall be constructed across River Pej.",
+      "method": "rule"
+    },
+    "torDate": {
+      "value": "2025-02-18",
+      "page": 1,
+      "quote": "Accordingly, the project has obtained Fresh ToR on 18.02.2025 from 23rd ToR EAC Meeting held on 29.01.2025 (Vide File No: J-12011/05/2025-IA.",
+      "method": "rule"
+    },
+    "totalLandHa": {
+      "value": 141.44,
+      "page": 2,
+      "quote": "The total land requirement for these activities is estimated to be approximately 141.44 ha (35.6 ha forest land and 105.84 ha of non-forest land).",
+      "method": "rule"
+    },
+    "forestLandHa": {
+      "value": 35.6,
+      "page": 2,
+      "quote": "Forest Clearances: The proposed project involves the diversion of 35.60 ha of the Forest land & requires obtaining Forest Clearance from MoEF&CC, New Delhi.",
+      "method": "rule"
+    },
+    "nonForestLandHa": {
+      "value": 105.84,
+      "page": 2,
+      "quote": "The total land requirement for these activities is estimated to be approximately 141.44 ha (35.6 ha forest land and 105.84 ha of non-forest land).",
+      "method": "rule"
+    },
+    "treesFelled": {
+      "value": 9554,
+      "page": 12,
+      "quote": "This project will require 35.60 ha Forest land and cutting of about 9,554 trees along with the shrubs and other vegetation on the identified land.",
+      "method": "rule"
+    },
+    "muckLakhCum": {
+      "value": 58.06,
+      "page": 2,
+      "quote": "The total muck generation would be of the order 58.06 Lakh cum.",
+      "method": "rule"
+    },
+    "muckDisposalHa": {
+      "value": 35,
+      "page": 16,
+      "quote": "The entire excavated material is proposed to be dumped in the identified in two (2) muck disposal sites having an area of 35 ha.",
+      "method": "rule"
+    },
+    "westernGhatsESA": {
+      "value": true,
+      "page": 9,
+      "quote": "ES 3.10 Biological Environment The proposed project has been carefully designed to escape the ecologically sensitive areas but falls in draft notification for Western Ghats ESA.",
+      "method": "rule"
+    },
+    "insideESZ": {
+      "value": false,
+      "page": 1,
+      "quote": "Wildlife Clearance: The proposed project does not require wildlife clearance as it is outside the notified Eco-sensitive Zone of the nearest protected area i.e.",
+      "method": "rule"
+    },
+    "compensatoryAfforestationCr": {
+      "value": 4.46,
+      "page": 9,
+      "quote": "This project will divert a 35.60 ha forest land hence, Green Belt Development Plan (₹75 Lakhs), Compensatory Afforestation Plan (₹4.46 Crores) and Biodiversity Management and Wildlife Conservation Plan for Sch-1 Species (₹93 lakhs), have been prepared and provided in EIA report with Budget estimation added in the EMP Cost.",
+      "method": "rule"
+    },
+    "co2ReductionMtPerYr": {
+      "value": 1.82,
+      "page": 15,
+      "quote": "Reduction of Carbon Emissions: Benefit the environment by reducing the total amount of carbon dioxide by 1.82 million tCO2 per year.",
+      "method": "rule"
+    },
+    "seismicZone": {
+      "value": "III",
+      "page": 4,
+      "quote": "The Raigad and Pune district area falls under Seismic zone-III as per BIS.",
+      "method": "rule"
+    },
+    "pm10MaxUgm3": {
+      "value": 96.3,
+      "page": 5,
+      "quote": "• The maximum value for PM10 observed at Kusur (AAQ-2) is 96.3 μg/m3 and minimum value for PM10 at Vadap (AAQ-4) is 57.4 μg/m3.",
+      "method": "rule"
+    },
+    "pm25MaxUgm3": {
+      "value": 52.6,
+      "page": 5,
+      "quote": "• The maximum value for PM2.5 observed at Vadap (AAQ-4) is 52.6 μg/m3 and minimum value for PM2.5 at Bhaliwadi (AAQ-5) is 25.4 μg/m3.",
+      "method": "rule"
+    },
+    "annualRainfallMm": {
+      "value": 3670,
+      "page": 3,
+      "quote": "Long-term rainfall data (2002–2012) show annual rainfall in Karjat taluka ranging from 2,335 mm to over 4,800 mm, averaging about 3,670 mm.",
+      "method": "rule"
+    }
+  },
+  "empComponents": [
+    {
+      "label": "Biodiversity Conservation &",
+      "capitalCr": 0.93,
+      "totalCr": 0.93
+    },
+    {
+      "label": "Fisheries Development Plan",
+      "capitalCr": 0.25,
+      "totalCr": 0.25
+    },
+    {
+      "label": "Muck Management Plan",
+      "capitalCr": 5.816,
+      "totalCr": 34.8941
+    },
+    {
+      "label": "Landscaping, Restoration of",
+      "capitalCr": 0.25,
+      "totalCr": 1
+    },
+    {
+      "label": "Sanitation and Solid Waste",
+      "capitalCr": 0.24,
+      "totalCr": 0.74
+    },
+    {
+      "label": "Public Health Delivery System",
+      "capitalCr": 0.6,
+      "totalCr": 1.1
+    },
+    {
+      "label": "Energy Conservation Measures",
+      "capitalCr": 0.3,
+      "totalCr": 0.7
+    },
+    {
+      "label": "Labour Management Plan",
+      "capitalCr": 0.15,
+      "totalCr": 0.4
+    },
+    {
+      "label": "Green Belt Development Plan",
+      "capitalCr": 0.5,
+      "totalCr": 0.75
+    },
+    {
+      "label": "Pollution Mitigation Measures",
+      "capitalCr": 0.2,
+      "totalCr": 0.6
+    },
+    {
+      "label": "Environmental Monitoring",
+      "capitalCr": 0,
+      "totalCr": 0.64
+    },
+    {
+      "label": "Reservoir Rim Treatment Plan",
+      "capitalCr": 0.2,
+      "totalCr": 1.5
+    },
+    {
+      "label": "Disaster Management Plan",
+      "capitalCr": 0.85,
+      "totalCr": 1.2
+    },
+    {
+      "label": "Watershed Development Plan",
+      "capitalCr": 3.2,
+      "totalCr": 3.2
+    },
+    {
+      "label": "Catchment Area Treatment",
+      "capitalCr": 0,
+      "totalCr": 0
+    },
+    {
+      "label": "Large scale Plantation",
+      "capitalCr": 1.2,
+      "totalCr": 1.2
+    },
+    {
+      "label": "Local Area Development Plan",
+      "capitalCr": 0.6,
+      "totalCr": 2
+    },
+    {
+      "label": "Net Present Value, CA land &",
+      "capitalCr": 0,
+      "totalCr": 0
+    },
+    {
+      "label": "Resettlement and",
+      "capitalCr": 0,
+      "totalCr": 0
+    }
+  ],
+  "llm": null,
+  "llmError": null
+}

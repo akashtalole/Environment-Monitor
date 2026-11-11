@@ -1,0 +1,20 @@
+{
+  "extractorVersion": 3,
+  "sha256": "06fa859e5b0fa0ac2aea73a9732cc74280ff048acde5958bba87e293590814fd",
+  "bytes": 40626,
+  "engine": "pdftotext",
+  "pageCount": 1,
+  "emptyPages": 1,
+  "scanned": true,
+  "extractedAt": "2026-11-10T11:47:33.999Z",
+  "documentType": "public_hearing_order",
+  "references": {
+    "proposals": [],
+    "files": [],
+    "torIds": []
+  },
+  "ruleMetrics": {},
+  "empComponents": [],
+  "llm": null,
+  "llmError": null
+}

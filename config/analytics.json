@@ -1,0 +1,33 @@
+{
+  "_readme": "Tuning for the impact analytics. 'reference' values are the level at which a component scores 100 (linear, capped). The index is a screening aid to compare projects with each other – it is not a regulatory rating. Weights are relative.",
+  "weights": { "land": 1.0, "biodiversity": 1.5, "social": 1.25, "water": 0.75, "construction": 0.75 },
+  "reference": {
+    "forestHaPerMW": 0.1,
+    "landHaPerMW": 0.2,
+    "forestHa": 150,
+    "protectedAreaKmZero": 25,
+    "scheduleISpecies": 15,
+    "threatenedSpecies": 6,
+    "affectedHouseholds": 1000,
+    "displacedFamilies": 200,
+    "tribalSharePct": 100,
+    "upperReservoirMCMPerGWh": 2,
+    "annualMakeupMCMPerGWh": 0.3,
+    "treesPerMW": 10,
+    "muckLakhCumPerMW": 0.06
+  },
+  "flags": {
+    "protectedAreaKmHigh": 10,
+    "protectedAreaKmMedium": 15,
+    "forestHaHigh": 100,
+    "forestHaMedium": 20,
+    "treesHigh": 10000,
+    "treesMedium": 2000,
+    "scheduleIHigh": 5,
+    "tribalPctHigh": 50,
+    "tribalPctMedium": 20,
+    "empPctOfCostLow": 1.0,
+    "heritageKm": 5,
+    "conflictTolerance": 0.1
+  }
+}

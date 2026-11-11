@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maharashtra Clearance Observatory</title>
+  <meta name="description" content="Public dashboard of environmental clearance projects in Maharashtra, set against the Western Ghats (Gadgil) zoning, report-level impact data and electoral bond disclosures." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="impact.css" />
+  <link rel="stylesheet" href="maharashtra.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot live"></span>
+      <h1>Environment Monitor</h1>
+      <nav class="tabs">
+        <a href="maharashtra.html" aria-current="page">Maharashtra</a>
+        <a href="index.html">PSP monitor</a>
+        <a href="impact.html">Impact analytics</a>
+      </nav>
+    </div>
+    <div class="meta" id="generated"></div>
+  </header>
+
+  <main class="obs">
+    <section class="hero">
+      <div>
+        <h2>Maharashtra Environmental Clearance Observatory</h2>
+        <p>Every project going through an environmental public hearing in Maharashtra, set against the Western Ghats Ecology Expert Panel (Gadgil) zoning, the projects' own impact reports, and electoral bond disclosures. Every figure links to its source.</p>
+      </div>
+      <div class="tiles" id="tiles"></div>
+    </section>
+
+    <section class="filters panel" aria-label="Filters">
+      <input id="f-q" type="search" placeholder="Search project, company, village…" aria-label="Search" />
+      <select id="f-sector" aria-label="Sector"></select>
+      <select id="f-district" aria-label="District"></select>
+      <select id="f-zone" aria-label="Western Ghats zone"></select>
+      <select id="f-year" aria-label="Year"></select>
+      <label class="chk"><input type="checkbox" id="f-upcoming" /> Upcoming hearings</label>
+      <label class="chk"><input type="checkbox" id="f-bonds" /> Electoral bond link</label>
+      <span class="count" id="f-count"></span>
+      <button id="f-reset" class="btn">Reset</button>
+      <button id="f-share" class="btn">Copy link</button>
+    </section>
+
+    <div class="obs-grid">
+      <section class="panel map-card">
+        <div class="panel-head"><h2>Projects by district</h2><label class="chk"><input type="checkbox" id="wg-outline" checked /> Outline Western Ghats districts</label></div>
+        <div class="map-wrap"><svg id="map" role="img" aria-label="Map of Maharashtra districts shaded by number of projects"></svg></div>
+        <div class="legend" id="map-legend"></div>
+      </section>
+      <section class="panel chart-card">
+        <div class="panel-head"><h2>By sector</h2></div>
+        <div class="bars pad" id="c-sector"></div>
+      </section>
+      <section class="panel chart-card">
+        <div class="panel-head"><h2>By Western Ghats zone</h2><span class="hint">WGEEP 2011, taluka level</span></div>
+        <div class="bars pad" id="c-zone"></div>
+      </section>
+      <section class="panel chart-card">
+        <div class="panel-head"><h2>Hearings by year</h2></div>
+        <div class="columns pad" id="c-year"></div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="panel-head"><h2>Projects</h2><span class="hint">Click a row for details · <a href="#" id="dl-csv">Download CSV</a> · <a href="data/statewide.json" download>JSON</a></span></div>
+      <div class="table-wrap"><table class="ptable" id="ptable"></table></div>
+      <div class="pager" id="pager"></div>
+    </section>
+
+    <section class="panel" id="wg">
+      <div class="panel-head"><h2>Western Ghats lens</h2><span class="hint">What the expert reports recommended for these places</span></div>
+      <div class="wg-grid">
+        <div>
+          <h3 class="sub">Timeline</h3>
+          <ol class="timeline" id="wg-timeline"></ol>
+          <h3 class="sub">Gadgil panel guidelines by zone</h3>
+          <div class="table-wrap"><table class="guides" id="wg-guides"></table></div>
+          <h3 class="sub">Biological &amp; hydrological context</h3>
+          <div class="passages" id="wg-passages"></div>
+        </div>
+        <div>
+          <h3 class="sub">Maharashtra talukas in WGEEP zones</h3>
+          <p class="note" id="wg-note"></p>
+          <div class="table-wrap tall"><table class="metrics" id="wg-talukas"></table></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h2>Pumped storage projects – report-level impact</h2><a class="hint" href="impact.html">Full impact analytics →</a></div>
+      <div class="table-wrap"><table class="metrics" id="psp"></table></div>
+    </section>
+
+    <section class="panel" id="bonds">
+      <div class="panel-head"><h2>Electoral bonds bought by project proponents</h2><span class="hint">ECI disclosure, 21 March 2024</span></div>
+      <div class="bond-grid">
+        <div id="bond-list"></div>
+        <aside class="prose" id="bond-notes"></aside>
+      </div>
+    </section>
+
+    <section class="panel method">
+      <div class="panel-head"><h2>Sources &amp; method</h2></div>
+      <div class="prose" id="sources"></div>
+    </section>
+  </main>
+
+  <aside class="drawer" id="drawer" hidden aria-label="Project details">
+    <button class="btn close" id="drawer-close" aria-label="Close">✕</button>
+    <div id="drawer-body"></div>
+  </aside>
+  <div id="tip" class="tip" role="tooltip" hidden></div>
+  <script type="module" src="maharashtra.js"></script>
+</body>
+</html>

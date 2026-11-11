@@ -1,0 +1,32 @@
+{
+  "name": "environment-monitor",
+  "version": "0.1.0",
+  "description": "Monitor Indian environmental approvals (EC, EIA, FC, CRZ, wildlife, PCB consents) across PARIVESH, legacy MoEFCC portals, MPCB and CPCB. Starts with Maharashtra pumped storage projects.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "envmon": "src/cli.js"
+  },
+  "scripts": {
+    "monitor": "node src/cli.js run",
+    "track": "node src/cli.js track",
+    "probe": "node src/cli.js probe",
+    "list": "node src/cli.js list",
+    "analyze": "node src/cli.js analyze",
+    "serve": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "undici": "^7.0.0",
+    "unpdf": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.50.0"
+  }
+}

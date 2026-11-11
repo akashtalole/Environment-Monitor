@@ -1,0 +1,20 @@
+{
+  "extractorVersion": 3,
+  "sha256": "89a49fc9a2a79598e4f21a43ddf48a3bd042a233e541863b84dd3d74fe3c1606",
+  "bytes": 423065,
+  "engine": "pdftotext",
+  "pageCount": 1,
+  "emptyPages": 1,
+  "scanned": true,
+  "extractedAt": "2026-11-10T11:47:34.012Z",
+  "documentType": "advertisement",
+  "references": {
+    "proposals": [],
+    "files": [],
+    "torIds": []
+  },
+  "ruleMetrics": {},
+  "empComponents": [],
+  "llm": null,
+  "llmError": null
+}

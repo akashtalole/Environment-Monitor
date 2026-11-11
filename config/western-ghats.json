@@ -1,0 +1,728 @@
+{
+  "_readme": "Western Ghats reference data used to place projects in context. Every entry carries a source. 'verified: true' = checked against the primary document in this repo's build; 'secondary' = taken from a secondary source; entries marked 'unconfirmed' still need a primary source – add it here and set verified.",
+  "sources": {
+    "wgeep": {
+      "title": "Report of the Western Ghats Ecology Expert Panel, Part I (Chairman: Prof. Madhav Gadgil)",
+      "submitted": "2011-08-31",
+      "url": "https://www.cppr.in/wp-content/uploads/2013/03/Gadgil-report.pdf",
+      "archivedMoefUrl": "https://web.archive.org/web/20150920103920/http://www.moef.nic.in/downloads/public-information/wg-23052012.pdf",
+      "note": "Page numbers below are PDF page numbers of this 522-page file."
+    },
+    "hlwgSecondary": {
+      "title": "Wikipedia – Western Ghats Ecology Expert Panel (cites Hindustan Times, 2 Feb 2014)",
+      "url": "https://en.wikipedia.org/wiki/Western_Ghats_Ecology_Expert_Panel",
+      "cited": "https://www.hindustantimes.com/india/why-india-must-protect-the-western-ghats-from-getting-lost/story-gvb5C0b1PJAZlw211YUxOM.html"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2010",
+      "event": "MoEF constitutes the Western Ghats Ecology Expert Panel (WGEEP) chaired by Madhav Gadgil.",
+      "source": "hlwgSecondary",
+      "verified": "secondary"
+    },
+    {
+      "date": "2011-08-31",
+      "event": "WGEEP submits its report. It zones the Western Ghats into Ecologically Sensitive Zones 1, 2 and 3 at taluka level and proposes a Western Ghats Ecology Authority.",
+      "source": "wgeep",
+      "page": 3,
+      "verified": true
+    },
+    {
+      "date": "2013",
+      "event": "High Level Working Group (Kasturirangan) report: about 37% of the Western Ghats proposed as Ecologically Sensitive Area, down from about 64% under WGEEP.",
+      "source": "hlwgSecondary",
+      "verified": "secondary"
+    },
+    {
+      "date": "2014–2024",
+      "event": "MoEFCC issues a series of draft notifications declaring villages in six states as the Western Ghats Ecologically Sensitive Area. Dates, areas and the Maharashtra village list are not yet loaded from a primary source.",
+      "source": null,
+      "verified": "unconfirmed"
+    }
+  ],
+  "maharashtraSummary": {
+    "text": "WGEEP Table 3 assigns Maharashtra talukas with ≥50% area in the Western Ghats as: 32 to ESZ1, 4 to ESZ2 and 14 to ESZ3, across 10 districts. Table 4 adds 6 ESZ1 and 23 ESZ2 assignments for talukas with <50% area inside the boundary.",
+    "source": "wgeep",
+    "page": 45,
+    "verified": true
+  },
+  "talukaNameNote": "WGEEP names several talukas by their headquarters town. 'taluka' below is the current taluka; 'wgeepName' is the name printed in the report. Rows the report prints only as 'n.a. (code)' are omitted.",
+  "talukas": [
+    {
+      "district": "Ahmednagar",
+      "wgeepName": "Parner",
+      "taluka": "Parner",
+      "zone": "ESZ2",
+      "appendix": 2
+    },
+    {
+      "district": "Ahmednagar",
+      "wgeepName": "Akola",
+      "taluka": "Akole",
+      "zone": "ESZ3",
+      "appendix": 2,
+      "aliases": [
+        "Akola"
+      ]
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Radhanagari",
+      "taluka": "Radhanagari",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Gargoti",
+      "taluka": "Bhudargad",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Shahuwadi",
+      "taluka": "Shahuwadi",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Panhala",
+      "taluka": "Panhala",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Bavda",
+      "taluka": "Gaganbawada",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Bavda",
+        "Gaganbavada"
+      ]
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Ajra",
+      "taluka": "Ajra",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Chandgad",
+      "taluka": "Chandgad",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Gadhinglaj",
+      "taluka": "Gadhinglaj",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Nandurbar",
+      "wgeepName": "Navapur",
+      "taluka": "Navapur",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Nashik",
+      "taluka": "Nashik",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Peint",
+      "taluka": "Peth",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Peint"
+      ]
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Dindori",
+      "taluka": "Dindori",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Surgana",
+      "taluka": "Surgana",
+      "zone": "ESZ2",
+      "appendix": 2
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Igatpuri",
+      "taluka": "Igatpuri",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Ghod",
+      "taluka": "Ambegaon",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Ghodegaon"
+      ]
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Paud",
+      "taluka": "Mulshi",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Bhor",
+      "taluka": "Bhor",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Wadgaon",
+      "taluka": "Maval",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Mawal",
+        "Vadgaon Maval"
+      ]
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Junnar",
+      "taluka": "Junnar",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Sasvad",
+      "taluka": "Purandar",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Raigad",
+      "wgeepName": "Mhasla",
+      "taluka": "Mhasla",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Raigad",
+      "wgeepName": "Pali",
+      "taluka": "Sudhagad",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Sudhagad-Pali"
+      ]
+    },
+    {
+      "district": "Raigad",
+      "wgeepName": "Poladpur",
+      "taluka": "Poladpur",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Raigad",
+      "wgeepName": "Roha",
+      "taluka": "Roha",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Raigad",
+      "wgeepName": "Pen",
+      "taluka": "Pen",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Raigad",
+      "wgeepName": "Mahad",
+      "taluka": "Mahad",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Raigad",
+      "wgeepName": "Mangaon",
+      "taluka": "Mangaon",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Ratnagiri",
+      "wgeepName": "Devrukh",
+      "taluka": "Sangameshwar",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Sangmeshwar"
+      ]
+    },
+    {
+      "district": "Ratnagiri",
+      "wgeepName": "Chiplun",
+      "taluka": "Chiplun",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Ratnagiri",
+      "wgeepName": "Mandangarh",
+      "taluka": "Mandangad",
+      "zone": "ESZ2",
+      "appendix": 2,
+      "aliases": [
+        "Mandangarh"
+      ]
+    },
+    {
+      "district": "Ratnagiri",
+      "wgeepName": "Khed",
+      "taluka": "Khed",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Medha",
+      "taluka": "Jaoli",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Javali",
+        "Jawali"
+      ]
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Patan",
+      "taluka": "Patan",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Mahabaleshwar",
+      "taluka": "Mahabaleshwar",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Wai",
+      "taluka": "Wai",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Koregaon",
+      "taluka": "Koregaon",
+      "zone": "ESZ2",
+      "appendix": 2
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Vaduj",
+      "taluka": "Khatav",
+      "zone": "ESZ3",
+      "appendix": 2,
+      "aliases": [
+        "Vaduj"
+      ]
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Dahivadi",
+      "taluka": "Man",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Sindhudurg",
+      "wgeepName": "Kankauli",
+      "taluka": "Kankavli",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Kankavali"
+      ]
+    },
+    {
+      "district": "Sindhudurg",
+      "wgeepName": "Savantvadi",
+      "taluka": "Sawantwadi",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "aliases": [
+        "Savantwadi"
+      ]
+    },
+    {
+      "district": "Thane",
+      "wgeepName": "Murbad",
+      "taluka": "Murbad",
+      "zone": "ESZ1",
+      "appendix": 2
+    },
+    {
+      "district": "Palghar",
+      "wgeepName": "Mokhada",
+      "taluka": "Mokhada",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "note": "Listed under Thane in WGEEP; now in Palghar district (formed 2014)."
+    },
+    {
+      "district": "Palghar",
+      "wgeepName": "Jawhar",
+      "taluka": "Jawhar",
+      "zone": "ESZ1",
+      "appendix": 2,
+      "note": "Listed under Thane in WGEEP; now in Palghar district (formed 2014)."
+    },
+    {
+      "district": "Thane",
+      "wgeepName": "Shahapur",
+      "taluka": "Shahapur",
+      "zone": "ESZ3",
+      "appendix": 2
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Kalvan",
+      "taluka": "Kalwan",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true,
+      "aliases": [
+        "Kalvan"
+      ]
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Chandvad",
+      "taluka": "Chandwad",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true,
+      "alsoZone": "ESZ2",
+      "aliases": [
+        "Chandvad"
+      ]
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Sinnar",
+      "taluka": "Sinnar",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true,
+      "alsoZone": "ESZ2"
+    },
+    {
+      "district": "Nashik",
+      "wgeepName": "Satana",
+      "taluka": "Baglan",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Sindhudurg",
+      "wgeepName": "Kudal",
+      "taluka": "Kudal",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Sindhudurg",
+      "wgeepName": "Vaibhavwadi",
+      "taluka": "Vaibhavwadi",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Sangli",
+      "wgeepName": "Shirala",
+      "taluka": "Shirala",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Sangli",
+      "wgeepName": "Atpadi",
+      "taluka": "Atpadi",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Sangli",
+      "wgeepName": "Kavathe Mahankal",
+      "taluka": "Kavathe Mahankal",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Sangli",
+      "wgeepName": "Tasgaon",
+      "taluka": "Tasgaon",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Sangli",
+      "wgeepName": "Vite",
+      "taluka": "Khanapur",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Thane",
+      "wgeepName": "Bhiwandi",
+      "taluka": "Bhiwandi",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Dhule",
+      "wgeepName": "Sakri",
+      "taluka": "Sakri",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Ratnagiri",
+      "wgeepName": "Dapoli",
+      "taluka": "Dapoli",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Ratnagiri",
+      "wgeepName": "Guhagar",
+      "taluka": "Guhagar",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Solapur",
+      "wgeepName": "Malsiras",
+      "taluka": "Malshiras",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true,
+      "aliases": [
+        "Malsiras"
+      ]
+    },
+    {
+      "district": "Solapur",
+      "wgeepName": "Sangole",
+      "taluka": "Sangola",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Rajgurunagar",
+      "taluka": "Khed (Pune)",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true,
+      "alsoZone": "ESZ2",
+      "aliases": [
+        "Rajgurunagar"
+      ]
+    },
+    {
+      "district": "Pune",
+      "wgeepName": "Shirur",
+      "taluka": "Shirur",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Kolhapur",
+      "wgeepName": "Kagal",
+      "taluka": "Kagal",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Ahmednagar",
+      "wgeepName": "Sangamner",
+      "taluka": "Sangamner",
+      "zone": "ESZ1",
+      "appendix": 3,
+      "partial": true,
+      "alsoZone": "ESZ2"
+    },
+    {
+      "district": "Ahmednagar",
+      "wgeepName": "Ahmadnagar",
+      "taluka": "Ahmednagar",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Karad",
+      "taluka": "Karad",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Shirwal",
+      "taluka": "Khandala",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Phaltan",
+      "taluka": "Phaltan",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    },
+    {
+      "district": "Satara",
+      "wgeepName": "Satara",
+      "taluka": "Satara",
+      "zone": "ESZ2",
+      "appendix": 3,
+      "partial": true
+    }
+  ],
+  "westernGhatsDistricts": [
+    "Nashik",
+    "Thane",
+    "Palghar",
+    "Dhule",
+    "Nandurbar",
+    "Pune",
+    "Sindhudurg",
+    "Raigad",
+    "Satara",
+    "Ratnagiri",
+    "Sangli",
+    "Kolhapur",
+    "Ahmednagar"
+  ],
+  "westernGhatsDistrictsSource": {
+    "source": "wgeep",
+    "page": 333,
+    "note": "Districts listed under Maharashtra in WGEEP Part I, Appendix 'Minerals in the Western Ghat States/Districts' (Nasik, Thane, Dhule, Nandurbar, Pune, Sindhudurg, Raigad, Satara, Ratnagiri, Sangli, Kolhapur, Ahmednagar). Palghar was carved from Thane in 2014.",
+    "verified": true
+  },
+  "guidelines": {
+    "_readme": "WGEEP section 13 'Proposed guidelines/summary recommendations for sector-wise activities' (Table 6, PDF pages 61–67). Text abridged, wording kept. These are recommendations; the Government of India did not adopt the WGEEP regime.",
+    "energy": {
+      "page": 65,
+      "ESZ1": "Allow run of the river schemes with maximum height of 3 m serving local needs, subject to gram sabha consent. No forest clearance or stream diversion for new projects. New small hydropower projects (10 MW and below) permissible. No new thermal power plants. No large scale wind power projects.",
+      "ESZ2": "No new dams above 15 m or new thermal plants. New hydro projects between 10–25 MW (up to 10 m height) permissible. Run-of-the-river hydropower only after a cumulative impact study of the river basin.",
+      "ESZ3": "Large power plants allowed subject to strict environmental regulations including cumulative impact assessment, carrying capacity studies, minimum forest clearance and assessment of flows required downstream, including the ecological needs of the river.",
+      "all": "No diversion of streams/rivers allowed for any power projects."
+    },
+    "mining": {
+      "page": 64,
+      "ESZ1": "No new licenses to be given for mining. Where mining exists, it should be phased out in 5 years, by 2016.",
+      "ESZ2": "No new licenses to be given for mining. This moratorium can be reviewed on a case by case basis. Existing mining under strict regulation and social audit.",
+      "ESZ3": "New mining only for scarce minerals not available on the plains, under strict regulation and social audit, subject to free prior informed consent of tribal and other communities."
+    },
+    "industry": {
+      "page": 65,
+      "ESZ1": "No new polluting (red and orange category) industries.",
+      "ESZ2": "No new polluting (red and orange category) industries.",
+      "ESZ3": "New industries may be set up under strict regulation and social audit."
+    },
+    "transport": {
+      "page": 66,
+      "ESZ1": "No new railway lines and major roads, except where highly essential, subject to EIA, strict regulation and social audit. Avoidance of new highways, expressways.",
+      "ESZ2": "No new railway lines and major roads, except when highly essential and subject to EIA, strict regulation and social audit.",
+      "ESZ3": "Essential new roads/railways may be allowed subject to strict regulation and social audit."
+    }
+  },
+  "passages": [
+    {
+      "id": "water-tower",
+      "title": "Water tower of the peninsula",
+      "text": "The hill chain of the Western Ghats, a treasure trove of biodiversity and the water tower of [peninsular India]… Krishna, Godavari and Kaveri, the three major rivers of the Southern Peninsula…",
+      "source": "wgeep",
+      "page": 28,
+      "verified": true,
+      "theme": "hydrology"
+    },
+    {
+      "id": "endemism",
+      "title": "Endemic species",
+      "text": "The Western Ghats harbours well over two thousand endemic species of flowering plants, fish, frogs…",
+      "source": "wgeep",
+      "page": 37,
+      "verified": true,
+      "theme": "biodiversity"
+    },
+    {
+      "id": "bhimashankar",
+      "title": "Bhimashankar Wildlife Sanctuary",
+      "text": "The northward extension of this evergreen forest belt constitutes the Bhimashankar Wildlife Sanctuary, an ancient, extensive Sacred Grove on the hill from which the Bhima river, another major tributary of the Krishna, originates. No action whatsoever has been taken since 2002 to establish an ESA around this PA…",
+      "source": "wgeep",
+      "page": 59,
+      "verified": true,
+      "theme": "biodiversity",
+      "relevance": "The EIA reports of Malshej Ghat Bhorande, Saidongar-2 and Shirawta PSPs each name Bhimashankar WLS as the nearest protected area (10.8–19.7 km)."
+    },
+    {
+      "id": "krishna-koyna",
+      "title": "Origin of the Krishna and Koyna",
+      "text": "…the region also has a rich natural heritage, and is the origin of the Krishna and Koyna rivers. The region faces a severe threat from booming tourism…",
+      "source": "wgeep",
+      "page": 51,
+      "verified": true,
+      "theme": "hydrology"
+    }
+  ]
+}

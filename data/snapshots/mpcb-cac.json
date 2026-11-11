@@ -1,0 +1,666 @@
+{
+  "sourceId": "mpcb-cac",
+  "fetchedAt": "2026-11-10T11:21:26.382Z",
+  "records": {
+    "ec5afbbe818beda6": {
+      "key": "ec5afbbe818beda6",
+      "title": "MPCB CAC: 14th CAC Meeting Agenda of 2025-26",
+      "date": "2026-01-23",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "14th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Index_of_14th_CAC_Meeting_of_2025_26.pdf"
+        },
+        {
+          "label": "14th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Webhost_Minutes_of_14th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_Report_of_14th_CAC_Meeting.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "23/01/2026",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "493892bb4be5e7c6": {
+      "key": "493892bb4be5e7c6",
+      "title": "MPCB CAC: 13th CAC Meeting Agenda of 2025-26",
+      "date": "2025-12-23",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "13th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Agenda_Index_of_13th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "13th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Webhost_Minutes_13th_CAC_Booklet_no_13ABC.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_Report_of_13th_CAC_Booklet_no_13.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "23/12/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "f270cc1fa7b0ebd3": {
+      "key": "f270cc1fa7b0ebd3",
+      "title": "MPCB CAC: 12th CAC Meeting Agenda of 2025-26",
+      "date": "2025-12-01",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "12th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Index_of_12th_CAC_Meeting_of_2025_26.pdf"
+        },
+        {
+          "label": "12th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Webhost_Minutes_12th_CAC_Booklet_no_12ABC.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_Report_of_12th_CAC_Meeting.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "01/12/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "b4d238533a744e00": {
+      "key": "b4d238533a744e00",
+      "title": "MPCB CAC: 11th CAC Meeting Agenda of 2025-26",
+      "date": "2025-11-03",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "11th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Agenda_Index_of_11th_CACMeeting_of_2025_26.pdf"
+        },
+        {
+          "label": "11th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Webhost_Minutes_11th_CAC_Booklet_no_11_ABC.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_Report_of_11th_CAC_Meeting.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "03/11/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "2dc9ebe0ee9c38ae": {
+      "key": "2dc9ebe0ee9c38ae",
+      "title": "MPCB CAC: 10h CAC Meeting Agenda of 2025-26",
+      "date": "2025-10-14",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "10h CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Index_of_10th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "10h CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Web_Host_minutes_of_10th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_Report_of_10th_CAC_Meeting.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "14/10/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "8f587dbd606ab934": {
+      "key": "8f587dbd606ab934",
+      "title": "MPCB CAC: 9th CAC Meeting Agenda of 2025-26",
+      "date": "2025-09-04",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "9th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Index_of_9th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "9th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Action_Taken_Report_of_9th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_Report_of_9th_CAC_Meeting.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "04/09/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "432675ce3fadc6aa": {
+      "key": "432675ce3fadc6aa",
+      "title": "MPCB CAC: 8th CAC Meeting Agenda of 2025-26",
+      "date": "2025-09-04",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "8th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Agenda_Index_of_8th_CAC-Meeting.pdf"
+        },
+        {
+          "label": "8th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Webhost_Minutes_8th_CAC_Booklet_no_8.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_report_of_8th_CAC_Booklet_no_8.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "04/09/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "5fd64fa5900072e3": {
+      "key": "5fd64fa5900072e3",
+      "title": "MPCB CAC: 7th CAC Meeting Agenda of 2025-26",
+      "date": "2025-08-25",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "7th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/agenda/Agenda_Index_of_7th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "7th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/minutes/Webhost_Minutes_of_7th_CAC_Booklet_no_7.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/cac-meetings/atr/Action_Taken_Report_of_7th_CAC_Booklett_no_7.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "25/08/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "0b5da0bfe4fd2b5c": {
+      "key": "0b5da0bfe4fd2b5c",
+      "title": "MPCB CAC: 6th CAC Meeting Agenda of 2025-26",
+      "date": "2025-08-14",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "6th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Agenda_Index_of_6th_CAC_Meeting_of_2025-26.pdf"
+        },
+        {
+          "label": "6th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_6th_CAC_dated_14082025.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_6th_CAC_dated_14082025.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "14/08/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "4f8b7d700fbc3451": {
+      "key": "4f8b7d700fbc3451",
+      "title": "MPCB CAC: 5th CAC Meeting Agenda of 2025-26",
+      "date": "2025-07-29",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "5th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_5th_CAC_Meeting_2025_26.pdf"
+        },
+        {
+          "label": "5th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_of_5th_CAC_Booklet_no_5.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_report_of_5th_CAC_Booklet_no_5_0.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "29/07/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "6d4cc42586ab732a": {
+      "key": "6d4cc42586ab732a",
+      "title": "MPCB CAC: 4th CAC Meeting Agenda of 2025-26",
+      "date": "2025-07-01",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "4th CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_4th_CAC_Meeting_of_2025-26.pdf"
+        },
+        {
+          "label": "4th CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_4th_CAC_Booklet_no_4.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_4th_CAC_Meeting.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "01/07/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "e2c2dbf704624424": {
+      "key": "e2c2dbf704624424",
+      "title": "MPCB CAC: 3rd CAC Meeting Agenda of 2025-26",
+      "date": "2025-06-10",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "3rd CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/AgendaIndexof3rdCACMeeting.pdf"
+        },
+        {
+          "label": "3rd CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/WebhostMinutesof3rdCACBookletno3.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_3rd_CAC_Meeting_Booklet_no_3.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "10/06/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "cd9110c7b241082f": {
+      "key": "cd9110c7b241082f",
+      "title": "MPCB CAC: 2nd CAC Meeting Agenda of 2025-26",
+      "date": "2025-05-20",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "2nd CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_2nd_CAC_Meeting_of_2025_-_26.pdf"
+        },
+        {
+          "label": "2nd CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_of_Minutes_of_2nd_CAC_Meeting.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_2nd_CAC_Meeting.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "20/05/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "529fe02fd6921edd": {
+      "key": "529fe02fd6921edd",
+      "title": "MPCB CAC: 1st CAC Meeting Agenda of 2025-26 (Part II)",
+      "date": "2025-04-17",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "1st CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_1st_CAC_Meeting_-_Part_II.pdf"
+        },
+        {
+          "label": "1st CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Mintues_of_1st_CAC_Meeting_Part_II.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_1st_CAC_Meeting_Part_II.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "17/04/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "60e56639ce32b686": {
+      "key": "60e56639ce32b686",
+      "title": "MPCB CAC: 1st CAC Meeting Agenda of 2025-26 (Part I)",
+      "date": "2025-04-16",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "1st CAC Meeting Agenda of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_1st_CAC_Meeting_-_Part_I.pdf"
+        },
+        {
+          "label": "1st CAC Meeting Minutes of 2025-26",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_1st_CAC_Meeting_Part_I.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_1st_CAC_Meeting_Part_I.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "16/04/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "da0ba797875806e3": {
+      "key": "da0ba797875806e3",
+      "title": "MPCB CAC: 17th CAC Meeting Agenda of 2024-25",
+      "date": "2025-03-13",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "17th CAC Meeting Agenda of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_17th_CAC_Meeting_2024-25.pdf"
+        },
+        {
+          "label": "17th CAC Meeting Minutes of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_of_17th_CAC_Booklet_no_17_2024-25.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_17th_CAC_Booklet_no_17_2024-25.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "13/03/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "e258ef3cdcbf652e": {
+      "key": "e258ef3cdcbf652e",
+      "title": "MPCB CAC: 16th CAC Meeting Agenda of 2024-25",
+      "date": "2025-02-11",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "16th CAC Meeting Agenda of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_16th_CAC_Meeting_%281%29.pdf"
+        },
+        {
+          "label": "16th CAC Meeting Minutes of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_of_16th_CAC_Booklet_no._16_%281%29.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_16th_CAC_Booklet_no._16_%281%29.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "11/02/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "cb991513daeff05e": {
+      "key": "cb991513daeff05e",
+      "title": "MPCB CAC: 15th CAC Meeting Agenda of 2024-25",
+      "date": "2025-01-24",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "15th CAC Meeting Agenda of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Agenda_Index_of_15th_CAC_Meeting.pdf"
+        },
+        {
+          "label": "15th CAC Meeting Minutes of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_of_15th_CAC_Booklet_no_15_.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_15th_CAC_Booklet_no_15_%281%29.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "24/01/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "0397d07b81f65afd": {
+      "key": "0397d07b81f65afd",
+      "title": "MPCB CAC: 14th CAC Meeting Agenda of 2024-25 (Part II )",
+      "date": "2025-01-14",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "14th CAC Meeting Agenda of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_14th_CAC_Meeting_of_2024-25_Part_II.pdf"
+        },
+        {
+          "label": "14th CAC Meeting Minutes of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_of_Part_II_14th_CAC_Booklet_no_14.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_14th_CAC_Booklet_no_14_PartII_%281%29_%281%29.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "14/01/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    },
+    "edf37c495d14bffd": {
+      "key": "edf37c495d14bffd",
+      "title": "MPCB CAC: 14th CAC Meeting Agenda of 2024-25 (Part I )",
+      "date": "2025-01-07",
+      "status": "Minutes published",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/cac-meetings",
+      "docs": [
+        {
+          "label": "14th CAC Meeting Agenda of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Index_of_14th_CAC_Meeting_of_2024-25_Part_I.pdf"
+        },
+        {
+          "label": "14th CAC Meeting Minutes of 2024-25",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Webhost_Minutes_of_Part-I_14th_CAC_Booklet_no_14.pdf"
+        },
+        {
+          "label": "Action Taken Report",
+          "url": "https://www.mpcb.gov.in/sites/default/files/inline-files/Action_Taken_Report_of_14th_CAC_Booklet_no._14_Part-I_%281%29_%281%29.pdf"
+        }
+      ],
+      "fields": {
+        "meetingDate": "07/01/2025",
+        "hasMinutes": "true",
+        "hasATR": "true"
+      },
+      "sourceId": "mpcb-cac",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Appraisal (EAC/SEAC)",
+      "outcome": null
+    }
+  }
+}

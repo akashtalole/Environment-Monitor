@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impact Analytics</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="impact.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot live"></span>
+      <h1>Environment Monitor</h1>
+      <nav class="tabs"><a href="maharashtra.html">Maharashtra</a><a href="index.html">PSP monitor</a><a href="impact.html" aria-current="page">Impact analytics</a></nav>
+    </div>
+    <div class="meta" id="generated"></div>
+  </header>
+
+  <main class="impact">
+    <section class="tiles" id="tiles" aria-label="Summary"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Screening index</h2>
+        <span class="hint">0 = low, 100 = high relative impact · select a project to highlight it everywhere</span>
+      </div>
+      <div class="score-grid" id="scores"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h2>Compare intensities</h2><span class="hint">Per MW / per GWh of storage, so projects of different size compare fairly</span></div>
+      <div class="multiples" id="multiples"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h2>Risk flags</h2><span class="hint">Hover a cell for the evidence</span></div>
+      <div class="table-wrap"><table class="matrix" id="flags"></table></div>
+    </section>
+
+    <section class="panel" id="detail-panel">
+      <div class="panel-head"><h2 id="detail-title">Project detail</h2></div>
+      <div class="detail" id="detail"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>All extracted figures</h2>
+        <span class="hint"><span class="badge rule">R</span> rule-based · <span class="badge llm">AI</span> Claude · ⚠ documents disagree · hover for the source quote</span>
+      </div>
+      <div class="table-wrap"><table class="metrics" id="metrics"></table></div>
+    </section>
+
+    <section class="panel method">
+      <div class="panel-head"><h2>Method &amp; caveats</h2></div>
+      <div id="method" class="prose"></div>
+    </section>
+  </main>
+
+  <div id="tip" class="tip" role="tooltip" hidden></div>
+  <script type="module" src="impact.js"></script>
+</body>
+</html>

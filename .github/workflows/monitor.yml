@@ -1,0 +1,57 @@
+name: monitor
+
+on:
+  schedule:
+    - cron: '17 1,13 * * *' # twice a day (06:47 and 18:47 IST)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Run every source even if not due'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    # PARIVESH and most *.nic.in portals refuse traffic from outside India, so
+    # GitHub-hosted runners can only reach MPCB. Register a self-hosted runner in India
+    # and set the repository variable ENVMON_RUNNER=self-hosted to reach all sources.
+    runs-on: ${{ vars.ENVMON_RUNNER || 'ubuntu-latest' }}
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci || npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Run monitor
+        env:
+          ENVMON_WEBHOOK_URL: ${{ secrets.ENVMON_WEBHOOK_URL }}
+          ENVMON_TELEGRAM_TOKEN: ${{ secrets.ENVMON_TELEGRAM_TOKEN }}
+          ENVMON_TELEGRAM_CHAT_ID: ${{ secrets.ENVMON_TELEGRAM_CHAT_ID }}
+          ENVMON_NTFY_TOPIC: ${{ secrets.ENVMON_NTFY_TOPIC }}
+        run: node src/cli.js run ${{ inputs.force && '--force' || '' }}
+      - name: Analyse report PDFs
+        # Rules always run. Add an ANTHROPIC_API_KEY secret to also have Claude read the
+        # PDFs (scanned pages included). Results are cached per file, so each PDF is read once.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node src/cli.js analyze
+      - name: Build statewide dashboard data
+        run: node src/cli.js statewide
+      - name: Commit data
+        run: |
+          git config user.name "environment-monitor[bot]"
+          git config user.email "environment-monitor@users.noreply.github.com"
+          git add data/state.json data/events.json data/dashboard.json data/snapshots
+          git add data/analytics.json data/extractions data/statewide.json data/reference 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "data: monitor run $(date -u +%FT%TZ)"
+          git push

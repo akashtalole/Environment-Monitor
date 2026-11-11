@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Environment Monitor</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot live"></span>
+      <h1>Environment Monitor</h1>
+      <span class="scope">Maharashtra · Pumped Storage</span>
+      <nav class="tabs"><a href="maharashtra.html">Maharashtra</a><a href="index.html" aria-current="page">PSP monitor</a><a href="impact.html">Impact analytics</a></nav>
+    </div>
+    <div class="health" id="health"></div>
+    <div class="meta" id="generated"></div>
+  </header>
+
+  <main class="grid">
+    <section class="panel map-panel">
+      <div class="panel-head"><h2>Project map</h2><span class="hint">Approximate taluka-level locations</span></div>
+      <div id="map"></div>
+    </section>
+
+    <section class="panel watchlist">
+      <div class="panel-head"><h2>Watchlist</h2><span class="count" id="watch-count"></span></div>
+      <div id="projects" class="scroll"></div>
+    </section>
+
+    <section class="panel feed">
+      <div class="panel-head">
+        <h2>Activity</h2>
+        <label class="toggle"><input type="checkbox" id="only-relevant" checked /> Watchlist &amp; discoveries only</label>
+      </div>
+      <ol id="events" class="scroll list"></ol>
+    </section>
+
+    <section class="panel hearings">
+      <div class="panel-head"><h2>MPCB public hearings</h2><input id="hearing-filter" type="search" placeholder="Filter…" /></div>
+      <ol id="hearings" class="scroll list"></ol>
+    </section>
+
+    <section class="panel discovered">
+      <div class="panel-head"><h2>Discovered</h2><span class="hint">PSP-like records not on the watchlist</span></div>
+      <ol id="discovered" class="scroll list"></ol>
+    </section>
+
+    <section class="panel sources">
+      <div class="panel-head"><h2>Sources</h2></div>
+      <table id="sources"></table>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
