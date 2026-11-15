@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:30:19.481Z",
+  "generatedAt": "2026-11-15T19:23:23.674Z",
   "tracks": {
     "EC": [
       "ToR applied",
@@ -411,7 +411,11 @@
       "url": "https://parivesh.nic.in/newupgrade/#/trackYourProposal",
       "connector": "parivesh-track",
       "refreshHours": 12,
-      "health": "NEVER"
+      "health": "ERROR",
+      "lastRun": "2026-11-15T19:21:49.747Z",
+      "status": "ERROR",
+      "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
+      "durationMs": 1676
     },
     {
       "id": "parivesh-committees",
@@ -420,10 +424,10 @@
       "connector": "parivesh-committees",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-10T11:20:51.302Z",
+      "lastRun": "2026-11-15T19:21:51.423Z",
       "status": "ERROR",
-      "error": "EAC (Central) Agenda: fetch failed (https://parivesh.nic.in/parivesh_api/proponentApplicant/getParivesh1AgendaMom?committee=CatA&workgroup=EC&type=Agenda&authority=Center) – connection reset (many .nic.in sites block traffic from outside India)",
-      "durationMs": 13737
+      "error": "EAC (Central) Agenda: fetch failed (https://parivesh.nic.in/parivesh_api/proponentApplicant/getParivesh1AgendaMom?committee=CatA&workgroup=EC&type=Agenda&authority=Center)",
+      "durationMs": 4774
     },
     {
       "id": "ec-legacy",
@@ -432,14 +436,14 @@
       "connector": "ec-legacy",
       "refreshHours": 72,
       "health": "SKIPPED",
-      "lastRun": "2026-11-10T11:21:05.040Z",
+      "lastRun": "2026-11-15T19:21:56.197Z",
       "status": "SKIPPED",
-      "lastOk": "2026-11-10T11:21:05.040Z",
+      "lastOk": "2026-11-15T19:21:56.197Z",
       "error": null,
       "note": "No ecLegacy ids on the watchlist",
       "recordCount": 0,
       "relevantCount": 0,
-      "durationMs": 3
+      "durationMs": 2
     },
     {
       "id": "fc-legacy",
@@ -448,14 +452,14 @@
       "connector": "fc-legacy",
       "refreshHours": 72,
       "health": "SKIPPED",
-      "lastRun": "2026-11-10T11:21:05.043Z",
+      "lastRun": "2026-11-15T19:21:56.200Z",
       "status": "SKIPPED",
-      "lastOk": "2026-11-10T11:21:05.043Z",
+      "lastOk": "2026-11-15T19:21:56.200Z",
       "error": null,
       "note": "No fcLegacy ids on the watchlist",
       "recordCount": 0,
       "relevantCount": 0,
-      "durationMs": 1
+      "durationMs": 0
     },
     {
       "id": "ec-minutes",
@@ -475,15 +479,15 @@
       "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
       "connector": "mpcb",
       "refreshHours": 12,
-      "health": "STALE",
-      "lastRun": "2026-11-10T11:21:05.044Z",
+      "health": "OK",
+      "lastRun": "2026-11-15T19:21:56.200Z",
       "status": "OK",
-      "lastOk": "2026-11-10T11:21:05.044Z",
+      "lastOk": "2026-11-15T19:21:56.200Z",
       "error": null,
       "note": null,
       "recordCount": 316,
       "relevantCount": 4,
-      "durationMs": 18768
+      "durationMs": 36823
     },
     {
       "id": "mpcb-hearings-conducted",
@@ -491,15 +495,15 @@
       "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
       "connector": "mpcb",
       "refreshHours": 24,
-      "health": "STALE",
-      "lastRun": "2026-11-10T11:21:23.812Z",
+      "health": "OK",
+      "lastRun": "2026-11-15T19:22:33.023Z",
       "status": "OK",
-      "lastOk": "2026-11-10T11:21:23.812Z",
+      "lastOk": "2026-11-15T19:22:33.023Z",
       "error": null,
       "note": null,
-      "recordCount": 45,
+      "recordCount": 44,
       "relevantCount": 0,
-      "durationMs": 2570
+      "durationMs": 5632
     },
     {
       "id": "mpcb-cac",
@@ -507,15 +511,15 @@
       "url": "https://www.mpcb.gov.in/en/cac-meetings",
       "connector": "mpcb",
       "refreshHours": 24,
-      "health": "STALE",
-      "lastRun": "2026-11-10T11:21:26.382Z",
+      "health": "OK",
+      "lastRun": "2026-11-15T19:22:38.655Z",
       "status": "OK",
-      "lastOk": "2026-11-10T11:21:26.382Z",
+      "lastOk": "2026-11-15T19:22:38.655Z",
       "error": null,
       "note": null,
       "recordCount": 20,
       "relevantCount": 0,
-      "durationMs": 1051
+      "durationMs": 2069
     },
     {
       "id": "cpc-parivesh",
@@ -524,10 +528,10 @@
       "connector": "page-watch",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-10T11:21:27.433Z",
+      "lastRun": "2026-11-15T19:22:40.724Z",
       "status": "ERROR",
       "error": "fetch failed (https://cpc.parivesh.nic.in/) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
-      "durationMs": 8332
+      "durationMs": 7383
     },
     {
       "id": "cpcb-whats-new",
@@ -535,10 +539,389 @@
       "url": "https://cpcb.nic.in/",
       "connector": "page-watch",
       "refreshHours": 24,
-      "health": "NEVER"
+      "health": "ERROR",
+      "lastRun": "2026-11-15T19:22:48.107Z",
+      "status": "ERROR",
+      "error": "fetch failed (https://cpcb.nic.in/) – connect timed out",
+      "durationMs": 35537
     }
   ],
   "events": [
+    {
+      "id": "139aaa138f0b3b6e",
+      "at": "2026-11-15T19:22:33.023Z",
+      "sourceId": "mpcb-hearings-conducted",
+      "sourceName": "MPCB – Conducted public hearings",
+      "kind": "changed",
+      "recordKey": "610314a447a39103",
+      "title": "Tapi Irrigation Development Corporation, Jalgaon, GOM for lower Tapi Project, Padsale, Tal-Amalner,Dist:Jalgaon",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "proposalNo": null,
+      "status": "Public hearing 13-Jul-2012",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "f2fb61eb7b4ce6f0",
+      "at": "2026-11-15T19:22:33.023Z",
+      "sourceId": "mpcb-hearings-conducted",
+      "sourceName": "MPCB – Conducted public hearings",
+      "kind": "changed",
+      "recordKey": "55efd61139ee9404",
+      "title": "Mama and Sons, Plot bearing F.P.No.675 off TPS III, Mahim Division, Wanjawadi lane, Off L.J.Road, Mahim, Mumbai-400 016",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "proposalNo": null,
+      "status": "Public hearing 21-Jul-2012",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "864ddbdc04942263",
+      "at": "2026-11-15T19:22:33.023Z",
+      "sourceId": "mpcb-hearings-conducted",
+      "sourceName": "MPCB – Conducted public hearings",
+      "kind": "changed",
+      "recordKey": "916be83e239fdc87",
+      "title": "Atul Enterprises",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "proposalNo": null,
+      "status": "Public hearing 16-Aug-2012",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "d6811698c1cc642d",
+      "at": "2026-11-15T19:22:33.023Z",
+      "sourceId": "mpcb-hearings-conducted",
+      "sourceName": "MPCB – Conducted public hearings",
+      "kind": "changed",
+      "recordKey": "82b2c86dfa252caf",
+      "title": "Bajaj Builders",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "proposalNo": null,
+      "status": "Public hearing 16-Aug-2012",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "e91bda9922d9c90c",
+      "at": "2026-11-15T19:22:33.023Z",
+      "sourceId": "mpcb-hearings-conducted",
+      "sourceName": "MPCB – Conducted public hearings",
+      "kind": "changed",
+      "recordKey": "bbf408840abe7477",
+      "title": "One up Developers",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "proposalNo": null,
+      "status": "Public hearing 16-Aug-2012",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "aea23d4f09b2b4d5",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "c95f5bb0689b902d",
+      "title": "10 stone quarry located at Taluka-Umred, Dist-Nagpur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "2235eec58e6caf16",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "553f3a61e04f34cd",
+      "title": "Executive Summary of Draft Environmental Impact Assessment Report Establishment of Fishing Harbour for Providing Fish landing Facilities to Fishermen At Versova, Taluka Andheri, District Mumbai Suburban by Maharashtra Fisheries Development Corporation Ltd., Government of Maharashtra Undertaking",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "ed39870385db83eb",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "56b6f583ab365b6e",
+      "title": "M/s. N. N. Global Mercantile Pvt. Ltd., at Muthara village, Tal. Rajura, Dist. Chandrapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "165d07a7b6c61c9d",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "93781114f439aa7e",
+      "title": "M/s. Grace Industries Ltd. Plot No. A-24, MIDC Tadali, Tal. Dist. Chandrapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "a0a63a3551686bd9",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "e69dd8bc929f2dcc",
+      "title": "Proposed Expansion of Integrated Sugar Complex By M/s. Twentyone Sugars Ltd (Unit II) At survey no. 407, Devinagar Tanda, Taluka- Sonpeth, Dist. Parbhani.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 15-Feb-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "a630bc4842afd795",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "67a51d4c9ece37b7",
+      "title": "Public hearing for New nano Urea Fertilisers plant at RCF Ltd, Trombay, Mumbai",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 02-Mar-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "1153edb7b97d2922",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "d1df0fdd8dedb45a",
+      "title": "M/s. WCL Sasti Expansion Opencast Mines, WCL Ballarpur Area, Tal. Rajura, Dist. Chandrapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 16-Mar-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "a741bf06029b0913",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "5b526e2bdee1cfbf",
+      "title": "EXECUTIVE SUMMARY OF DRAFT ENVIRONMENTAL IMPACT ASSESSMENT REPORT FOR Expansion of Integrated Cement Project (Clinker - 2.85 to 6.15 MTPA, Cement - 4.75 to 10 MTPA and WHR - 45 MW) by Installation of new Line-II Villages: Upparwahi & Kukkudsat (Taluka: Korpana) and Villages: Bhendvi & Hardona (Taluka: Rajura), District: Chandrapur, Maharashtra APPLICANT M/s. Ambuja Cements Limited (Unit: Maratha Cement Works)",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 04-May-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "078ce35bcc180ebd",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "f37812465d0ec377",
+      "title": "EXECUTIVE SUMMARY For Proposed installation of 2 x 40T Induction Furnace for production of 3,96,000 TPA M.S. Billets & Rolling Mill for 3,88,080 TPA TMT Bars by Hot Rolled Process & 1,06,920 TPA by Reheating Furnace At Plot No. A-8 & A-13, Phase-III, Additional MIDC Jalna, Taluka & District Jalna, Maharashtra Project Proponent Ved Steels & Alloys Private Limited",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 23-May-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "6e2a464a653f3da1",
+      "at": "2026-11-15T19:21:56.200Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "a56f08bcd5f30de4",
+      "title": "M/s. Lloyds Metals and Energy Ltd, Expansion of Project by Installation of 2x4.5MTPA Iron Ore Grinding Unit, 10MTPA Thickening & Filtration Unit & 2X4MTPA Iron Ore Pellet Plant at MIDC Konsari, Dist. Gadchiroli",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Jul-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
     {
       "id": "5788958c984e4efd",
       "at": "2026-11-10T11:21:05.044Z",
@@ -1554,7 +1937,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-01/English%20Advertise.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2023-01/English%20Advertise.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -1610,7 +1993,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-03/RCF%20Public%20Hearing_letter_compressed%20%25281%2529%20%25281%2529.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2023-03/RCF%20Public%20Hearing_letter_compressed%20%25281%2529%20%25281%2529.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -1640,7 +2023,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-02/WCL%20Sasti%20Expansion%20OCM-%20English%20PH%20Advertisement.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2023-02/WCL%20Sasti%20Expansion%20OCM-%20English%20PH%20Advertisement.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -1696,7 +2079,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-07/Ambuja%20Cements%20Limited%20Maratha%20Limestone%20Mine162.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2023-07/Ambuja%20Cements%20Limited%20Maratha%20Limestone%20Mine162.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -1752,7 +2135,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-04/Adevertise%20Daily%20Times%20of%20India%20English.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2023-04/Adevertise%20Daily%20Times%20of%20India%20English.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -1782,7 +2165,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-06/PH%20English%20Add-LMEL%20Konsari%20Expansion%20Project.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2023-06/PH%20English%20Add-LMEL%20Konsari%20Expansion%20Project.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -6702,7 +7085,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-10/Grace%20Industries%20English%20Add.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2022-10/Grace%20Industries%20English%20Add.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -6728,7 +7111,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-10/N%20N%20Global%20English%20Add.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2022-10/N%20N%20Global%20English%20Add.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -6776,7 +7159,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-09/draft_eia_23092022_compressed_0.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2022-09/draft_eia_23092022_compressed_0.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -6802,7 +7185,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-09/adver_26092022_0.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2022-09/adver_26092022_0.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
