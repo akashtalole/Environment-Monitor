@@ -148,7 +148,7 @@ point the source's `caFile` at it.
 
 ## Scheduled runs on GitHub
 
-[`.github/workflows/monitor.yml`](.github/workflows/monitor.yml) runs twice a day and commits
+[`.github/workflows/monitor.yml`](.github/workflows/monitor.yml) runs weekly (Mondays, 06:47 IST) and commits
 `data/` back to the repo. GitHub-hosted runners are outside India, so for full coverage
 register a self-hosted runner in India and set the repository variable
 `ENVMON_RUNNER=self-hosted`.
