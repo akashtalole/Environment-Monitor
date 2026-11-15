@@ -115,6 +115,19 @@
       }
     },
     {
+      "id": "ec-minutes",
+      "name": "environmentclearance.nic.in – uploaded committee minutes",
+      "connector": "ec-minutes",
+      "enabled": true,
+      "url": "https://environmentclearance.nic.in/report_uploaded_minutes.aspx",
+      "refreshHours": 168,
+      "options": {
+        "maxPages": 10,
+        "maxPdfScansPerRun": 20,
+        "_readme": "Runs weekly (refreshHours 168). Each new minutes PDF is downloaded once and searched for watchlist keywords, proposal numbers and discovery terms; results are kept in data/minutes-scans.json. If the site's certificate chain is incomplete, add its intermediate CA as caFile (see certs/README.md)."
+      }
+    },
+    {
       "id": "mpcb-hearings-upcoming",
       "name": "MPCB – Upcoming public hearings",
       "connector": "mpcb",

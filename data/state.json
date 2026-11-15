@@ -61,6 +61,12 @@
       "status": "ERROR",
       "error": "fetch failed (https://cpc.parivesh.nic.in/) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
       "durationMs": 8332
+    },
+    "ec-minutes": {
+      "lastRun": "2026-11-15T16:30:09.225Z",
+      "status": "ERROR",
+      "error": "fetch failed (https://environmentclearance.nic.in/report_uploaded_minutes.aspx) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
+      "durationMs": 9899
     }
   }
 }

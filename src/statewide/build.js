@@ -97,7 +97,7 @@ export async function buildStatewide({ log = console } = {}) {
     for (const r of Object.values(snap?.records ?? {})) {
       const text = [r.title, r.text].filter(Boolean).join(' | ');
       const isMH = r.region === 'Maharashtra' || /\/MH\//.test(r.proposalNo ?? '') || /maharashtra/i.test(text);
-      if (!isMH || s.id === 'mpcb-cac' || s.connector === 'page-watch') continue;
+      if (!isMH || s.id === 'mpcb-cac' || ['page-watch', 'ec-minutes', 'parivesh-committees'].includes(s.connector)) continue;
       const key = projectKey(r.title);
       const prev = byKey.get(key);
       const sourceRef = { sourceId: s.id, sourceName: s.name, url: r.url, status: r.status, date: r.date };

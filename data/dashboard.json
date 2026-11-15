@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:01:18.075Z",
+  "generatedAt": "2026-11-15T16:30:19.481Z",
   "tracks": {
     "EC": [
       "ToR applied",
@@ -458,12 +458,24 @@
       "durationMs": 1
     },
     {
+      "id": "ec-minutes",
+      "name": "environmentclearance.nic.in – uploaded committee minutes",
+      "url": "https://environmentclearance.nic.in/report_uploaded_minutes.aspx",
+      "connector": "ec-minutes",
+      "refreshHours": 168,
+      "health": "ERROR",
+      "lastRun": "2026-11-15T16:30:09.225Z",
+      "status": "ERROR",
+      "error": "fetch failed (https://environmentclearance.nic.in/report_uploaded_minutes.aspx) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
+      "durationMs": 9899
+    },
+    {
       "id": "mpcb-hearings-upcoming",
       "name": "MPCB – Upcoming public hearings",
       "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
       "connector": "mpcb",
       "refreshHours": 12,
-      "health": "OK",
+      "health": "STALE",
       "lastRun": "2026-11-10T11:21:05.044Z",
       "status": "OK",
       "lastOk": "2026-11-10T11:21:05.044Z",
@@ -479,7 +491,7 @@
       "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
       "connector": "mpcb",
       "refreshHours": 24,
-      "health": "OK",
+      "health": "STALE",
       "lastRun": "2026-11-10T11:21:23.812Z",
       "status": "OK",
       "lastOk": "2026-11-10T11:21:23.812Z",
@@ -495,7 +507,7 @@
       "url": "https://www.mpcb.gov.in/en/cac-meetings",
       "connector": "mpcb",
       "refreshHours": 24,
-      "health": "OK",
+      "health": "STALE",
       "lastRun": "2026-11-10T11:21:26.382Z",
       "status": "OK",
       "lastOk": "2026-11-10T11:21:26.382Z",
