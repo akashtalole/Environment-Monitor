@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-conducted",
-  "fetchedAt": "2026-11-15T19:22:33.023Z",
+  "fetchedAt": "2026-11-16T22:53:39.535Z",
   "records": {
     "8fcb3759374d1be2": {
       "key": "8fcb3759374d1be2",
@@ -230,9 +230,9 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "d7b73449bc2beb2b": {
-      "key": "d7b73449bc2beb2b",
-      "title": "Matoshree Infrastuture Pvt. Ltd. Plot bearing No. 84, Shivaji Park Scheme, Property bearing CTS No. 1794 of Mahim Division, Dr. Madhukar B. Raut 400028, Mumbai",
+    "f096a0ac32e9be22": {
+      "key": "f096a0ac32e9be22",
+      "title": "Earth Builders, Plot bearing C.S. No. 280, Malbar Hill Division, Walkeshwar, Mumbai",
       "date": "2012-11-07",
       "status": "Public hearing 07-Nov-2012",
       "region": "Maharashtra",
@@ -240,7 +240,7 @@
       "docs": [
         {
           "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Matoshree_Ex.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Earth_Ex.pdf"
         }
       ],
       "fields": {
@@ -255,9 +255,9 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "f096a0ac32e9be22": {
-      "key": "f096a0ac32e9be22",
-      "title": "Earth Builders, Plot bearing C.S. No. 280, Malbar Hill Division, Walkeshwar, Mumbai",
+    "d7b73449bc2beb2b": {
+      "key": "d7b73449bc2beb2b",
+      "title": "Matoshree Infrastuture Pvt. Ltd. Plot bearing No. 84, Shivaji Park Scheme, Property bearing CTS No. 1794 of Mahim Division, Dr. Madhukar B. Raut 400028, Mumbai",
       "date": "2012-11-07",
       "status": "Public hearing 07-Nov-2012",
       "region": "Maharashtra",
@@ -265,7 +265,7 @@
       "docs": [
         {
           "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Earth_Ex.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Matoshree_Ex.pdf"
         }
       ],
       "fields": {
@@ -807,9 +807,9 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "d49f4e62eebb957e": {
-      "key": "d49f4e62eebb957e",
-      "title": "Talati and Panthaky Associated Pvt. Ltd, C.S. No. 1 A/698, Malabar Hill Division, Bhulabhai Desai Marg, Mumbai",
+    "648a18d24540391e": {
+      "key": "648a18d24540391e",
+      "title": "Aashiyana Construction, Plot Bearing C.S.No.127 of Mahim Division, F.P. No.824, TPS IV, S.K.Bole Road, Dadar(W), Mumbai-400028",
       "date": "2012-08-29",
       "status": "Public hearing 29-Aug-2012",
       "region": "Maharashtra",
@@ -817,11 +817,11 @@
       "docs": [
         {
           "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Talati_Ex.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Aashiyana_Ex.pdf"
         },
         {
           "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/Talati.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-09/Aashiyana.pdf"
         }
       ],
       "fields": {
@@ -865,35 +865,6 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "bbf408840abe7477": {
-      "key": "bbf408840abe7477",
-      "title": "One up Developers",
-      "date": "2012-08-16",
-      "status": "Public hearing 16-Aug-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/one_up_OO.pdf"
-        },
-        {
-          "label": "MOM",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "16-Aug-2012",
-        "remarks": null,
-        "documents": "Environmental public hearing order, MOM"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
     "82b2c86dfa252caf": {
       "key": "82b2c86dfa252caf",
       "title": "Bajaj Builders",
@@ -908,7 +879,7 @@
         },
         {
           "label": "MOM",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/mom/2019-07/bajaj_minutes.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/bajaj_minutes.pdf"
         }
       ],
       "fields": {
@@ -937,7 +908,36 @@
         },
         {
           "label": "MOM",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/mom/2019-07/atul_minutes.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/atul_minutes.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-Aug-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bbf408840abe7477": {
+      "key": "bbf408840abe7477",
+      "title": "One up Developers",
+      "date": "2012-08-16",
+      "status": "Public hearing 16-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/one_up_OO.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
         }
       ],
       "fields": {
@@ -1053,7 +1053,7 @@
         },
         {
           "label": "MOM",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/mom/2019-07/mama.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/mama.pdf"
         }
       ],
       "fields": {
@@ -1082,7 +1082,7 @@
         },
         {
           "label": "MOM",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/mom/2019-07/tapi-J.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/tapi-J.pdf"
         }
       ],
       "fields": {

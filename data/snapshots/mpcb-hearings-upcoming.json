@@ -1,7 +1,65 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-16T07:57:36.496Z",
+  "fetchedAt": "2026-11-16T22:53:09.127Z",
   "records": {
+    "34799571f29ebb80": {
+      "key": "34799571f29ebb80",
+      "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "date": "2026-12-07",
+      "status": "Public hearing 07-Dec-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/4_13.08.2026_Executive_Summary_Package_III_English_sub.pdf"
+        },
+        {
+          "label": "Remarks/Advertisement",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "07-Dec-2026",
+        "remarks": "Click Here",
+        "documents": "Executive Summary/CRZ Draft Notification, Remarks/Advertisement"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "6787dddabb756bc5": {
+      "key": "6787dddabb756bc5",
+      "title": "Proposed Construction of Greenfield Road of Navegaon More - Konsari (Steel Plant) to Hedri (Surjagarh Mines) vide GR no. RTF-2023/Cr.467/KA-8 dated 07.02.2024, for 84.638 km and revised Final Alignment vide GR no. RTF-2023/Cr.467/KA-8 dated 17.03.2026 for 85.75 km, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "date": "2026-12-07",
+      "status": "Public hearing 07-Dec-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/Executive_Summary_English_Konsari_05102026.pdf"
+        },
+        {
+          "label": "Remarks/Advertisement",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "07-Dec-2026",
+        "remarks": "Click Here",
+        "documents": "Executive Summary/CRZ Draft Notification, Remarks/Advertisement"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
     "6ec322f66e29f4b3": {
       "key": "6ec322f66e29f4b3",
       "title": "Chikhla Manganese Mine Moil's Government Land Group No.,po595/2, 610/2, 611/2, 613/2, po614, po685, po694, 602, 603, 604, 647, 648, 649, 650, 651, po653, po659, po658, 661, po662, po657, 660, MOIL, Tumsar, Dist Bhandara,",
@@ -3892,7 +3950,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
         }
       ],
       "fields": {
@@ -4633,7 +4691,7 @@
       "docs": [
         {
           "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-08/Executive_Summary_Jaywant_Sugars_Ltd_Au2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/Executive_Summary_Jaywant_Sugars_Ltd_Nov_compressed.pdf"
         }
       ],
       "fields": {
@@ -8321,7 +8379,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
         }
       ],
       "fields": {
