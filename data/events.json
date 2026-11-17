@@ -8135,5 +8135,174 @@
       }
     ],
     "initial": false
+  },
+  {
+    "id": "9af68df7fd4d1cbe",
+    "at": "2026-11-17T21:45:51.554Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "34799571f29ebb80",
+    "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 07-Dec-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "7fd4fdc2bf9d5df0",
+    "at": "2026-11-17T21:45:51.554Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "6787dddabb756bc5",
+    "title": "Proposed Construction of Greenfield Road of Navegaon More - Konsari (Steel Plant) to Hedri (Surjagarh Mines) vide GR no. RTF-2023/Cr.467/KA-8 dated 07.02.2024, for 84.638 km and revised Final Alignment vide GR no. RTF-2023/Cr.467/KA-8 dated 17.03.2026 for 85.75 km, Proposed by Maharashtra State Road Development Corporation Limited.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 07-Dec-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "94929e9eeb341ee8",
+    "at": "2026-11-17T21:45:51.554Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "68a52099119046d3",
+    "title": "Proposed Expansion of Existing Grinding and Screening Unit of Dolomite & Manganese Ore with addition of Manufacturing of 30,000 TPA by M/s.Jigsun Alloys Pvt. Ltd., Kh. No. 99, Ashti (Khurd), Tal. Saoner, Dist- Nagpur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 04-Nov-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "c65805b1935c83c2",
+    "at": "2026-11-17T21:45:51.554Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "87e85cbee97b437e",
+    "title": "M/s Daharwal's Minerals Private Limited, at Plot No. A-12, A-13, A-14, A-15, Mohadi MIDC and Private Land Khasra No.137/1, Village-Wadegaon, Tehsil- Mohadi & Dist. Bhandaran scheduled on 30.10.2026.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 30-Oct-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "79a311e54c273a4d",
+    "at": "2026-11-17T21:45:51.554Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "ea332a206d0001fc",
+    "title": "Pune Ring Road, Eastern Alignment (Part 2)– 66.560 km Start from Solu Village and Ends at Varve (Kelawade)Village",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 17-Nov-2021",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "304e02a1774901fa",
+    "at": "2026-11-17T21:45:51.554Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "03edb16f5bf58238",
+    "title": "GLENMARK LIFE SCIENCE LTD At Plot No. 141-143, 160-165, 170-172, Chandramouli Sahakari Audyogik Vasahat Maryadit, Pune - Hyderabad Highway, Mohol, Solapur 413213 MH",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "d73014eb45176f1e",
+    "at": "2026-11-17T21:46:27.702Z",
+    "sourceId": "mpcb-hearings-conducted",
+    "sourceName": "MPCB – Conducted public hearings",
+    "kind": "new",
+    "recordKey": "d49f4e62eebb957e",
+    "title": "Talati and Panthaky Associated Pvt. Ltd, C.S. No. 1 A/698, Malabar Hill Division, Bhulabhai Desai Marg, Mumbai",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+    "proposalNo": null,
+    "status": "Public hearing 29-Aug-2012",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [],
+    "initial": false
   }
 ]

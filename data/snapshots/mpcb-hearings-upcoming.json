@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-16T22:53:09.127Z",
+  "fetchedAt": "2026-11-17T21:45:51.554Z",
   "records": {
     "34799571f29ebb80": {
       "key": "34799571f29ebb80",
@@ -16,7 +16,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
         }
       ],
       "fields": {
@@ -45,7 +45,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
         }
       ],
       "fields": {
@@ -215,7 +215,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
         }
       ],
       "fields": {
@@ -248,7 +248,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
         }
       ],
       "fields": {
@@ -3950,7 +3950,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
         }
       ],
       "fields": {
@@ -8379,7 +8379,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
         }
       ],
       "fields": {

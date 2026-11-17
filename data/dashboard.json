@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T09:11:19.662Z",
+  "generatedAt": "2026-11-17T21:47:18.730Z",
   "tracks": {
     "EC": [
       "ToR applied",
@@ -412,10 +412,10 @@
       "connector": "parivesh-track",
       "refreshHours": 12,
       "health": "ERROR",
-      "lastRun": "2026-11-16T22:53:01.715Z",
+      "lastRun": "2026-11-17T21:45:45.098Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
-      "durationMs": 3029
+      "durationMs": 1477
     },
     {
       "id": "parivesh-committees",
@@ -424,10 +424,10 @@
       "connector": "parivesh-committees",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-16T22:53:04.744Z",
+      "lastRun": "2026-11-17T21:45:46.575Z",
       "status": "ERROR",
       "error": "EAC (Central) Agenda: fetch failed (https://parivesh.nic.in/parivesh_api/proponentApplicant/getParivesh1AgendaMom?committee=CatA&workgroup=EC&type=Agenda&authority=Center)",
-      "durationMs": 4383
+      "durationMs": 4979
     },
     {
       "id": "ec-legacy",
@@ -480,14 +480,14 @@
       "connector": "mpcb",
       "refreshHours": 12,
       "health": "OK",
-      "lastRun": "2026-11-16T22:53:09.127Z",
+      "lastRun": "2026-11-17T21:45:51.554Z",
       "status": "OK",
-      "lastOk": "2026-11-16T22:53:09.127Z",
+      "lastOk": "2026-11-17T21:45:51.554Z",
       "error": null,
       "note": null,
       "recordCount": 318,
       "relevantCount": 4,
-      "durationMs": 30408
+      "durationMs": 36148
     },
     {
       "id": "mpcb-hearings-conducted",
@@ -496,14 +496,14 @@
       "connector": "mpcb",
       "refreshHours": 24,
       "health": "OK",
-      "lastRun": "2026-11-16T22:53:39.535Z",
+      "lastRun": "2026-11-17T21:46:27.702Z",
       "status": "OK",
-      "lastOk": "2026-11-16T22:53:39.535Z",
+      "lastOk": "2026-11-17T21:46:27.702Z",
       "error": null,
       "note": null,
       "recordCount": 44,
       "relevantCount": 0,
-      "durationMs": 5496
+      "durationMs": 5227
     },
     {
       "id": "mpcb-cac",
@@ -512,14 +512,14 @@
       "connector": "mpcb",
       "refreshHours": 24,
       "health": "OK",
-      "lastRun": "2026-11-16T22:53:45.031Z",
+      "lastRun": "2026-11-17T21:46:32.929Z",
       "status": "OK",
-      "lastOk": "2026-11-16T22:53:45.031Z",
+      "lastOk": "2026-11-17T21:46:32.929Z",
       "error": null,
       "note": null,
       "recordCount": 20,
       "relevantCount": 0,
-      "durationMs": 2213
+      "durationMs": 2282
     },
     {
       "id": "cpc-parivesh",
@@ -528,10 +528,10 @@
       "connector": "page-watch",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-16T22:53:47.244Z",
+      "lastRun": "2026-11-17T21:46:35.211Z",
       "status": "ERROR",
       "error": "fetch failed (https://cpc.parivesh.nic.in/) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
-      "durationMs": 7152
+      "durationMs": 7515
     },
     {
       "id": "cpcb-whats-new",
@@ -540,13 +540,182 @@
       "connector": "page-watch",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-16T22:53:54.396Z",
+      "lastRun": "2026-11-17T21:46:42.726Z",
       "status": "ERROR",
       "error": "fetch failed (https://cpcb.nic.in/) – connect timed out",
-      "durationMs": 35698
+      "durationMs": 35975
     }
   ],
   "events": [
+    {
+      "id": "d73014eb45176f1e",
+      "at": "2026-11-17T21:46:27.702Z",
+      "sourceId": "mpcb-hearings-conducted",
+      "sourceName": "MPCB – Conducted public hearings",
+      "kind": "new",
+      "recordKey": "d49f4e62eebb957e",
+      "title": "Talati and Panthaky Associated Pvt. Ltd, C.S. No. 1 A/698, Malabar Hill Division, Bhulabhai Desai Marg, Mumbai",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "proposalNo": null,
+      "status": "Public hearing 29-Aug-2012",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [],
+      "initial": false
+    },
+    {
+      "id": "304e02a1774901fa",
+      "at": "2026-11-17T21:45:51.554Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "03edb16f5bf58238",
+      "title": "GLENMARK LIFE SCIENCE LTD At Plot No. 141-143, 160-165, 170-172, Chandramouli Sahakari Audyogik Vasahat Maryadit, Pune - Hyderabad Highway, Mohol, Solapur 413213 MH",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "79a311e54c273a4d",
+      "at": "2026-11-17T21:45:51.554Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "ea332a206d0001fc",
+      "title": "Pune Ring Road, Eastern Alignment (Part 2)– 66.560 km Start from Solu Village and Ends at Varve (Kelawade)Village",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 17-Nov-2021",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "c65805b1935c83c2",
+      "at": "2026-11-17T21:45:51.554Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "87e85cbee97b437e",
+      "title": "M/s Daharwal's Minerals Private Limited, at Plot No. A-12, A-13, A-14, A-15, Mohadi MIDC and Private Land Khasra No.137/1, Village-Wadegaon, Tehsil- Mohadi & Dist. Bhandaran scheduled on 30.10.2026.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 30-Oct-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "94929e9eeb341ee8",
+      "at": "2026-11-17T21:45:51.554Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "68a52099119046d3",
+      "title": "Proposed Expansion of Existing Grinding and Screening Unit of Dolomite & Manganese Ore with addition of Manufacturing of 30,000 TPA by M/s.Jigsun Alloys Pvt. Ltd., Kh. No. 99, Ashti (Khurd), Tal. Saoner, Dist- Nagpur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 04-Nov-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "7fd4fdc2bf9d5df0",
+      "at": "2026-11-17T21:45:51.554Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "6787dddabb756bc5",
+      "title": "Proposed Construction of Greenfield Road of Navegaon More - Konsari (Steel Plant) to Hedri (Surjagarh Mines) vide GR no. RTF-2023/Cr.467/KA-8 dated 07.02.2024, for 84.638 km and revised Final Alignment vide GR no. RTF-2023/Cr.467/KA-8 dated 17.03.2026 for 85.75 km, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "9af68df7fd4d1cbe",
+      "at": "2026-11-17T21:45:51.554Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "34799571f29ebb80",
+      "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
     {
       "id": "707beb955be0ebfa",
       "at": "2026-11-16T22:53:39.535Z",
@@ -1620,7 +1789,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -4956,7 +5125,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -4986,7 +5155,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5134,7 +5303,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5160,7 +5329,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -8992,7 +9161,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
