@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-conducted",
-  "fetchedAt": "2026-11-17T21:46:27.702Z",
+  "fetchedAt": "2026-11-18T21:26:00.233Z",
   "records": {
     "8fcb3759374d1be2": {
       "key": "8fcb3759374d1be2",
@@ -21,6 +21,35 @@
       ],
       "fields": {
         "hearingDate": "29-Dec-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "6970e21357d992f0": {
+      "key": "6970e21357d992f0",
+      "title": "Axis Realty",
+      "date": "2012-12-11",
+      "status": "Public hearing 11-Dec-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/EXe.Summeryaxis.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/axisOO.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "11-Dec-2012",
         "remarks": null,
         "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
       },
@@ -75,35 +104,6 @@
         {
           "label": "Environmental public hearing order",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/richaOO.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "11-Dec-2012",
-        "remarks": null,
-        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
-    "6970e21357d992f0": {
-      "key": "6970e21357d992f0",
-      "title": "Axis Realty",
-      "date": "2012-12-11",
-      "status": "Public hearing 11-Dec-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/EXe.Summeryaxis.pdf"
-        },
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/axisOO.pdf"
         }
       ],
       "fields": {
@@ -807,6 +807,35 @@
       "stage": "Public hearing",
       "outcome": null
     },
+    "648a18d24540391e": {
+      "key": "648a18d24540391e",
+      "title": "Aashiyana Construction, Plot Bearing C.S.No.127 of Mahim Division, F.P. No.824, TPS IV, S.K.Bole Road, Dadar(W), Mumbai-400028",
+      "date": "2012-08-29",
+      "status": "Public hearing 29-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Aashiyana_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-09/Aashiyana.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "29-Aug-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
     "d49f4e62eebb957e": {
       "key": "d49f4e62eebb957e",
       "title": "Talati and Panthaky Associated Pvt. Ltd, C.S. No. 1 A/698, Malabar Hill Division, Bhulabhai Desai Marg, Mumbai",
@@ -865,35 +894,6 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "bbf408840abe7477": {
-      "key": "bbf408840abe7477",
-      "title": "One up Developers",
-      "date": "2012-08-16",
-      "status": "Public hearing 16-Aug-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/one_up_OO.pdf"
-        },
-        {
-          "label": "MOM",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "16-Aug-2012",
-        "remarks": null,
-        "documents": "Environmental public hearing order, MOM"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
     "82b2c86dfa252caf": {
       "key": "82b2c86dfa252caf",
       "title": "Bajaj Builders",
@@ -938,6 +938,35 @@
         {
           "label": "MOM",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/atul_minutes.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-Aug-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bbf408840abe7477": {
+      "key": "bbf408840abe7477",
+      "title": "One up Developers",
+      "date": "2012-08-16",
+      "status": "Public hearing 16-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/one_up_OO.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
         }
       ],
       "fields": {

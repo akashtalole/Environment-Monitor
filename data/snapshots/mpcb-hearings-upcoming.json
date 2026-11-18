@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-17T21:45:51.554Z",
+  "fetchedAt": "2026-11-18T21:25:26.378Z",
   "records": {
     "34799571f29ebb80": {
       "key": "34799571f29ebb80",
@@ -15,14 +15,18 @@
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/4_13.08.2026_Executive_Summary_Package_III_English_sub.pdf"
         },
         {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/MSRDC_11_am_Office_Order.pdf"
+        },
+        {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
         }
       ],
       "fields": {
         "hearingDate": "07-Dec-2026",
         "remarks": "Click Here",
-        "documents": "Executive Summary/CRZ Draft Notification, Remarks/Advertisement"
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order, Remarks/Advertisement"
       },
       "sourceId": "mpcb-hearings-upcoming",
       "projectIds": [],
@@ -44,14 +48,18 @@
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/Executive_Summary_English_Konsari_05102026.pdf"
         },
         {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/MSRDC_1_pm_Office_Order.pdf"
+        },
+        {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
         }
       ],
       "fields": {
         "hearingDate": "07-Dec-2026",
         "remarks": "Click Here",
-        "documents": "Executive Summary/CRZ Draft Notification, Remarks/Advertisement"
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order, Remarks/Advertisement"
       },
       "sourceId": "mpcb-hearings-upcoming",
       "projectIds": [],
@@ -106,6 +114,31 @@
         "hearingDate": "02-Dec-2026",
         "remarks": null,
         "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "df5ae34c9e43fffc": {
+      "key": "df5ae34c9e43fffc",
+      "title": "proposed PH Proposed Damanganga Ekdare Godavari River Interconnection Project is proposed at Tal. Peth, Dist. Nashik. Under this project, a dam will be constructed on Damanganga River at Mouje Ekdare Tal. Peth and the water available in Ekdare Dam will be released in 4 phases through the existing Jharlipada diversion scheme and it will further flow into Waghad Dam and then into Jayakwadi Dam in Marathwada. Proposed by M/s.Minor Irrigation Department, Nashik and the Water Resources Department, Go",
+      "date": "2026-11-26",
+      "status": "Public hearing 26-Nov-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/Minor_Irrigation_Department_Office_Order.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "26-Nov-2026",
+        "remarks": null,
+        "documents": "Environmental Public Hearing Order"
       },
       "sourceId": "mpcb-hearings-upcoming",
       "projectIds": [],
@@ -215,7 +248,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
         }
       ],
       "fields": {
@@ -248,7 +281,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
         }
       ],
       "fields": {
@@ -514,12 +547,16 @@
         {
           "label": "Environmental Public Hearing Order",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-08/Bhairavnath_Sugars_Office_Order.pdf"
+        },
+        {
+          "label": "Remarks/Advertisement",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/Bhairavnath_Forwarding_Letter_0.pdf"
         }
       ],
       "fields": {
         "hearingDate": "11-Sep-2026",
-        "remarks": null,
-        "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order"
+        "remarks": "Click Here",
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order, Remarks/Advertisement"
       },
       "sourceId": "mpcb-hearings-upcoming",
       "projectIds": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T08:30:33.785Z",
+  "generatedAt": "2026-11-18T21:26:50.069Z",
   "tracks": {
     "EC": [
       "ToR applied",
@@ -412,10 +412,10 @@
       "connector": "parivesh-track",
       "refreshHours": 12,
       "health": "ERROR",
-      "lastRun": "2026-11-17T21:45:45.098Z",
+      "lastRun": "2026-11-18T21:25:20.123Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
-      "durationMs": 1477
+      "durationMs": 1509
     },
     {
       "id": "parivesh-committees",
@@ -424,10 +424,10 @@
       "connector": "parivesh-committees",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-17T21:45:46.575Z",
+      "lastRun": "2026-11-18T21:25:21.632Z",
       "status": "ERROR",
       "error": "EAC (Central) Agenda: fetch failed (https://parivesh.nic.in/parivesh_api/proponentApplicant/getParivesh1AgendaMom?committee=CatA&workgroup=EC&type=Agenda&authority=Center)",
-      "durationMs": 4979
+      "durationMs": 4743
     },
     {
       "id": "ec-legacy",
@@ -436,9 +436,9 @@
       "connector": "ec-legacy",
       "refreshHours": 72,
       "health": "SKIPPED",
-      "lastRun": "2026-11-15T19:21:56.197Z",
+      "lastRun": "2026-11-18T21:25:26.375Z",
       "status": "SKIPPED",
-      "lastOk": "2026-11-15T19:21:56.197Z",
+      "lastOk": "2026-11-18T21:25:26.375Z",
       "error": null,
       "note": "No ecLegacy ids on the watchlist",
       "recordCount": 0,
@@ -452,14 +452,14 @@
       "connector": "fc-legacy",
       "refreshHours": 72,
       "health": "SKIPPED",
-      "lastRun": "2026-11-15T19:21:56.200Z",
+      "lastRun": "2026-11-18T21:25:26.377Z",
       "status": "SKIPPED",
-      "lastOk": "2026-11-15T19:21:56.200Z",
+      "lastOk": "2026-11-18T21:25:26.377Z",
       "error": null,
       "note": "No fcLegacy ids on the watchlist",
       "recordCount": 0,
       "relevantCount": 0,
-      "durationMs": 0
+      "durationMs": 1
     },
     {
       "id": "ec-minutes",
@@ -480,14 +480,14 @@
       "connector": "mpcb",
       "refreshHours": 12,
       "health": "OK",
-      "lastRun": "2026-11-17T21:45:51.554Z",
+      "lastRun": "2026-11-18T21:25:26.378Z",
       "status": "OK",
-      "lastOk": "2026-11-17T21:45:51.554Z",
+      "lastOk": "2026-11-18T21:25:26.378Z",
       "error": null,
       "note": null,
-      "recordCount": 318,
+      "recordCount": 319,
       "relevantCount": 4,
-      "durationMs": 36148
+      "durationMs": 33854
     },
     {
       "id": "mpcb-hearings-conducted",
@@ -496,14 +496,14 @@
       "connector": "mpcb",
       "refreshHours": 24,
       "health": "OK",
-      "lastRun": "2026-11-17T21:46:27.702Z",
+      "lastRun": "2026-11-18T21:26:00.233Z",
       "status": "OK",
-      "lastOk": "2026-11-17T21:46:27.702Z",
+      "lastOk": "2026-11-18T21:26:00.233Z",
       "error": null,
       "note": null,
-      "recordCount": 44,
+      "recordCount": 45,
       "relevantCount": 0,
-      "durationMs": 5227
+      "durationMs": 5057
     },
     {
       "id": "mpcb-cac",
@@ -512,14 +512,14 @@
       "connector": "mpcb",
       "refreshHours": 24,
       "health": "OK",
-      "lastRun": "2026-11-17T21:46:32.929Z",
+      "lastRun": "2026-11-18T21:26:05.290Z",
       "status": "OK",
-      "lastOk": "2026-11-17T21:46:32.929Z",
+      "lastOk": "2026-11-18T21:26:05.290Z",
       "error": null,
       "note": null,
       "recordCount": 20,
       "relevantCount": 0,
-      "durationMs": 2282
+      "durationMs": 1859
     },
     {
       "id": "cpc-parivesh",
@@ -528,10 +528,10 @@
       "connector": "page-watch",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-17T21:46:35.211Z",
+      "lastRun": "2026-11-18T21:26:07.149Z",
       "status": "ERROR",
       "error": "fetch failed (https://cpc.parivesh.nic.in/) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
-      "durationMs": 7515
+      "durationMs": 7324
     },
     {
       "id": "cpcb-whats-new",
@@ -540,13 +540,176 @@
       "connector": "page-watch",
       "refreshHours": 24,
       "health": "ERROR",
-      "lastRun": "2026-11-17T21:46:42.726Z",
+      "lastRun": "2026-11-18T21:26:14.473Z",
       "status": "ERROR",
       "error": "fetch failed (https://cpcb.nic.in/) – connect timed out",
-      "durationMs": 35975
+      "durationMs": 35568
     }
   ],
   "events": [
+    {
+      "id": "dee2f47997e88bfd",
+      "at": "2026-11-18T21:26:00.233Z",
+      "sourceId": "mpcb-hearings-conducted",
+      "sourceName": "MPCB – Conducted public hearings",
+      "kind": "new",
+      "recordKey": "648a18d24540391e",
+      "title": "Aashiyana Construction, Plot Bearing C.S.No.127 of Mahim Division, F.P. No.824, TPS IV, S.K.Bole Road, Dadar(W), Mumbai-400028",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "proposalNo": null,
+      "status": "Public hearing 29-Aug-2012",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [],
+      "initial": false
+    },
+    {
+      "id": "3d30237803db5edd",
+      "at": "2026-11-18T21:25:26.378Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "c4c681c754bd6eb0",
+      "title": "Proposed expansion of existing SCJ/Syrup/B Heavy Molasses/C Heavy Molasses based distillery from 50 KLPD to 95 KLPD capacity (capacity increased by 45 KLPD), existing Sugar unit from 5000 TCD to 6500 TCD (capacity increased by 1500 TCD) and Cogeneration Power plant from 14 MW to 20 MW (capacity increased by 6 MW) Proposed by By M/S. BHAIRAVNATH SUGAR WORKS LTD. (BSWL) At Gat no: 242, 273, 274, 278, 279, 798 & 797 Ternanagar, Dhoki Village, Taluka & District Dharashiv (Osmanabad).",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 11-Sep-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "8501a92f00b3c924",
+      "at": "2026-11-18T21:25:26.378Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "87e85cbee97b437e",
+      "title": "M/s Daharwal's Minerals Private Limited, at Plot No. A-12, A-13, A-14, A-15, Mohadi MIDC and Private Land Khasra No.137/1, Village-Wadegaon, Tehsil- Mohadi & Dist. Bhandaran scheduled on 30.10.2026.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 30-Oct-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "b44446b4f45af80f",
+      "at": "2026-11-18T21:25:26.378Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "68a52099119046d3",
+      "title": "Proposed Expansion of Existing Grinding and Screening Unit of Dolomite & Manganese Ore with addition of Manufacturing of 30,000 TPA by M/s.Jigsun Alloys Pvt. Ltd., Kh. No. 99, Ashti (Khurd), Tal. Saoner, Dist- Nagpur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 04-Nov-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "5efd0451d156f2aa",
+      "at": "2026-11-18T21:25:26.378Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "new",
+      "recordKey": "df5ae34c9e43fffc",
+      "title": "proposed PH Proposed Damanganga Ekdare Godavari River Interconnection Project is proposed at Tal. Peth, Dist. Nashik. Under this project, a dam will be constructed on Damanganga River at Mouje Ekdare Tal. Peth and the water available in Ekdare Dam will be released in 4 phases through the existing Jharlipada diversion scheme and it will further flow into Waghad Dam and then into Jayakwadi Dam in Marathwada. Proposed by M/s.Minor Irrigation Department, Nashik and the Water Resources Department, Go",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 26-Nov-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [],
+      "initial": false
+    },
+    {
+      "id": "bc5982ebc76a6f92",
+      "at": "2026-11-18T21:25:26.378Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "6787dddabb756bc5",
+      "title": "Proposed Construction of Greenfield Road of Navegaon More - Konsari (Steel Plant) to Hedri (Surjagarh Mines) vide GR no. RTF-2023/Cr.467/KA-8 dated 07.02.2024, for 84.638 km and revised Final Alignment vide GR no. RTF-2023/Cr.467/KA-8 dated 17.03.2026 for 85.75 km, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "e444e8c4e6338f3a",
+      "at": "2026-11-18T21:25:26.378Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "34799571f29ebb80",
+      "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
     {
       "id": "d73014eb45176f1e",
       "at": "2026-11-17T21:46:27.702Z",
@@ -4884,6 +5047,10 @@
         {
           "label": "Environmental Public Hearing Order",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-08/Bhairavnath_Sugars_Office_Order.pdf"
+        },
+        {
+          "label": "Remarks/Advertisement",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/Bhairavnath_Forwarding_Letter_0.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5125,7 +5292,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5155,7 +5322,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5204,6 +5371,28 @@
         {
           "label": "Environmental Public Hearing Order",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/MSRDCOffice%20Order.pdf"
+        }
+      ],
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null,
+      "sourceName": "MPCB – Upcoming public hearings",
+      "past": false
+    },
+    {
+      "key": "df5ae34c9e43fffc",
+      "title": "proposed PH Proposed Damanganga Ekdare Godavari River Interconnection Project is proposed at Tal. Peth, Dist. Nashik. Under this project, a dam will be constructed on Damanganga River at Mouje Ekdare Tal. Peth and the water available in Ekdare Dam will be released in 4 phases through the existing Jharlipada diversion scheme and it will further flow into Waghad Dam and then into Jayakwadi Dam in Marathwada. Proposed by M/s.Minor Irrigation Department, Nashik and the Water Resources Department, Go",
+      "date": "2026-11-26",
+      "status": "Public hearing 26-Nov-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/Minor_Irrigation_Department_Office_Order.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5302,8 +5491,12 @@
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/4_13.08.2026_Executive_Summary_Package_III_English_sub.pdf"
         },
         {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/MSRDC_11_am_Office_Order.pdf"
+        },
+        {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5328,8 +5521,12 @@
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/Executive_Summary_English_Konsari_05102026.pdf"
         },
         {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/MSRDC_1_pm_Office_Order.pdf"
+        },
+        {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.ph%70/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
