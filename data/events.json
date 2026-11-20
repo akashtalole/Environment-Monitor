@@ -8817,5 +8817,105 @@
       }
     ],
     "initial": false
+  },
+  {
+    "id": "efddf491ea2700b3",
+    "at": "2026-11-20T08:30:43.634Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "5c057f65310ab610",
+    "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd., Plot No. A-29, MIDC Mul, Tal. Mul, Dist. Chandrapur.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "d78b019e17a044e8",
+    "at": "2026-11-20T08:30:43.634Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "de0e50a74bd0106a",
+    "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd. Plot No. A-29, MIDC Mul, Tal. Mul, Dist. Chandrapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "6f0ba7d103662d1f",
+    "at": "2026-11-20T08:30:43.634Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "cb6e574521cbc98b",
+    "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd. Plot No. B-6,7,8, MIDC Mul, Tal. Mul, Dist. Chandrapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "34fa42b6df57090f",
+    "at": "2026-11-20T08:30:43.634Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "b15732dac8314f3d",
+    "title": "Public hearing for M/s. G.R.Krishna Ferro Alloys Pvt. Ltd., Plot No. B-4, MIDC Mul, Tal. Mul, Dist. Chandrapur.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
   }
 ]

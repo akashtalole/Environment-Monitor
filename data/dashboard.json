@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:30:25.639Z",
+  "generatedAt": "2026-11-20T08:31:21.800Z",
   "tracks": {
     "EC": [
       "ToR applied",
@@ -412,10 +412,10 @@
       "connector": "parivesh-track",
       "refreshHours": 12,
       "health": "ERROR",
-      "lastRun": "2026-11-19T21:28:49.255Z",
+      "lastRun": "2026-11-20T08:30:42.019Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
-      "durationMs": 1293
+      "durationMs": 1615
     },
     {
       "id": "parivesh-committees",
@@ -480,14 +480,14 @@
       "connector": "mpcb",
       "refreshHours": 12,
       "health": "OK",
-      "lastRun": "2026-11-19T21:28:55.701Z",
+      "lastRun": "2026-11-20T08:30:43.634Z",
       "status": "OK",
-      "lastOk": "2026-11-19T21:28:55.701Z",
+      "lastOk": "2026-11-20T08:30:43.634Z",
       "error": null,
       "note": null,
       "recordCount": 319,
       "relevantCount": 4,
-      "durationMs": 38539
+      "durationMs": 38135
     },
     {
       "id": "mpcb-hearings-conducted",
@@ -547,6 +547,106 @@
     }
   ],
   "events": [
+    {
+      "id": "34fa42b6df57090f",
+      "at": "2026-11-20T08:30:43.634Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "b15732dac8314f3d",
+      "title": "Public hearing for M/s. G.R.Krishna Ferro Alloys Pvt. Ltd., Plot No. B-4, MIDC Mul, Tal. Mul, Dist. Chandrapur.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "6f0ba7d103662d1f",
+      "at": "2026-11-20T08:30:43.634Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "cb6e574521cbc98b",
+      "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd. Plot No. B-6,7,8, MIDC Mul, Tal. Mul, Dist. Chandrapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "d78b019e17a044e8",
+      "at": "2026-11-20T08:30:43.634Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "de0e50a74bd0106a",
+      "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd. Plot No. A-29, MIDC Mul, Tal. Mul, Dist. Chandrapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "efddf491ea2700b3",
+      "at": "2026-11-20T08:30:43.634Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "5c057f65310ab610",
+      "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd., Plot No. A-29, MIDC Mul, Tal. Mul, Dist. Chandrapur.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
     {
       "id": "48045f9cb943e2c3",
       "at": "2026-11-19T21:28:55.701Z",
@@ -7264,7 +7364,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2024-04/Rajuri%20New%20Project%20PH%20Advertisement%20English.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2024-04/Rajuri%20New%20Project%20PH%20Advertisement%20English.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -7290,7 +7390,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2024-03/Rajuri%20New%20Project%20PH%20Advertisement%20English.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2024-03/Rajuri%20New%20Project%20PH%20Advertisement%20English.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -7316,7 +7416,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2024-03/Rajuri%20Expansion%20PH%20Advertisement%20English.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2024-03/Rajuri%20Expansion%20PH%20Advertisement%20English.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -7342,7 +7442,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2024-02/GRKrishnaFerroAlloyPHAdvertisementEnglish.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2024-02/GRKrishnaFerroAlloyPHAdvertisementEnglish.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
