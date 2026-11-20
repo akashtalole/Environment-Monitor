@@ -8917,5 +8917,180 @@
       }
     ],
     "initial": false
+  },
+  {
+    "id": "fa895ae5953b23e5",
+    "at": "2026-11-20T21:04:10.312Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "89354027cc4fa87d",
+    "title": "Proposed Zendepar Iron Ore Mine (4.0 Ha) KH.No.82 Part (82/5), Zendepar, Tal-Korchi, Nandli, Maseli, Navargaon,Kotra, Botekasa,Bihatekal, Bedgaon, Jambhli, Aaswai Hudki Betkathi,Navezarai,Murkuti,belgoanid of Korchi taluka.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 10-Oct-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "08675287b41466da",
+    "at": "2026-11-20T21:04:10.312Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "58d3dc8f36510568",
+    "title": "Executive Summary of M/s. Shree Tuljabhavani Sugar Pvt. Ltd. Aadgaon Darade, Tal. Selu Dist. Parbhani.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 27-Sep-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "41d97ae3e1691692",
+    "at": "2026-11-20T21:04:10.312Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "2526e84b2cf1b5bf",
+    "title": "EXPANSION PROJECT OF SILICA SAND MINE AND CRUSHING, WASHING WITH PRODUCTION CAPACITY FROM 1,50,000 MTPA TO 4,50,551 MTPA By M/s, Kasarde Co operative Mining Society Limited AT SY. NO. 114, 116, 52, 23, 51, 84, 52 & 50, KASARDE VILLAGE, KANKAVALI TAHSIL, SINDHURDURG DISTRICT, M.S.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 28-Aug-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "7c4226f2e9380c83",
+    "at": "2026-11-20T21:04:10.312Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "5c057f65310ab610",
+    "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd., Plot No. A-29, MIDC Mul, Tal. Mul, Dist. Chandrapur.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "e99c48eb668ed2db",
+    "at": "2026-11-20T21:04:10.312Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "de0e50a74bd0106a",
+    "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd. Plot No. A-29, MIDC Mul, Tal. Mul, Dist. Chandrapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "0aed808261f995ea",
+    "at": "2026-11-20T21:04:10.312Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "cb6e574521cbc98b",
+    "title": "M/s. Rajuri Steels & Alloys Pvt. Ltd. Plot No. B-6,7,8, MIDC Mul, Tal. Mul, Dist. Chandrapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "428807c17c9066ca",
+    "at": "2026-11-20T21:04:10.312Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "b15732dac8314f3d",
+    "title": "Public hearing for M/s. G.R.Krishna Ferro Alloys Pvt. Ltd., Plot No. B-4, MIDC Mul, Tal. Mul, Dist. Chandrapur.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
   }
 ]

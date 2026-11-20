@@ -1,10 +1,10 @@
 {
   "sources": {
     "parivesh-committees": {
-      "lastRun": "2026-11-19T21:28:50.548Z",
+      "lastRun": "2026-11-20T21:04:05.302Z",
       "status": "ERROR",
       "error": "EAC (Central) Agenda: fetch failed (https://parivesh.nic.in/parivesh_api/proponentApplicant/getParivesh1AgendaMom?committee=CatA&workgroup=EC&type=Agenda&authority=Center)",
-      "durationMs": 5153
+      "durationMs": 5010
     },
     "ec-legacy": {
       "lastRun": "2026-11-18T21:25:26.375Z",
@@ -27,40 +27,40 @@
       "durationMs": 1
     },
     "mpcb-hearings-upcoming": {
-      "lastRun": "2026-11-20T08:30:43.634Z",
+      "lastRun": "2026-11-20T21:04:10.312Z",
       "status": "OK",
-      "lastOk": "2026-11-20T08:30:43.634Z",
+      "lastOk": "2026-11-20T21:04:10.312Z",
       "error": null,
       "note": null,
       "recordCount": 319,
       "relevantCount": 4,
-      "durationMs": 38135
+      "durationMs": 33059
     },
     "mpcb-hearings-conducted": {
-      "lastRun": "2026-11-19T21:29:34.240Z",
+      "lastRun": "2026-11-20T21:04:43.371Z",
       "status": "OK",
-      "lastOk": "2026-11-19T21:29:34.240Z",
+      "lastOk": "2026-11-20T21:04:43.371Z",
       "error": null,
       "note": null,
       "recordCount": 45,
       "relevantCount": 0,
-      "durationMs": 6097
+      "durationMs": 5296
     },
     "mpcb-cac": {
-      "lastRun": "2026-11-19T21:29:40.337Z",
+      "lastRun": "2026-11-20T21:04:48.667Z",
       "status": "OK",
-      "lastOk": "2026-11-19T21:29:40.337Z",
+      "lastOk": "2026-11-20T21:04:48.667Z",
       "error": null,
       "note": null,
       "recordCount": 20,
       "relevantCount": 0,
-      "durationMs": 2201
+      "durationMs": 1726
     },
     "cpc-parivesh": {
-      "lastRun": "2026-11-19T21:29:42.539Z",
+      "lastRun": "2026-11-20T21:04:50.393Z",
       "status": "ERROR",
       "error": "fetch failed (https://cpc.parivesh.nic.in/) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
-      "durationMs": 7563
+      "durationMs": 7403
     },
     "ec-minutes": {
       "lastRun": "2026-11-15T16:30:09.225Z",
@@ -69,16 +69,16 @@
       "durationMs": 9899
     },
     "parivesh-track": {
-      "lastRun": "2026-11-20T08:30:42.019Z",
+      "lastRun": "2026-11-20T21:04:03.687Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
       "durationMs": 1615
     },
     "cpcb-whats-new": {
-      "lastRun": "2026-11-19T21:29:50.102Z",
+      "lastRun": "2026-11-20T21:04:57.796Z",
       "status": "ERROR",
-      "error": "fetch failed (https://cpcb.nic.in/) – connect timed out",
-      "durationMs": 35519
+      "error": "fetch failed (https://cpcb.nic.in/)",
+      "durationMs": 6664
     }
   }
 }
