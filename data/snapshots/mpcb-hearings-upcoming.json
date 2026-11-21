@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-20T21:04:10.312Z",
+  "fetchedAt": "2026-11-21T08:15:57.194Z",
   "records": {
     "34799571f29ebb80": {
       "key": "34799571f29ebb80",
@@ -2556,7 +2556,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-10/English%20Advertisement-06-09-2023%20%25281%2529.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-10/English%20Advertisement-06-09-2023%20%25281%2529.pdf"
         }
       ],
       "fields": {
@@ -2614,7 +2614,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-08/English_Add.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-08/English_Add.pdf"
         }
       ],
       "fields": {
@@ -2701,7 +2701,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-08/adv.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-08/adv.pdf"
         }
       ],
       "fields": {
