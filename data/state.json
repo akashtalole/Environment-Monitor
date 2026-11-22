@@ -27,14 +27,14 @@
       "durationMs": 1
     },
     "mpcb-hearings-upcoming": {
-      "lastRun": "2026-11-21T20:04:53.342Z",
+      "lastRun": "2026-11-22T07:58:30.979Z",
       "status": "OK",
-      "lastOk": "2026-11-21T20:04:53.342Z",
+      "lastOk": "2026-11-22T07:58:30.979Z",
       "error": null,
       "note": null,
       "recordCount": 319,
       "relevantCount": 4,
-      "durationMs": 25596
+      "durationMs": 36551
     },
     "mpcb-hearings-conducted": {
       "lastRun": "2026-11-21T20:05:18.938Z",
@@ -63,16 +63,16 @@
       "durationMs": 7086
     },
     "ec-minutes": {
-      "lastRun": "2026-11-15T16:30:09.225Z",
+      "lastRun": "2026-11-22T07:58:23.484Z",
       "status": "ERROR",
       "error": "fetch failed (https://environmentclearance.nic.in/report_uploaded_minutes.aspx) – server sent an incomplete certificate chain; add its intermediate CA via the source \"caFile\" option (see README)",
-      "durationMs": 9899
+      "durationMs": 7495
     },
     "parivesh-track": {
-      "lastRun": "2026-11-21T20:04:45.656Z",
+      "lastRun": "2026-11-22T07:58:20.999Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
-      "durationMs": 3035
+      "durationMs": 2485
     },
     "cpcb-whats-new": {
       "lastRun": "2026-11-21T20:05:32.137Z",
