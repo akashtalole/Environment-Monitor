@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-conducted",
-  "fetchedAt": "2026-11-21T20:05:18.938Z",
+  "fetchedAt": "2026-11-22T20:20:32.677Z",
   "records": {
     "8fcb3759374d1be2": {
       "key": "8fcb3759374d1be2",
@@ -21,35 +21,6 @@
       ],
       "fields": {
         "hearingDate": "29-Dec-2012",
-        "remarks": null,
-        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
-    "bac4b8d262250ead": {
-      "key": "bac4b8d262250ead",
-      "title": "Richa Realtors",
-      "date": "2012-12-11",
-      "status": "Public hearing 11-Dec-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/ExeSum_Richa.pdf"
-        },
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/richaOO.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "11-Dec-2012",
         "remarks": null,
         "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
       },
@@ -104,6 +75,35 @@
         {
           "label": "Environmental public hearing order",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/buildarchOO.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "11-Dec-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bac4b8d262250ead": {
+      "key": "bac4b8d262250ead",
+      "title": "Richa Realtors",
+      "date": "2012-12-11",
+      "status": "Public hearing 11-Dec-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/ExeSum_Richa.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/richaOO.pdf"
         }
       ],
       "fields": {
@@ -230,9 +230,9 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "f096a0ac32e9be22": {
-      "key": "f096a0ac32e9be22",
-      "title": "Earth Builders, Plot bearing C.S. No. 280, Malbar Hill Division, Walkeshwar, Mumbai",
+    "d7b73449bc2beb2b": {
+      "key": "d7b73449bc2beb2b",
+      "title": "Matoshree Infrastuture Pvt. Ltd. Plot bearing No. 84, Shivaji Park Scheme, Property bearing CTS No. 1794 of Mahim Division, Dr. Madhukar B. Raut 400028, Mumbai",
       "date": "2012-11-07",
       "status": "Public hearing 07-Nov-2012",
       "region": "Maharashtra",
@@ -240,7 +240,7 @@
       "docs": [
         {
           "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Earth_Ex.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Matoshree_Ex.pdf"
         }
       ],
       "fields": {
@@ -255,9 +255,9 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "d7b73449bc2beb2b": {
-      "key": "d7b73449bc2beb2b",
-      "title": "Matoshree Infrastuture Pvt. Ltd. Plot bearing No. 84, Shivaji Park Scheme, Property bearing CTS No. 1794 of Mahim Division, Dr. Madhukar B. Raut 400028, Mumbai",
+    "f096a0ac32e9be22": {
+      "key": "f096a0ac32e9be22",
+      "title": "Earth Builders, Plot bearing C.S. No. 280, Malbar Hill Division, Walkeshwar, Mumbai",
       "date": "2012-11-07",
       "status": "Public hearing 07-Nov-2012",
       "region": "Maharashtra",
@@ -265,7 +265,7 @@
       "docs": [
         {
           "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Matoshree_Ex.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2020-04/Earth_Ex.pdf"
         }
       ],
       "fields": {
