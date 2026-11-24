@@ -9992,5 +9992,524 @@
       }
     ],
     "initial": false
+  },
+  {
+    "id": "573a6548d1db8bce",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "new",
+    "recordKey": "91dce6fb3728f195",
+    "title": "Environmental Public Hearing in respect of Proposed Nar Par Girna River Link Project, at Taluka-Surgana, Dist-Nashik, Proposed by M/s.Girna River Valley Project.Div-Nashik, Near Mico Cicle, Tryambak Road, Nashik.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 21-Dec-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [],
+    "initial": false
+  },
+  {
+    "id": "e51a3d157a19eb40",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "34799571f29ebb80",
+    "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 07-Dec-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "1a7a05127718bdf0",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "6787dddabb756bc5",
+    "title": "Proposed Construction of Greenfield Road of Navegaon More - Konsari (Steel Plant) to Hedri (Surjagarh Mines) vide GR no. RTF-2023/Cr.467/KA-8 dated 07.02.2024, for 84.638 km and revised Final Alignment vide GR no. RTF-2023/Cr.467/KA-8 dated 17.03.2026 for 85.75 km, Proposed by Maharashtra State Road Development Corporation Limited.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 07-Dec-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "b828c172232b6e08",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "68a52099119046d3",
+    "title": "Proposed Expansion of Existing Grinding and Screening Unit of Dolomite & Manganese Ore with addition of Manufacturing of 30,000 TPA by M/s.Jigsun Alloys Pvt. Ltd., Kh. No. 99, Ashti (Khurd), Tal. Saoner, Dist- Nagpur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 04-Nov-2026",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "f9ea30da348235f7",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "c8452d8929175855",
+    "title": "Public Hearing of proposed Greenfield project of standalone Grinding unit with cement production capacity of 6 MMTPA (2 x 3 MMTPA), located at Village-Bornar, Tal & Dist- Jalgaon.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 19-Jun-2025",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "8eb1b25ec8af14d5",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "13057b9b9c53d3a9",
+    "title": "M/s. Million Steels Pvt. Ltd., Plot No. 1417-A, Deshpande Layout, Wardhaman Nagar, Nagpur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 30-May-2025",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "a3aef41a67c37952",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "536f5ca238dee4cf",
+    "title": "Bhandara-Gadchiroli Access controlled express way (Nagpur District Component)",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 16-May-2025",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "eff8e4ecff21bf2b",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "58335ab7d7e30352",
+    "title": "Parli Bauxite Mine is located in villages Parli of Shahuwadi Taluka of Kolhapur District, Maharashtra. By M/s. Shree Malhar Minerals, Sita Colony, Opp Jain Boading, Karveer, Dist-Kolhapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 23-Apr-2025",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "5882ea68ae2662ab",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "2526e84b2cf1b5bf",
+    "title": "EXPANSION PROJECT OF SILICA SAND MINE AND CRUSHING, WASHING WITH PRODUCTION CAPACITY FROM 1,50,000 MTPA TO 4,50,551 MTPA By M/s, Kasarde Co operative Mining Society Limited AT SY. NO. 114, 116, 52, 23, 51, 84, 52 & 50, KASARDE VILLAGE, KANKAVALI TAHSIL, SINDHURDURG DISTRICT, M.S.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 28-Aug-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "f4dca82b6cfe2da9",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "149c6b1fd2712639",
+    "title": "Proposed Expansion Project for Production of MS Billets from 28,000 TPA to 72,600TPA and MS. Angle Channel, M.S. Flat, TMT Bars, M.S.Beam, T Angle, Pipe, Round Square, and Strips from 28,000 TPA to 70,000 TPA., Proposed by M/s. Gopal Ferrous Private Limited At Plot No. 92 - 104 Amgaon Industrial Area, Survey No. 114/2 L, 2 PT., Village – Amgaon, Tal – Talasari, District– Palghar, Maharashtra",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 10-Jul-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "7821196ef06c324a",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "a56f08bcd5f30de4",
+    "title": "M/s. Lloyds Metals and Energy Ltd, Expansion of Project by Installation of 2x4.5MTPA Iron Ore Grinding Unit, 10MTPA Thickening & Filtration Unit & 2X4MTPA Iron Ore Pellet Plant at MIDC Konsari, Dist. Gadchiroli",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 07-Jul-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "d5f5b7851d3d7f36",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "f37812465d0ec377",
+    "title": "EXECUTIVE SUMMARY For Proposed installation of 2 x 40T Induction Furnace for production of 3,96,000 TPA M.S. Billets & Rolling Mill for 3,88,080 TPA TMT Bars by Hot Rolled Process & 1,06,920 TPA by Reheating Furnace At Plot No. A-8 & A-13, Phase-III, Additional MIDC Jalna, Taluka & District Jalna, Maharashtra Project Proponent Ved Steels & Alloys Private Limited",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 23-May-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "125cb53a7dc00132",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "5b526e2bdee1cfbf",
+    "title": "EXECUTIVE SUMMARY OF DRAFT ENVIRONMENTAL IMPACT ASSESSMENT REPORT FOR Expansion of Integrated Cement Project (Clinker - 2.85 to 6.15 MTPA, Cement - 4.75 to 10 MTPA and WHR - 45 MW) by Installation of new Line-II Villages: Upparwahi & Kukkudsat (Taluka: Korpana) and Villages: Bhendvi & Hardona (Taluka: Rajura), District: Chandrapur, Maharashtra APPLICANT M/s. Ambuja Cements Limited (Unit: Maratha Cement Works)",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 04-May-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "0925038cbefad6e3",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "d1df0fdd8dedb45a",
+    "title": "M/s. WCL Sasti Expansion Opencast Mines, WCL Ballarpur Area, Tal. Rajura, Dist. Chandrapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing 16-Mar-2023",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "3 docs",
+        "to": "3 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "af0bb9bf03b85df1",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "211d390147a7b283",
+    "title": "Public consultation in respect of proposed 10% EC capacity enhancement from 3.85 MTPA to 4.125 MTPA [final third phase (more than 40% and upto 50% expansion w.r.t. base EC capacity of 2.75 MTPA)] in accordance with the provisions of MoEF & CC OM dtd. 11.04.2022. (Yekona, Tehsil-Warora, Chandrapur, Majri Area Western Coalfields Limited).",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "1 docs",
+        "to": "1 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "c352b6e688598084",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "961bcc6a424430c2",
+    "title": "M/s Aayan Multitrade LLP (Operative of Banganga Sahakari Sakhar Karkhana Ltd.)",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "7f262c97f55114ae",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "bf962a14e7813ede",
+    "title": "INSTALLATION OF NEW NANO UREA-FERTILIZER PLANT AT RCF, TROMBAY, CHEMBUR, SUBURBAN MUMBAI. Proposed by M/s RASHTRIYA CHEMICALS AND FERTILIZERS LIMITED (Government of India Undertaking) Priyadarshini, Eastern Express Highway, Sion, Mumbai.",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "97555bf35230e008",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "93781114f439aa7e",
+    "title": "M/s. Grace Industries Ltd. Plot No. A-24, MIDC Tadali, Tal. Dist. Chandrapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "2b74ea5a224a1836",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "56b6f583ab365b6e",
+    "title": "M/s. N. N. Global Mercantile Pvt. Ltd., at Muthara village, Tal. Rajura, Dist. Chandrapur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "c87e7d11282e94be",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "553f3a61e04f34cd",
+    "title": "Executive Summary of Draft Environmental Impact Assessment Report Establishment of Fishing Harbour for Providing Fish landing Facilities to Fishermen At Versova, Taluka Andheri, District Mumbai Suburban by Maharashtra Fisheries Development Corporation Ltd., Government of Maharashtra Undertaking",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
+  },
+  {
+    "id": "9f79400454104a93",
+    "at": "2026-11-24T00:49:15.039Z",
+    "sourceId": "mpcb-hearings-upcoming",
+    "sourceName": "MPCB – Upcoming public hearings",
+    "kind": "changed",
+    "recordKey": "c95f5bb0689b902d",
+    "title": "10 stone quarry located at Taluka-Umred, Dist-Nagpur",
+    "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+    "proposalNo": null,
+    "status": "Public hearing -",
+    "track": "EC",
+    "stage": "Public hearing",
+    "projectIds": [],
+    "projectNames": [],
+    "discovered": false,
+    "changes": [
+      {
+        "field": "docs",
+        "from": "2 docs",
+        "to": "2 docs"
+      }
+    ],
+    "initial": false
   }
 ]

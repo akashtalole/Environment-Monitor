@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-conducted",
-  "fetchedAt": "2026-11-22T20:20:32.677Z",
+  "fetchedAt": "2026-11-24T00:49:51.831Z",
   "records": {
     "8fcb3759374d1be2": {
       "key": "8fcb3759374d1be2",
@@ -405,35 +405,6 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "a08eb089b60d3aae": {
-      "key": "a08eb089b60d3aae",
-      "title": "Western Coal Field Ltd., Wani North (Junad opencast coal mining project Expansion Project) at Tal-Wani, Dist-Yavatmal",
-      "date": "2012-10-10",
-      "status": "Public hearing 10-Oct-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/WCL_Ex.pdf"
-        },
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-116.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "10-Oct-2012",
-        "remarks": null,
-        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
     "711872cf58e0b670": {
       "key": "711872cf58e0b670",
       "title": "Maharashtra State Mining Corporation Ltd., for thier Marki-Zari-Jamani-Adkoli opencast coal at Tal--Zari Jamni, Dist-Yavatmal",
@@ -449,6 +420,35 @@
         {
           "label": "Environmental public hearing order",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-117.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "10-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "a08eb089b60d3aae": {
+      "key": "a08eb089b60d3aae",
+      "title": "Western Coal Field Ltd., Wani North (Junad opencast coal mining project Expansion Project) at Tal-Wani, Dist-Yavatmal",
+      "date": "2012-10-10",
+      "status": "Public hearing 10-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/WCL_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-116.pdf"
         }
       ],
       "fields": {
@@ -894,6 +894,35 @@
       "stage": "Public hearing",
       "outcome": null
     },
+    "82b2c86dfa252caf": {
+      "key": "82b2c86dfa252caf",
+      "title": "Bajaj Builders",
+      "date": "2012-08-16",
+      "status": "Public hearing 16-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/bajaj_OO.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/bajaj_minutes.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-Aug-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
     "916be83e239fdc87": {
       "key": "916be83e239fdc87",
       "title": "Atul Enterprises",
@@ -938,35 +967,6 @@
         {
           "label": "MOM",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "16-Aug-2012",
-        "remarks": null,
-        "documents": "Environmental public hearing order, MOM"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
-    "82b2c86dfa252caf": {
-      "key": "82b2c86dfa252caf",
-      "title": "Bajaj Builders",
-      "date": "2012-08-16",
-      "status": "Public hearing 16-Aug-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/bajaj_OO.pdf"
-        },
-        {
-          "label": "MOM",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/bajaj_minutes.pdf"
         }
       ],
       "fields": {

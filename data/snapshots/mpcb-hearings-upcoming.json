@@ -1,7 +1,40 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-23T08:58:54.896Z",
+  "fetchedAt": "2026-11-24T00:49:15.039Z",
   "records": {
+    "91dce6fb3728f195": {
+      "key": "91dce6fb3728f195",
+      "title": "Environmental Public Hearing in respect of Proposed Nar Par Girna River Link Project, at Taluka-Surgana, Dist-Nashik, Proposed by M/s.Girna River Valley Project.Div-Nashik, Near Mico Cicle, Tryambak Road, Nashik.",
+      "date": "2026-12-21",
+      "status": "Public hearing 21-Dec-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/Executive%20Summary_English%20R1.pdf"
+        },
+        {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/2.Girna%20Approved%20Letter%20HOD%20JD%20WATER.pdf"
+        },
+        {
+          "label": "Remarks/Advertisement",
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/Englist_Ad.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "21-Dec-2026",
+        "remarks": "Click Here",
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order, Remarks/Advertisement"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
     "34799571f29ebb80": {
       "key": "34799571f29ebb80",
       "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
@@ -20,7 +53,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
         }
       ],
       "fields": {
@@ -53,7 +86,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
         }
       ],
       "fields": {
@@ -248,7 +281,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
         }
       ],
       "fields": {
@@ -1545,7 +1578,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/English_Ad.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/English_Ad.pdf"
         }
       ],
       "fields": {
@@ -1632,7 +1665,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/Million_Steel_PH_Advertisement_Hitavada.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/Million_Steel_PH_Advertisement_Hitavada.pdf"
         }
       ],
       "fields": {
@@ -1690,7 +1723,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/Eng%20Add%20PKG-2.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/Eng%20Add%20PKG-2.pdf"
         }
       ],
       "fields": {
@@ -1752,7 +1785,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-04/English_Adv___0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-04/English_Adv___0.pdf"
         }
       ],
       "fields": {
@@ -2701,7 +2734,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-08/adv.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-08/adv.pdf"
         }
       ],
       "fields": {
@@ -2788,7 +2821,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-06/Ved%20Steels%20%2526%20Alloys%20Pvt%20ltd090.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-06/Ved%20Steels%20%2526%20Alloys%20Pvt%20ltd090.pdf"
         }
       ],
       "fields": {
@@ -2821,7 +2854,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-06/PH%20English%20Add-LMEL%20Konsari%20Expansion%20Project.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-06/PH%20English%20Add-LMEL%20Konsari%20Expansion%20Project.pdf"
         }
       ],
       "fields": {
@@ -2854,7 +2887,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-04/Adevertise%20Daily%20Times%20of%20India%20English.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-04/Adevertise%20Daily%20Times%20of%20India%20English.pdf"
         }
       ],
       "fields": {
@@ -2916,7 +2949,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-07/Ambuja%20Cements%20Limited%20Maratha%20Limestone%20Mine162.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-07/Ambuja%20Cements%20Limited%20Maratha%20Limestone%20Mine162.pdf"
         }
       ],
       "fields": {
@@ -2978,7 +3011,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-02/WCL%20Sasti%20Expansion%20OCM-%20English%20PH%20Advertisement.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-02/WCL%20Sasti%20Expansion%20OCM-%20English%20PH%20Advertisement.pdf"
         }
       ],
       "fields": {
@@ -4274,7 +4307,7 @@
       "docs": [
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
         }
       ],
       "fields": {
@@ -6755,7 +6788,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-02/Covering%20Letter%20SRO%20MPCB.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-02/Covering%20Letter%20SRO%20MPCB.pdf"
         }
       ],
       "fields": {
@@ -6809,7 +6842,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-04/PH%20RCF%20Mahul_0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-04/PH%20RCF%20Mahul_0.pdf"
         }
       ],
       "fields": {
@@ -6888,7 +6921,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-10/Grace%20Industries%20English%20Add.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-10/Grace%20Industries%20English%20Add.pdf"
         }
       ],
       "fields": {
@@ -6917,7 +6950,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-10/N%20N%20Global%20English%20Add.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-10/N%20N%20Global%20English%20Add.pdf"
         }
       ],
       "fields": {
@@ -6971,7 +7004,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-09/draft_eia_23092022_compressed_0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-09/draft_eia_23092022_compressed_0.pdf"
         }
       ],
       "fields": {
@@ -7000,7 +7033,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-09/adver_26092022_0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-09/adver_26092022_0.pdf"
         }
       ],
       "fields": {
