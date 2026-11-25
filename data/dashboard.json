@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T23:01:25.163Z",
+  "generatedAt": "2026-11-25T09:50:50.288Z",
   "tracks": {
     "EC": [
       "ToR applied",
@@ -412,10 +412,10 @@
       "connector": "parivesh-track",
       "refreshHours": 12,
       "health": "ERROR",
-      "lastRun": "2026-11-24T23:00:20.666Z",
+      "lastRun": "2026-11-25T09:50:16.822Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
-      "durationMs": 1422
+      "durationMs": 2854
     },
     {
       "id": "parivesh-committees",
@@ -480,14 +480,14 @@
       "connector": "mpcb",
       "refreshHours": 12,
       "health": "OK",
-      "lastRun": "2026-11-24T23:00:27.244Z",
+      "lastRun": "2026-11-25T09:50:19.676Z",
       "status": "OK",
-      "lastOk": "2026-11-24T23:00:27.244Z",
+      "lastOk": "2026-11-25T09:50:19.676Z",
       "error": null,
       "note": null,
-      "recordCount": 320,
+      "recordCount": 319,
       "relevantCount": 4,
-      "durationMs": 35644
+      "durationMs": 30568
     },
     {
       "id": "mpcb-hearings-conducted",
@@ -547,6 +547,331 @@
     }
   ],
   "events": [
+    {
+      "id": "025810366e4a97c5",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "5e6054ed00e05cb7",
+      "title": "Dongarkhed – A River Bed Sand Mine / Sand Ghat Khasra No. Purna Gsda approved- 4,5,6,7, Area (0.50Ha) Village- Dongarkhed – ATehsil Shegav, District- Buldhana",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "ad4f4248f2655005",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "54d9ec9b834a060c",
+      "title": "M/s. Ambuja Cement Ltd., (Unit Maratha Cement Works), Tal. Korpana, Dist. Chandrapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "cd901c6531c51b25",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "7e3ef89d88acb870",
+      "title": "M/s. Ambuja Cement Ltd. Limestone Mines, Vill. Thutra, & Lakhamapur of Tal. Korpana and Vill. Hirapur, Isapur & Sonapur of Tal.Rajura, Dist. Chandrapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "a220838ebdc1fc4a",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "d914c2fffeac35cf",
+      "title": "M/s. Marki Mangli Coal Block-II, Village Savli, Mukutban, Pardi & Ruikot, Tal. Zarijamni, Dist. Yavatmal ML area 339.467 Ha.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "a1ea79cdb0c10505",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "211d390147a7b283",
+      "title": "Public consultation in respect of proposed 10% EC capacity enhancement from 3.85 MTPA to 4.125 MTPA [final third phase (more than 40% and upto 50% expansion w.r.t. base EC capacity of 2.75 MTPA)] in accordance with the provisions of MoEF & CC OM dtd. 11.04.2022. (Yekona, Tehsil-Warora, Chandrapur, Majri Area Western Coalfields Limited).",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "1 docs",
+          "to": "1 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "d78e3ed92d6e2a18",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "ea332a206d0001fc",
+      "title": "Pune Ring Road, Eastern Alignment (Part 2)– 66.560 km Start from Solu Village and Ends at Varve (Kelawade)Village",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 17-Nov-2021",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "6c288ca4c0b05ffc",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "58d3dc8f36510568",
+      "title": "Executive Summary of M/s. Shree Tuljabhavani Sugar Pvt. Ltd. Aadgaon Darade, Tal. Selu Dist. Parbhani.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 27-Sep-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "57829f1a4a5d799c",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "89354027cc4fa87d",
+      "title": "Proposed Zendepar Iron Ore Mine (4.0 Ha) KH.No.82 Part (82/5), Zendepar, Tal-Korchi, Nandli, Maseli, Navargaon,Kotra, Botekasa,Bihatekal, Bedgaon, Jambhli, Aaswai Hudki Betkathi,Navezarai,Murkuti,belgoanid of Korchi taluka.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 10-Oct-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "48bb2e4414f9eea4",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "225497497410dc40",
+      "title": "proposed public hearing for Command Area Development Under LakdiNimbodi Lift Irrigation Schemes having 11154 Ha CCA, A/P Kumbhargaon, Taluka – Indapur, District – Pune, Proposed by Water Resources Management, Maharashtra, Irrigation Department (SLTAC-II) Ujjani Canal Division No. 8, Gurunanak Chowk, Solapur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 03-Nov-2023",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "539bb1a7ad491150",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "68a52099119046d3",
+      "title": "Proposed Expansion of Existing Grinding and Screening Unit of Dolomite & Manganese Ore with addition of Manufacturing of 30,000 TPA by M/s.Jigsun Alloys Pvt. Ltd., Kh. No. 99, Ashti (Khurd), Tal. Saoner, Dist- Nagpur",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 04-Nov-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "c95ecc450af5feb8",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "6787dddabb756bc5",
+      "title": "Proposed Construction of Greenfield Road of Navegaon More - Konsari (Steel Plant) to Hedri (Surjagarh Mines) vide GR no. RTF-2023/Cr.467/KA-8 dated 07.02.2024, for 84.638 km and revised Final Alignment vide GR no. RTF-2023/Cr.467/KA-8 dated 17.03.2026 for 85.75 km, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "5ce5916c12a39f01",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "34799571f29ebb80",
+      "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "0c4e7193d35bcc6d",
+      "at": "2026-11-25T09:50:19.676Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "91dce6fb3728f195",
+      "title": "Environmental Public Hearing in respect of Proposed Nar Par Girna River Link Project, at Taluka-Surgana, Dist-Nashik, Proposed by M/s.Girna River Valley Project.Div-Nashik, Near Mico Cicle, Tryambak Road, Nashik.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 21-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
     {
       "id": "738ef5e2ed5f1e12",
       "at": "2026-11-24T23:00:27.244Z",
@@ -4321,7 +4646,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2022-04/Forwarding%20letter%20of%20Pune%20ringe%20road.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5529,7 +5854,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-08/English_Add.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-08/English_Add.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5581,7 +5906,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-10/English%20Advertisement-06-09-2023%20%25281%2529.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-10/English%20Advertisement-06-09-2023%20%25281%2529.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -5741,7 +6066,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-10/Water%20Resources%20English%20%20News%20Paper020.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-10/Water%20Resources%20English%20%20News%20Paper020.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -7644,36 +7969,6 @@
       "past": true
     },
     {
-      "key": "87e85cbee97b437e",
-      "title": "M/s Daharwal's Minerals Private Limited, at Plot No. A-12, A-13, A-14, A-15, Mohadi MIDC and Private Land Khasra No.137/1, Village-Wadegaon, Tehsil- Mohadi & Dist. Bhandaran scheduled on 30.10.2026.",
-      "date": "2026-10-30",
-      "status": "Public hearing 30-Oct-2026",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
-      "docs": [
-        {
-          "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-09/English_Executive_Summary_Daharwal_Minerals.pdf"
-        },
-        {
-          "label": "Environmental Public Hearing Order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-09/Daharwal%27s_Minerals_Office_Order.pdf"
-        },
-        {
-          "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/English_Advertisement_Daharwal%2527s_Minerals.pdf"
-        }
-      ],
-      "sourceId": "mpcb-hearings-upcoming",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null,
-      "sourceName": "MPCB – Upcoming public hearings",
-      "past": true
-    },
-    {
       "key": "68a52099119046d3",
       "title": "Proposed Expansion of Existing Grinding and Screening Unit of Dolomite & Manganese Ore with addition of Manufacturing of 30,000 TPA by M/s.Jigsun Alloys Pvt. Ltd., Kh. No. 99, Ashti (Khurd), Tal. Saoner, Dist- Nagpur",
       "date": "2026-11-04",
@@ -7691,7 +7986,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-10/Advertisement_Mar_and_Eng_Newspapers.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -7865,7 +8160,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -7895,7 +8190,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -7925,7 +8220,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/Englist_Ad.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/Englist_Ad.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -8101,7 +8396,7 @@
       "docs": [
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -9971,7 +10266,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-04/PH%20Advertisement%20TOI-13-04-2023.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-04/PH%20Advertisement%20TOI-13-04-2023.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -9997,7 +10292,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-04/Ambuja%20Cement%20Limestone%20PH%20Ad-English.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-04/Ambuja%20Cement%20Limestone%20PH%20Ad-English.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -10023,7 +10318,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2023-04/Ambuja%20Cement%20Clinker-PH%20Ad-English.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2023-04/Ambuja%20Cement%20Clinker-PH%20Ad-English.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -11511,7 +11806,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2020-06/buldanadistremarks30062020.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2020-06/buldanadistremarks30062020.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
