@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-25T22:29:17.060Z",
+  "fetchedAt": "2026-11-26T09:30:07.564Z",
   "records": {
     "91dce6fb3728f195": {
       "key": "91dce6fb3728f195",
@@ -145,6 +145,35 @@
       ],
       "fields": {
         "hearingDate": "02-Dec-2026",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "52e71ac7f528cd72": {
+      "key": "52e71ac7f528cd72",
+      "title": "Proposed by M/s. Vintage Wines Private Limited. Expansion of the Winery Unit from 500 KL/A to 6,000 KL/A and New Distillery Unit (Non-molasses based) of 600 KL/A At Gat No. 71, Village Gitakunj (Kundewadi), Tal. Niphad, Dist. Nashik.",
+      "date": "2026-11-27",
+      "status": "Public hearing 27-Nov-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-09/Executive_Summary_ENGLISH_Vintage_Wines_.pdf"
+        },
+        {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/Vintage_Wines_Office_Order.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "27-Nov-2026",
         "remarks": null,
         "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order"
       },
@@ -676,7 +705,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-05/Advertise_Sakal_%2526_The_Indian_Express.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-05/Advertise_Sakal_%2526_The_Indian_Express.pdf"
         }
       ],
       "fields": {
@@ -709,7 +738,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-07/Dnyanlaxmi_Developers_Forwarding_Letter_Signed_Copy.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-07/Dnyanlaxmi_Developers_Forwarding_Letter_Signed_Copy.pdf"
         }
       ],
       "fields": {
@@ -767,7 +796,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-07/MSRDC_Pune_I_Forwarding_Letter_Signed_Copy.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-07/MSRDC_Pune_I_Forwarding_Letter_Signed_Copy.pdf"
         }
       ],
       "fields": {
@@ -796,7 +825,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-03/PH_MSRDC_Chandrapur.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-03/PH_MSRDC_Chandrapur.pdf"
         }
       ],
       "fields": {
@@ -858,7 +887,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-02/LTB_Beverages_PH_Advertisement_TOI_06_02_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-02/LTB_Beverages_PH_Advertisement_TOI_06_02_2026.pdf"
         }
       ],
       "fields": {
@@ -1545,7 +1574,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/English_Ad.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/English_Ad.pdf"
         }
       ],
       "fields": {
@@ -1632,7 +1661,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/Million_Steel_PH_Advertisement_Hitavada.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/Million_Steel_PH_Advertisement_Hitavada.pdf"
         }
       ],
       "fields": {
@@ -1690,7 +1719,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/Eng%20Add%20PKG-2.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/Eng%20Add%20PKG-2.pdf"
         }
       ],
       "fields": {
@@ -1752,7 +1781,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-04/English_Adv___0.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-04/English_Adv___0.pdf"
         }
       ],
       "fields": {
@@ -4325,31 +4354,6 @@
         {
           "label": "Executive Summary/CRZ Draft Notification",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-09/EXECUTIVE_SUMMARY_PITALE.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "-",
-        "remarks": null,
-        "documents": "Executive Summary/CRZ Draft Notification"
-      },
-      "sourceId": "mpcb-hearings-upcoming",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
-    "6708f6c41d25f6b5": {
-      "key": "6708f6c41d25f6b5",
-      "title": "Proposed by M/s. Vintage Wines Private Limited. Expansion of the Winery Unit from 500 KL/A to 6,000 KL/A and New Distillery Unit (Non-molasses based) of 600 KL/A At Gat No. 71, Village Gitakunj (Kundewadi), Tal. Niphad, Dist. Nashik.",
-      "date": null,
-      "status": "Public hearing -",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
-      "docs": [
-        {
-          "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-09/Executive_Summary_ENGLISH_Vintage_Wines_.pdf"
         }
       ],
       "fields": {
@@ -8416,7 +8420,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
         }
       ],
       "fields": {

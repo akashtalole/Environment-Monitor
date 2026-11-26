@@ -27,14 +27,14 @@
       "durationMs": 0
     },
     "mpcb-hearings-upcoming": {
-      "lastRun": "2026-11-25T22:29:17.060Z",
+      "lastRun": "2026-11-26T09:30:07.564Z",
       "status": "OK",
-      "lastOk": "2026-11-25T22:29:17.060Z",
+      "lastOk": "2026-11-26T09:30:07.564Z",
       "error": null,
       "note": null,
       "recordCount": 319,
       "relevantCount": 4,
-      "durationMs": 31690
+      "durationMs": 37542
     },
     "mpcb-hearings-conducted": {
       "lastRun": "2026-11-25T22:29:48.750Z",
@@ -69,10 +69,10 @@
       "durationMs": 7495
     },
     "parivesh-track": {
-      "lastRun": "2026-11-25T22:29:09.034Z",
+      "lastRun": "2026-11-26T09:30:06.009Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
-      "durationMs": 3681
+      "durationMs": 1554
     },
     "cpcb-whats-new": {
       "lastRun": "2026-11-25T22:30:02.137Z",
