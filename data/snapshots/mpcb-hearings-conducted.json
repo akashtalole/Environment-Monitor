@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-conducted",
-  "fetchedAt": "2026-11-25T22:29:48.750Z",
+  "fetchedAt": "2026-11-26T22:19:42.827Z",
   "records": {
     "8fcb3759374d1be2": {
       "key": "8fcb3759374d1be2",
@@ -405,35 +405,6 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "711872cf58e0b670": {
-      "key": "711872cf58e0b670",
-      "title": "Maharashtra State Mining Corporation Ltd., for thier Marki-Zari-Jamani-Adkoli opencast coal at Tal--Zari Jamni, Dist-Yavatmal",
-      "date": "2012-10-10",
-      "status": "Public hearing 10-Oct-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Marki_Ex.pdf"
-        },
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-117.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "10-Oct-2012",
-        "remarks": null,
-        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
     "a08eb089b60d3aae": {
       "key": "a08eb089b60d3aae",
       "title": "Western Coal Field Ltd., Wani North (Junad opencast coal mining project Expansion Project) at Tal-Wani, Dist-Yavatmal",
@@ -449,6 +420,35 @@
         {
           "label": "Environmental public hearing order",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-116.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "10-Oct-2012",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "711872cf58e0b670": {
+      "key": "711872cf58e0b670",
+      "title": "Maharashtra State Mining Corporation Ltd., for thier Marki-Zari-Jamani-Adkoli opencast coal at Tal--Zari Jamni, Dist-Yavatmal",
+      "date": "2012-10-10",
+      "status": "Public hearing 10-Oct-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Marki_Ex.pdf"
+        },
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/E-117.pdf"
         }
       ],
       "fields": {
@@ -807,9 +807,9 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "648a18d24540391e": {
-      "key": "648a18d24540391e",
-      "title": "Aashiyana Construction, Plot Bearing C.S.No.127 of Mahim Division, F.P. No.824, TPS IV, S.K.Bole Road, Dadar(W), Mumbai-400028",
+    "d49f4e62eebb957e": {
+      "key": "d49f4e62eebb957e",
+      "title": "Talati and Panthaky Associated Pvt. Ltd, C.S. No. 1 A/698, Malabar Hill Division, Bhulabhai Desai Marg, Mumbai",
       "date": "2012-08-29",
       "status": "Public hearing 29-Aug-2012",
       "region": "Maharashtra",
@@ -817,11 +817,11 @@
       "docs": [
         {
           "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-09/Aashiyana_Ex.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2019-07/Talati_Ex.pdf"
         },
         {
           "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-09/Aashiyana.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/Talati.pdf"
         }
       ],
       "fields": {
@@ -857,6 +857,35 @@
         "hearingDate": "17-Aug-2012",
         "remarks": null,
         "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
+      },
+      "sourceId": "mpcb-hearings-conducted",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "bbf408840abe7477": {
+      "key": "bbf408840abe7477",
+      "title": "One up Developers",
+      "date": "2012-08-16",
+      "status": "Public hearing 16-Aug-2012",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
+      "docs": [
+        {
+          "label": "Environmental public hearing order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/one_up_OO.pdf"
+        },
+        {
+          "label": "MOM",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "16-Aug-2012",
+        "remarks": null,
+        "documents": "Environmental public hearing order, MOM"
       },
       "sourceId": "mpcb-hearings-conducted",
       "projectIds": [],
@@ -923,27 +952,23 @@
       "stage": "Public hearing",
       "outcome": null
     },
-    "bbf408840abe7477": {
-      "key": "bbf408840abe7477",
-      "title": "One up Developers",
-      "date": "2012-08-16",
-      "status": "Public hearing 16-Aug-2012",
+    "e73aaab5705e0899": {
+      "key": "e73aaab5705e0899",
+      "title": "M.I.Builders., C.S.No.979,980,985,4/997 Mahim Division, G/N Ward,Mahim,Mumbai-400016",
+      "date": "2012-07-21",
+      "status": "Public hearing 21-Jul-2012",
       "region": "Maharashtra",
       "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
       "docs": [
         {
           "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/one_up_OO.pdf"
-        },
-        {
-          "label": "MOM",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/mom/2019-07/Oneup_minutes.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/MI.pdf"
         }
       ],
       "fields": {
-        "hearingDate": "16-Aug-2012",
+        "hearingDate": "21-Jul-2012",
         "remarks": null,
-        "documents": "Environmental public hearing order, MOM"
+        "documents": "Environmental public hearing order"
       },
       "sourceId": "mpcb-hearings-conducted",
       "projectIds": [],
@@ -973,31 +998,6 @@
         "hearingDate": "21-Jul-2012",
         "remarks": null,
         "documents": "Executive Summary/CRZ Draft Notification, Environmental public hearing order"
-      },
-      "sourceId": "mpcb-hearings-conducted",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
-    "e73aaab5705e0899": {
-      "key": "e73aaab5705e0899",
-      "title": "M.I.Builders., C.S.No.979,980,985,4/997 Mahim Division, G/N Ward,Mahim,Mumbai-400016",
-      "date": "2012-07-21",
-      "status": "Public hearing 21-Jul-2012",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-conducted",
-      "docs": [
-        {
-          "label": "Environmental public hearing order",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2019-07/MI.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "21-Jul-2012",
-        "remarks": null,
-        "documents": "Environmental public hearing order"
       },
       "sourceId": "mpcb-hearings-conducted",
       "projectIds": [],

@@ -1,7 +1,65 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-26T09:30:07.564Z",
+  "fetchedAt": "2026-11-26T22:19:06.957Z",
   "records": {
+    "526fa0c767ceec95": {
+      "key": "526fa0c767ceec95",
+      "title": "M/s. National Highways Authority of India, Project Implementation Unit, Nashik has submitted the proposal for 6 lane access controller Greenfield highway starting from junction with NH-60 at Adgaon (Km. 138.160) to Ahilyanagar (Km.290.000).",
+      "date": "2026-12-29",
+      "status": "Public hearing 29-Dec-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/EXECUTIVE_SUMMARY_SA_Road_m_%281%29.pdf"
+        },
+        {
+          "label": "Remarks/Advertisement",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/Advertisment_Marathi_%2526_English_26_11_2026.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "29-Dec-2026",
+        "remarks": "Click Here",
+        "documents": "Executive Summary/CRZ Draft Notification, Remarks/Advertisement"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
+    "3b56d78bd01c0b7d": {
+      "key": "3b56d78bd01c0b7d",
+      "title": "Public hearing for Wanoja Limestone Block (Area: 313 Ha) With Cement Grade Limestone Production Capacity: 0.30 Million TPA,,by M/s. Dalmia Cement (Bharat) Ltd.",
+      "date": "2026-12-22",
+      "status": "Public hearing 22-Dec-2026",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-10/Executive_Summary_English_Dalmia_Cement.pdf"
+        },
+        {
+          "label": "Environmental Public Hearing Order",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/hearing_order/2026-11/Dalmia_Office_Order.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "22-Dec-2026",
+        "remarks": null,
+        "documents": "Executive Summary/CRZ Draft Notification, Environmental Public Hearing Order"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
     "91dce6fb3728f195": {
       "key": "91dce6fb3728f195",
       "title": "Environmental Public Hearing in respect of Proposed Nar Par Girna River Link Project, at Taluka-Surgana, Dist-Nashik, Proposed by M/s.Girna River Valley Project.Div-Nashik, Near Mico Cicle, Tryambak Road, Nashik.",
@@ -368,7 +426,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-09/PH_Advertisement_Abhishek_Rai_English_Times_of_India_%25281%2529.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/PH_Advertisement_Abhishek_Rai_English_Times_of_India_%25281%2529.pdf"
         }
       ],
       "fields": {
@@ -426,7 +484,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-09/Adv_English_Times_of_India.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/Adv_English_Times_of_India.pdf"
         }
       ],
       "fields": {
@@ -455,7 +513,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-10/Executive_summary_18.87_English.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/Executive_summary_18.87_English.pdf"
         }
       ],
       "fields": {
@@ -513,7 +571,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-09/SMPL_7.90HA_The_Hitavada_English_Advertisement_03_09_2026_0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/SMPL_7.90HA_The_Hitavada_English_Advertisement_03_09_2026_0.pdf"
         }
       ],
       "fields": {
@@ -546,7 +604,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-09/SMPL5.45HA_TOI_English_Advertisement_03_09_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-09/SMPL5.45HA_TOI_English_Advertisement_03_09_2026.pdf"
         }
       ],
       "fields": {
@@ -579,7 +637,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/Bhairavnath_Forwarding_Letter_0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/Bhairavnath_Forwarding_Letter_0.pdf"
         }
       ],
       "fields": {
@@ -612,7 +670,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/OFB_Forwarding_Letter.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/OFB_Forwarding_Letter.pdf"
         }
       ],
       "fields": {
@@ -705,7 +763,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-05/Advertise_Sakal_%2526_The_Indian_Express.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-05/Advertise_Sakal_%2526_The_Indian_Express.pdf"
         }
       ],
       "fields": {
@@ -738,7 +796,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-07/Dnyanlaxmi_Developers_Forwarding_Letter_Signed_Copy.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-07/Dnyanlaxmi_Developers_Forwarding_Letter_Signed_Copy.pdf"
         }
       ],
       "fields": {
@@ -796,7 +854,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-07/MSRDC_Pune_I_Forwarding_Letter_Signed_Copy.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-07/MSRDC_Pune_I_Forwarding_Letter_Signed_Copy.pdf"
         }
       ],
       "fields": {
@@ -825,7 +883,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-03/PH_MSRDC_Chandrapur.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-03/PH_MSRDC_Chandrapur.pdf"
         }
       ],
       "fields": {
@@ -887,7 +945,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-02/LTB_Beverages_PH_Advertisement_TOI_06_02_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-02/LTB_Beverages_PH_Advertisement_TOI_06_02_2026.pdf"
         }
       ],
       "fields": {
@@ -1574,7 +1632,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/English_Ad.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/English_Ad.pdf"
         }
       ],
       "fields": {
@@ -1661,7 +1719,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/Million_Steel_PH_Advertisement_Hitavada.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/Million_Steel_PH_Advertisement_Hitavada.pdf"
         }
       ],
       "fields": {
@@ -1719,7 +1777,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-05/Eng%20Add%20PKG-2.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-05/Eng%20Add%20PKG-2.pdf"
         }
       ],
       "fields": {
@@ -1781,7 +1839,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-04/English_Adv___0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-04/English_Adv___0.pdf"
         }
       ],
       "fields": {
@@ -4254,31 +4312,6 @@
         {
           "label": "Executive Summary/CRZ Draft Notification",
           "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-10/English_Executive_summary_Teknovace.pdf"
-        }
-      ],
-      "fields": {
-        "hearingDate": "-",
-        "remarks": null,
-        "documents": "Executive Summary/CRZ Draft Notification"
-      },
-      "sourceId": "mpcb-hearings-upcoming",
-      "projectIds": [],
-      "discovered": false,
-      "track": "EC",
-      "stage": "Public hearing",
-      "outcome": null
-    },
-    "98d3037b42372448": {
-      "key": "98d3037b42372448",
-      "title": "Public hearing for Wanoja Limestone Block (Area: 313 Ha) With Cement Grade Limestone Production Capacity: 0.30 Million TPA,,by M/s. Dalmia Cement (Bharat) Ltd.",
-      "date": null,
-      "status": "Public hearing -",
-      "region": "Maharashtra",
-      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
-      "docs": [
-        {
-          "label": "Executive Summary/CRZ Draft Notification",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-10/Executive_Summary_English_Dalmia_Cement.pdf"
         }
       ],
       "fields": {
@@ -8420,7 +8453,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2020-10/GlenmarkLifeScienceLtdremark19102020.pdf"
         }
       ],
       "fields": {
