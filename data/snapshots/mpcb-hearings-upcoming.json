@@ -1,6 +1,6 @@
 {
   "sourceId": "mpcb-hearings-upcoming",
-  "fetchedAt": "2026-11-27T09:39:19.685Z",
+  "fetchedAt": "2026-11-27T21:57:09.646Z",
   "records": {
     "526fa0c767ceec95": {
       "key": "526fa0c767ceec95",
@@ -1206,7 +1206,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Parbhani_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Parbhani_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
         }
       ],
       "fields": {
@@ -1297,7 +1297,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Hingoli_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Hingoli_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
         }
       ],
       "fields": {
@@ -1326,7 +1326,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Advertisement.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Advertisement.pdf"
         }
       ],
       "fields": {
@@ -1359,7 +1359,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Advertisement_0.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Advertisement_0.pdf"
         }
       ],
       "fields": {
@@ -1392,7 +1392,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Shaktipeeth%20Expressway%20TOI%20Advertisement-29-10-2025.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Shaktipeeth%20Expressway%20TOI%20Advertisement-29-10-2025.pdf"
         }
       ],
       "fields": {
@@ -1479,7 +1479,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/PHVithhalraoVikhePatilSSK_0.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/PHVithhalraoVikhePatilSSK_0.pdf"
         }
       ],
       "fields": {
@@ -4176,6 +4176,35 @@
       "stage": "Public hearing",
       "outcome": null
     },
+    "47f2e3980f792170": {
+      "key": "47f2e3980f792170",
+      "title": "Bodwad Parisar Sinchan Yojana at Taluka Bodwad, District Jalgaon, Maharashtra by Tapi Irrigation Development Corporation.",
+      "date": null,
+      "status": "Public hearing -",
+      "region": "Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "docs": [
+        {
+          "label": "Executive Summary/CRZ Draft Notification",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/exe_summary/2026-11/Executive_summary_for_the_Public_Hearing_06112026.pdf"
+        },
+        {
+          "label": "Remarks/Advertisement",
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/English_News_Paper_add.pdf"
+        }
+      ],
+      "fields": {
+        "hearingDate": "-",
+        "remarks": "Click Here",
+        "documents": "Executive Summary/CRZ Draft Notification, Remarks/Advertisement"
+      },
+      "sourceId": "mpcb-hearings-upcoming",
+      "projectIds": [],
+      "discovered": false,
+      "track": "EC",
+      "stage": "Public hearing",
+      "outcome": null
+    },
     "828950fec3a74004": {
       "key": "828950fec3a74004",
       "title": "Executive summary for proposed public hearing Proposed Manganese Ore Processing Plant at Village Survey No. 156, Mouza Khairlanjee P.H. No. 36, Tehsil Mohadi, District Bhandara Maharashtra by M/s. Shrisiyaram Metalloid Private Limited.",
@@ -4336,7 +4365,7 @@
       "docs": [
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
         }
       ],
       "fields": {
