@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T21:58:07.439Z",
+  "generatedAt": "2026-11-28T08:54:23.144Z",
   "tracks": {
     "EC": [
       "ToR applied",
@@ -412,10 +412,10 @@
       "connector": "parivesh-track",
       "refreshHours": 12,
       "health": "ERROR",
-      "lastRun": "2026-11-27T21:57:03.183Z",
+      "lastRun": "2026-11-28T08:53:44.992Z",
       "status": "ERROR",
       "error": "FP/MH/HYD/IRRIG/556376/2025: page.goto: net::ERR_CONNECTION_REFUSED at https://parivesh.nic.in/newupgrade/#/trackYourProposal\nCall log:\n  - navigating to \"https://parivesh.nic.in/newupgrade/#/trackYourProposal\", waiting until \"networkidle\"\n",
-      "durationMs": 1400
+      "durationMs": 2129
     },
     {
       "id": "parivesh-committees",
@@ -480,14 +480,14 @@
       "connector": "mpcb",
       "refreshHours": 12,
       "health": "OK",
-      "lastRun": "2026-11-27T21:57:09.646Z",
+      "lastRun": "2026-11-28T08:53:47.121Z",
       "status": "OK",
-      "lastOk": "2026-11-27T21:57:09.646Z",
+      "lastOk": "2026-11-28T08:53:47.121Z",
       "error": null,
       "note": null,
       "recordCount": 321,
       "relevantCount": 4,
-      "durationMs": 36010
+      "durationMs": 36001
     },
     {
       "id": "mpcb-hearings-conducted",
@@ -547,6 +547,281 @@
     }
   ],
   "events": [
+    {
+      "id": "b22f877ee783f999",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "211d390147a7b283",
+      "title": "Public consultation in respect of proposed 10% EC capacity enhancement from 3.85 MTPA to 4.125 MTPA [final third phase (more than 40% and upto 50% expansion w.r.t. base EC capacity of 2.75 MTPA)] in accordance with the provisions of MoEF & CC OM dtd. 11.04.2022. (Yekona, Tehsil-Warora, Chandrapur, Majri Area Western Coalfields Limited).",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing -",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "1 docs",
+          "to": "1 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "82d15e9396fd8a53",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "d187c700b5a1ad85",
+      "title": "PROPOSED EXPANSION OF SUGAR PLANT FROM 7200 TCD TO 15000 TCD & COGENERATION POWER PLANT FROM 30MW TO 68MW, at AT: PRAVARANAGAR- LONI, TALUKA: RAHATA, DISTRICT: AHMEDNAGAR., Proposed by M/S. PADMASHRI DR. VITTHALRAO VIKHE PATIL SSK",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 30-Sep-2025",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "bde154060df91e50",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "aa84aebd24b7bef8",
+      "title": "Proposed public hearing for Maharashtra State Road Development Corporation Limited (MSRDC) - Project Proponent has been entrusted with the development of Access Controlled Super Communication Expressways which connect the shaktipeeth in Vidharbha, Marathwada and Konkan region in Maharashtra",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 03-Dec-2025",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "4bc9c1af2c0a2229",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "099088f24b64568a",
+      "title": "Proposed 3 KLPD Mahua Flower Based Heritage Liquor Manufacturing Unit & Bottling Plant Located at S. No. 8/1, 8/2 & 8/5, Village- Ambivali T. Kotalkhalati, Tal. Karjat, Dist. Raigad,.by M/S. MOWA DISTILLERIES PVT. LTD",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 05-Dec-2025",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "79df449408c638db",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "7da16a5fe612b3eb",
+      "title": "M/S. Mowa Distilleries Pvt. Ltd., At S. No. 8/1, 8/2 & 8/5, Village - Ambivali T. Kotal Khalati, Tal. Karjat, Dist. Raigad for conducting Environmental Public Hearing in respect of Proposed 3 KLPD Mahua Flower Based Heritage Liquor Manufacturing Unit and Bottling Plant at S. No. 8/1, 8/2 & 8/5, Village - Ambivali T. Kotal Khalati, Tal. Karjat, Dist. Raigad",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 05-Dec-2025",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "fb1644beead89396",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "f410c3eaa164a02a",
+      "title": "Shakteepeeth Mahamarg in Hingoli District. The public Hearing is schedule on 19.12.2025 at 11.00 am at DPDC Hall, Collector office, Hingoli. It is requested to issue panel Order for said public hearing.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 19-Dec-2025",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "7f2726191af5096b",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "33a36f96643f98b8",
+      "title": "Shakteepeeth Mahamarg in Parbhani District. The public Hearing is schedule on 24.12.2025 at 11.00 am at DPDC Hall, Collector office, Parbhani. It is requested to issue panel Order for said public hearing.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 24-Dec-2025",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "3994c103afe6802d",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "6787dddabb756bc5",
+      "title": "Proposed Construction of Greenfield Road of Navegaon More - Konsari (Steel Plant) to Hedri (Surjagarh Mines) vide GR no. RTF-2023/Cr.467/KA-8 dated 07.02.2024, for 84.638 km and revised Final Alignment vide GR no. RTF-2023/Cr.467/KA-8 dated 17.03.2026 for 85.75 km, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "ed5e2c6ec54e593c",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "34799571f29ebb80",
+      "title": "Proposed Construction of Nagpur-Chandrapur Access Controlled Expressway (Package-3) in the state of Maharashtra on EPC mode, Proposed by Maharashtra State Road Development Corporation Limited.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 07-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "b268e3834833a7b8",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "91dce6fb3728f195",
+      "title": "Environmental Public Hearing in respect of Proposed Nar Par Girna River Link Project, at Taluka-Surgana, Dist-Nashik, Proposed by M/s.Girna River Valley Project.Div-Nashik, Near Mico Cicle, Tryambak Road, Nashik.",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 21-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "3 docs",
+          "to": "3 docs"
+        }
+      ],
+      "initial": false
+    },
+    {
+      "id": "99ecda95b49b19ef",
+      "at": "2026-11-28T08:53:47.121Z",
+      "sourceId": "mpcb-hearings-upcoming",
+      "sourceName": "MPCB – Upcoming public hearings",
+      "kind": "changed",
+      "recordKey": "526fa0c767ceec95",
+      "title": "M/s. National Highways Authority of India, Project Implementation Unit, Nashik has submitted the proposal for 6 lane access controller Greenfield highway starting from junction with NH-60 at Adgaon (Km. 138.160) to Ahilyanagar (Km.290.000).",
+      "url": "https://www.mpcb.gov.in/en/public-hearing-upcoming",
+      "proposalNo": null,
+      "status": "Public hearing 29-Dec-2026",
+      "track": "EC",
+      "stage": "Public hearing",
+      "projectIds": [],
+      "projectNames": [],
+      "discovered": false,
+      "changes": [
+        {
+          "field": "docs",
+          "from": "2 docs",
+          "to": "2 docs"
+        }
+      ],
+      "initial": false
+    },
     {
       "id": "833183e8195c64d5",
       "at": "2026-11-27T21:57:45.656Z",
@@ -8375,7 +8650,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/PHVithhalraoVikhePatilSSK_0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/PHVithhalraoVikhePatilSSK_0.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -8453,7 +8728,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Shaktipeeth%20Expressway%20TOI%20Advertisement-29-10-2025.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Shaktipeeth%20Expressway%20TOI%20Advertisement-29-10-2025.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -8479,7 +8754,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Advertisement.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Advertisement.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -8509,7 +8784,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Advertisement_0.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Advertisement_0.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -8539,7 +8814,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Hingoli_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Hingoli_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -8595,7 +8870,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2025-11/Parbhani_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2025-11/Parbhani_District_Marathi_and_English_paper_Notice_Shakathipeet.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -9507,7 +9782,7 @@
       "stage": "Public hearing",
       "outcome": null,
       "sourceName": "MPCB – Upcoming public hearings",
-      "past": false
+      "past": true
     },
     {
       "key": "6ec322f66e29f4b3",
@@ -9575,7 +9850,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Chandrapur_TOI_Advertisement_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -9605,7 +9880,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/MSRDC_Nagpur_Navegaon_Konsari_PH_Advertisement_TOI_05_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -9635,7 +9910,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/Englist_Ad.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/Englist_Ad.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -9687,7 +9962,7 @@
         },
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-11/Advertisment_Marathi_%2526_English_26_11_2026.pdf"
+          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-11/Advertisment_Marathi_%2526_English_26_11_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
@@ -9867,7 +10142,7 @@
       "docs": [
         {
           "label": "Remarks/Advertisement",
-          "url": "https://www.mpcb.gov.in/index.php/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
+          "url": "https://www.mpcb.gov.in/sites/default/files/public_hearing/remark/2026-10/WCL_Public_Consultation_Forwarding_Letter_And_WCL_Yekona_Advt_English_07_08_2026.pdf"
         }
       ],
       "sourceId": "mpcb-hearings-upcoming",
